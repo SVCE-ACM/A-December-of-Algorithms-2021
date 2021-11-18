@@ -1,0 +1,35 @@
+{
+  "table name": "books",
+
+  "headers": {
+    "1": {
+      "column name": "id",
+      "data type": "integer"
+    },
+
+    "2": {
+      "column name": "book_name",
+      "data type": "varchar(30)"
+    },
+
+    "3": {
+      "column name": "price",
+      "data type": "integer"
+    },
+
+    "4": {
+      "column name": "page_count",
+      "data type": "integer"
+    }
+  },
+
+  "records": {
+    "1": [1, "Harry Potter", 1200, 330],
+    
+    "2": [2, "Sherlock Holmes", 800, 280],
+
+    "3": [3, "Iron Man", 500, 200],
+
+    "4": [4, "Batman vs Superman", 1000, 300]
+  }
+}
