@@ -68,6 +68,28 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ---
 
+### December 2 - The Convo!
+  
+  #### Problem Statement
+  - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
+  - The keypad contains digits from 2-9 inclusive. Develop a small algorithm to return all the possible letter combinations that the number could represent.  
+    <p align="center"><img src="https://i.imgur.com/O31uZDd.jpg" /></p>
+  
+  #### Note
+  - Only 2 character combinations are allowed.
+  - First you should display the character corresponding to the first number and then display the character corresponding to the second number.
+  
+  #### Sample Input/Output
+  ```
+  Input: 32
+  Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
+  ```
+
+  #### Resources
+  - [Backtracking](https://www.geeksforgeeks.org/backtracking-algorithms/)
+
+---
+
 ## Maintainers
 
 <table>
