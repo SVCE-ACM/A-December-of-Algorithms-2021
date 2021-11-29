@@ -31,7 +31,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    #### Sample Input/Output
    ```
     Room: 45
-    Status: Safe d
+    Status: Safe 
    ```
    ```
     Room: 36
