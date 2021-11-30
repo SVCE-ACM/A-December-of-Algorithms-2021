@@ -111,6 +111,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         <tr>
             <th><a href="https://github.com/NikhileshJr08">Nikhilesh S</a></th>     
              <th><a href="https://github.com/keerthana-5170">Keerthana S</a></th> 
+             <th><a href="https://github.com/harshitha060802">Harshitha</a></th> 
         </tr>
     </thead>
     <tbody>
