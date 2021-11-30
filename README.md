@@ -14,9 +14,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ## Index
   - [**December 1 - Elegant facelift**](#december-1---elegant-facelift)
   - [**December 2 - Bingo!**](#december-2---bingo)
-  - [**December 3 - Lotto!**](#december-3---lotto)
-  - [**FAQ**](#faq)
+  - [**December 3 - Lotto!**](#december-3---lotto)  
   - [**Maintainers**](#maintainers)
+  - [**FAQ**](#faq)
 
 
 ## Algorithms
