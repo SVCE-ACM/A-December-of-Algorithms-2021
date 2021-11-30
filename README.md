@@ -70,7 +70,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    8^2 + 2^2 = 68
    6^2 + 8^2 = 100
    1^2 + 0^2 + 0^2 = 1
-
    ```   
 ----
 
