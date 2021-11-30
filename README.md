@@ -12,7 +12,7 @@ Welcome to A December of Algorithms (2021). After overwhelming responses from pr
 We have a small collection of algorithms, one for every day of the month. Scroll down to take a look at them. All you need to do is fork this repository, implement all 31  algorithms and send a pull request over to us. Check out our FAQ for more information.
 
 ## Index
-  - [**December 1 - Elegant Facelift!**](#december-1---Elegant-Facelift!)
+  - [**December 1 - Elegant facelift**](#december-1---elegant-facelift)
   - [**December 2 - Bingo!**](#december-2---bingo)
   - [**December 3 - Lotto!**](#december-3---lotto)
   - [**FAQ**](#faq)
@@ -21,7 +21,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ## Algorithms
 
- ### December 1 - Elegant Facelift!
+ ### December 1 - Elegant facelift
  
    #### Problem Statement
    - There is a collection of necklaces where each necklace has various stones embedded in it. Each type of stone is designated by a lowercase letter in the range ascii `[a-z]`.
