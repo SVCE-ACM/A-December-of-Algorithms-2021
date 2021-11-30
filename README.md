@@ -57,11 +57,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - The numbers must end in 1 to be selected. 
   - Return ‘YES’ if the number is chosen, and ‘NO’ if not.
 
-    <p align="center"><img src="https://i.imgur.com/O31uZDd.jpg" /></p>
+    <p align="center"><img src="https://i.makeagif.com/media/8-14-2017/ZtZuZT.gif" /></p>
   
   #### Constraints
    ```
-  - 1<=n<=2^31-1
+   1<=n<=2^31-1
    ```
   
   #### Sample Input/Output
