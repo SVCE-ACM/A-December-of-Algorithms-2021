@@ -1,6 +1,6 @@
 <div align="left">
 <h1>
-    <img alt="header" src="/src/assets/Header.png" width="800"></img>
+    <img alt="header" src="/src/assets/header.png" width="1200"></img>
 </h1>
 Welcome to A December of Algorithms (2021). After overwhelming responses from previous years, we present you with a new collection of algorithms to implement this December. Each Day, Each Algorithm ;) Finish them all to get a certificate :)
 
