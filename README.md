@@ -14,6 +14,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ## Index
   - [**December 1 - Sherlock's Quest**](#december-1---sherlocks-quest)
   - [**December 2 - The Convo!**](#december-2---the-convo)
+  - [**December 3 - Lotto!**](#december-3---lotto)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -68,21 +69,38 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ---
 
-### December 2 - The Convo!
+### December 3 - Lotto!
   
   #### Problem Statement
-  - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
-  - The keypad contains digits from 2-9 inclusive. Develop a small algorithm to return all the possible letter combinations that the number could represent.  
-    <p align="center"><img src="https://i.imgur.com/O31uZDd.jpg" /></p>
+  -In a lottery game , each participant  can choose a lucky board which is in the form of a 2D (x x y) grid. He/she can win the lottery if they are able to find their name on    the lucky board. Find whether a particular participant can win the game or not. Assume that there can be more than one winner who wins the lottery. 
+  - Return true if the participant wins else return false
+  ### Rules:
+  - 1.The name of the participant has to be arranged in a sequentially adjacent manner.
+  - 2.The  neighbouring alphabets can be horizontal as well as vertical
+  - 3.Same alphabet cell cannot be used more than once while forming the name.
+    
   
-  #### Note
-  - Only 2 character combinations are allowed.
-  - First you should display the character corresponding to the first number and then display the character corresponding to the second number.
+  ### Constraints
+  ```
+    x == board.length
+    y = board[i].length
+    1 <= x, y <= 6
+    1 <= name.length <= 15
+    board and name consists of only lowercase and uppercase English alphabets
+```
+  <p align="center"><img src="/src/assets/input1.png" /></p>
   
   #### Sample Input/Output
   ```
-  Input: 32
-  Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
+  Input: [["D","J","O","G"],["W","B","H","S"],["T","Z","N","E"]], name = "JOHN"
+  Output: true
+  ```
+   <p align="center"><img src="/src/assets/input2.png" /></p>
+   
+   #### Sample Input/Output
+  ```
+  Input: [["L","N","A","C"],["W","B","A","D"],["T","Z","F","E"]], name = "DEV"
+  Output: false
   ```
 
   #### Resources
