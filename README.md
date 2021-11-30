@@ -13,7 +13,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ## Index
   - [**December 1 - Elegant Facelift!**](#december-1---Elegant-Facelift!)
-  - [**December 2 - Bingo!**](#december-2---Bingo!)
+  - [**December 2 - Bingo!**](#december-2---bingo)
   - [**December 3 - Lotto!**](#december-3---lotto)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
