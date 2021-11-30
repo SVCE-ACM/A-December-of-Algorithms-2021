@@ -47,27 +47,41 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    
 ----
   
-### December 2 - The Convo!
+### December 2 - Bingo!
   
   #### Problem Statement
-  - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
-  - The keypad contains digits from 2-9 inclusive. Develop a small algorithm to return all the possible letter combinations that the number could represent.  
+  - Your local community conducts a game night every Saturday and they want you to lead a game of Bingo this weekend. You must come up with numbers to be read out during the     game.
+  - The numbers can be chosen on the basis of certain criteria:
+  - Begins with a positive integer, sum of squares of digits must replace the number.
+  - Continue until the number is 1 or loops interminably without including 1.
+  - The numbers must end in 1 to be selected. 
+  - Return ‘YES’ if the number is chosen, and ‘NO’ if not.
+
     <p align="center"><img src="https://i.imgur.com/O31uZDd.jpg" /></p>
   
-  #### Note
-  - Only 2 character combinations are allowed.
-  - First you should display the character corresponding to the first number and then display the character corresponding to the second number.
+  #### Constraints
+   ```
+  - 1<=n<=2^31-1
+   ```
   
   #### Sample Input/Output
   ```
-  Input: 32
-  Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
+  Input: n=2
+  Output: NO
+  ```
+  ```
+  Input: n=19
+  Output: YES
   ```
 
-  #### Resources
-  - [Backtracking](https://www.geeksforgeeks.org/backtracking-algorithms/)
+  #### Explanation
+  ```
+   1^2 + 9^2 = 82
+   8^2 + 2^2 = 68
+   6^2 + 8^2 = 100
+   1^2 + 0^2 + 0^2 = 1
 
----
+   ```   
 
 ### December 3 - Lotto!
   
