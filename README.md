@@ -123,6 +123,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         <tr>
             <td align="center"> :hammer::construction::pencil: </td>
              <td align="center"> :pencil: </td>
+            <td align="center"> :pencil: </td>
         </tr>
     </tbody>
 </table>
