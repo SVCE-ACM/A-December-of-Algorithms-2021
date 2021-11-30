@@ -12,7 +12,7 @@ Welcome to A December of Algorithms (2021). After overwhelming responses from pr
 We have a small collection of algorithms, one for every day of the month. Scroll down to take a look at them. All you need to do is fork this repository, implement all 31  algorithms and send a pull request over to us. Check out our FAQ for more information.
 
 ## Index
-  - [**December 1 - Elegant Facelift!**](#december-1---Elegant Facelift)
+  - [**December 1 - Elegant Facelift!**](#december-1---Elegant-Facelift)
   - [**December 2 - The Convo!**](#december-2---the-convo)
   - [**December 3 - Lotto!**](#december-3---lotto)
   - [**FAQ**](#faq)
