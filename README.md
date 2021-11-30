@@ -140,7 +140,7 @@ Not a problem. While coding every day is nice, we understand that other commitme
 Anything! New to GoLang? Best way to practice it. Wanna find out what all this hype about Python is? Use it! Any and all languages are welcomed. Maybe you could try using a different language for every problem as a mini-challenge?
 
 #### Fork? Pull request? What is all that? I don't know how to use GitHub!
-If you are new to Git or GitHub, check out this [small tutorial from our team](https://github.com/ASS-G/Git-Training-Kit) and [GitHub](https://guides.github.com/activities/hello-world/)
+If you are new to Git or GitHub, check out this out [GitHub](https://guides.github.com/activities/hello-world/)
 
 #### Where are the rest of the problems?
 Our code ninjas are hard at work preparing the rest of the problems. Don't worry, they'll be up soon.
