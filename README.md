@@ -12,8 +12,8 @@ Welcome to A December of Algorithms (2021). After overwhelming responses from pr
 We have a small collection of algorithms, one for every day of the month. Scroll down to take a look at them. All you need to do is fork this repository, implement all 31  algorithms and send a pull request over to us. Check out our FAQ for more information.
 
 ## Index
-  - [**December 1 - Elegant Facelift!**](#december-1---Elegant-Facelift)
-  - [**December 2 - The Convo!**](#december-2---the-convo)
+  - [**December 1 - Elegant Facelift!**](#december-1---Elegant-Facelift!)
+  - [**December 2 - Bingo!**](#december-2---Bingo!)
   - [**December 3 - Lotto!**](#december-3---lotto)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
@@ -24,50 +24,28 @@ We have a small collection of algorithms, one for every day of the month. Scroll
  ### December 1 - Elegant Facelift!
  
    #### Problem Statement
-   - There is a collection of necklaces where each necklace has various stones embedded in it. Each type of stone is designated by a lowercase letter in the range ascii[a-z] .      -There may be multiple occurrences of a stone in a necklace. A stone is called a “facelift” if it occurs at least once in each of the necklaces in the collection.
-   -Given a list of stones embedded in each of the necklaces, display the number of types of “facelifts” in the collection.
+   - There is a collection of necklaces where each necklace has various stones embedded in it. Each type of stone is designated by a lowercase letter in the range ascii `[a-z]`.
+   - There may be multiple occurrences of a stone in a necklace. A stone is called a **facelift** if it occurs at least once in each of the necklaces in the collection.
+   - Given a list of stones embedded in each of the necklaces, display the number of types of **facelifts** in the collection.
 
    <p align="center"><img src="https://media3.giphy.com/media/nxgSkZNaOFMoo/giphy.gif?cid=ecf05e47lvyzgys0csclvx3lnblvzgr2q32yk6vr1euioe7n&rid=giphy.gif&ct=g"></p>
    
    #### Sample Input/Output
    ```
-      Input:
-      
-      STDIN       Function
-      -----             --------
-      3                  arr[] size n = 3
-      abcdde             arr = ['abcdde', 'baccd', 'eeabg']
-      baccd
-      eeabg
-      
-      Output:
-         2
-   
+      Input: arr = ['abcdde', 'baccd', 'eeabg']             
+      Output: 2           
    ```
    ```
-      Input:
-      
-      STDIN       Function
-      -----             --------
-      4                  arr[] size n = 4
-      abcdd              arr = ['abcdd', 'bcadda', 'eeabcg', ‘adbca’]
-      bcadda
-      eebcg
-      adbca
-      
-      Output:
-         2
-
-   ```
-   #### Explaination
-   ```
-   In sample input 1 only a and b occur in every necklace. Therefore, the output is 2.
-
-   ```   
+      Input: arr = ['abc', 'def', 'ghi', ‘jkl’]                    
+      Output: 0
+   ```  
+   #### Explanation   
+   - In sample input 1, only `a` and `b` occur in every necklace. Therefore, the output is `2`.
+   - In sample input 2, there are no characters repeating in the list. Therefore, the output is `0`.  
    
 ----
   
-### December 2 - Bingo!
+ ### December 2 - Bingo!
   
   #### Problem Statement
   - Your local community conducts a game night every Saturday and they want you to lead a game of Bingo this weekend. You must come up with numbers to be read out during the     game.
@@ -102,6 +80,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    1^2 + 0^2 + 0^2 = 1
 
    ```   
+----
 
 ### December 3 - Lotto!
   
@@ -199,7 +178,7 @@ Some examples:
 #### I forked the repository but some problems were added only after that. How do I access those problems?
 Not to worry! Open your nearest terminal or command prompt and navigate over to your forked repository. Enter these commands:
 ```bash
-git remote add upstream https://github.com/SVCE-ACM/A-December-of-Algorithms-2020.git
+git remote add upstream https://github.com/SVCE-ACM/A-December-of-Algorithms-2021.git
 git fetch upstream
 git merge upstream/main
 ```
@@ -210,7 +189,7 @@ Note that if you've already added the upstream repository, you don't need to re-
 This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
 
 #### I'm facing difficulties with/need help understanding a particular question.
-Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms-2020/issues) on this repository and we'll do our best to help you out.
+Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms-2021/issues) on this repository and we'll do our best to help you out.
 
 ###### [[Back to Top]](#----)
 
