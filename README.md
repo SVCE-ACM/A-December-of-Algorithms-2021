@@ -112,6 +112,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <th><a href="https://github.com/NikhileshJr08">Nikhilesh S</a></th>     
              <th><a href="https://github.com/keerthana-5170">Keerthana S</a></th> 
              <th><a href="https://github.com/harshitha060802">Harshitha</a></th> 
+             <th><a href="https://github.com/Cipher-unhsiV">Vishnuvasan</a></th>
         </tr>
     </thead>
     <tbody>
@@ -119,10 +120,12 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <td align="center"><a href="https://github.com/NikhileshJr08"><img width="100" src="https://avatars.githubusercontent.com/u/63784914" alt="f"></a></td>  
             <td align="center"><a href="https://github.com/keerthana-5170"><img width="100" src="https://avatars.githubusercontent.com/keerthana-5170" alt="f"></a></td>
             <td align="center"><a href="https://github.com/harshitha060802"><img width="100" src="https://avatars.githubusercontent.com/harshitha060802" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Cipher-unhsiV"><img width="100" src="https://user-images.githubusercontent.com/64918181/144089540-b58e0199-cbbe-43c0-a37d-2e81e9434a70.jpeg" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction::pencil: </td>
              <td align="center"> :pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
         </tr>
     </tbody>
