@@ -21,28 +21,48 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ## Algorithms
 
- ### December 1 - Sherlock's Quest
+ ### December 1 - Elegant Facelift!
  
    #### Problem Statement
-   - It's the final quest of Sherlock Holmes. The Moriarty wants Sherlock dead and is hiding behind a door on the same floor. To make sure he gets killed, Moriarty has filled all the rooms except the one he is in with poisonous gas.
-   - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is also a multiple of 3. 
-   
-   <p align="center"><img src="https://i.imgur.com/pIc2I8j.gif" height=250/></p>
+   - There is a collection of necklaces where each necklace has various stones embedded in it. Each type of stone is designated by a lowercase letter in the range ascii[a-z] .      -There may be multiple occurrences of a stone in a necklace. A stone is called a “facelift” if it occurs at least once in each of the necklaces in the collection.
+   -Given a list of stones embedded in each of the necklaces, display the number of types of “facelifts” in the collection.
+
+   <p align="center"><img src="https://giphy.com/gifs/design-jewelry-luxury-nxgSkZNaOFMoo"></p>
    
    #### Sample Input/Output
    ```
-    Room: 45
-    Status: Safe 
+      Input:
+      
+      STDIN       Function
+      -----             --------
+      3                  arr[] size n = 3
+      abcdde        arr = ['abcdde', 'baccd', 'eeabg']
+      baccd
+      eeabg
+      
+      Output:
+         2
+   
    ```
    ```
-    Room: 36
-    Status: Not Safe
+      Input:
+      
+      STDIN       Function
+      -----             --------
+      4                  arr[] size n = 4
+      abcdd        arr = ['abcdd', 'bcadda', 'eeabcg', ‘adbca’]
+      bcadda
+      eebcg
+      adbca
+      
+      Output:
+         2
+
    ```
    #### Explaination
    ```
-    45 is a multiple of 3
-    45^2 = 2025
-    20 + 25 = 45
+   In sample input 1 only a and b occur in every necklace. Therefore, the output is 2.
+
    ```   
    
 ----
