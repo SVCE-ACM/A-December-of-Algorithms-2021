@@ -12,7 +12,7 @@ Welcome to A December of Algorithms (2021). After overwhelming responses from pr
 We have a small collection of algorithms, one for every day of the month. Scroll down to take a look at them. All you need to do is fork this repository, implement all 31  algorithms and send a pull request over to us. Check out our FAQ for more information.
 
 ## Index
-  - [**December 1 - Sherlock's Quest**](#december-1---sherlocks-quest)
+  - [**December 1 - Elegant Facelift!**](#december-1---Elegant Fcelift)
   - [**December 2 - The Convo!**](#december-2---the-convo)
   - [**December 3 - Lotto!**](#december-3---lotto)
   - [**FAQ**](#faq)
@@ -27,7 +27,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - There is a collection of necklaces where each necklace has various stones embedded in it. Each type of stone is designated by a lowercase letter in the range ascii[a-z] .      -There may be multiple occurrences of a stone in a necklace. A stone is called a “facelift” if it occurs at least once in each of the necklaces in the collection.
    -Given a list of stones embedded in each of the necklaces, display the number of types of “facelifts” in the collection.
 
-   <p align="center"><img src="https://giphy.com/gifs/design-jewelry-luxury-nxgSkZNaOFMoo"></p>
+   <p align="center"><img src="https://media3.giphy.com/media/nxgSkZNaOFMoo/giphy.gif?cid=ecf05e47lvyzgys0csclvx3lnblvzgr2q32yk6vr1euioe7n&rid=giphy.gif&ct=g"></p>
    
    #### Sample Input/Output
    ```
@@ -36,7 +36,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       STDIN       Function
       -----             --------
       3                  arr[] size n = 3
-      abcdde        arr = ['abcdde', 'baccd', 'eeabg']
+      abcdde             arr = ['abcdde', 'baccd', 'eeabg']
       baccd
       eeabg
       
@@ -50,7 +50,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       STDIN       Function
       -----             --------
       4                  arr[] size n = 4
-      abcdd        arr = ['abcdd', 'bcadda', 'eeabcg', ‘adbca’]
+      abcdd              arr = ['abcdd', 'bcadda', 'eeabcg', ‘adbca’]
       bcadda
       eebcg
       adbca
