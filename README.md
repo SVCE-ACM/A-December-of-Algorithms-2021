@@ -25,8 +25,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
  
    #### Problem Statement
    - There is a collection of necklaces where each necklace has various stones embedded in it. Each type of stone is designated by a lowercase letter in the range ascii `[a-z]`.
-   - There may be multiple occurrences of a stone in a necklace. A stone is called a **facelift** if it occurs at least once in each of the necklaces in the collection.
-   - Given a list of stones embedded in each of the necklaces, display the number of types of **facelifts** in the collection.
+   - There may be multiple occurrences of a stone in a necklace. A stone is called a `facelift` if it occurs at least once in each of the necklaces in the collection.
+   - Given a list of stones embedded in each of the necklaces, display the number of types of `facelift`'s in the collection.
 
    <p align="center"><img src="https://media3.giphy.com/media/nxgSkZNaOFMoo/giphy.gif?cid=ecf05e47lvyzgys0csclvx3lnblvzgr2q32yk6vr1euioe7n&rid=giphy.gif&ct=g"></p>
    
@@ -48,19 +48,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
  ### December 2 - Bingo!
   
   #### Problem Statement
-  - Your local community conducts a game night every Saturday and they want you to lead a game of Bingo this weekend. You must come up with numbers to be read out during the     game.
-  - The numbers can be chosen on the basis of certain criteria:
-  - Begins with a positive integer, sum of squares of digits must replace the number.
-  - Continue until the number is 1 or loops interminably without including 1.
-  - The numbers must end in 1 to be selected. 
-  - Return ‘YES’ if the number is chosen, and ‘NO’ if not.
+   - Your local community conducts a game night every Saturday and they want you to lead a game of Bingo this weekend. You must come up with numbers to be read out during the     game. The numbers can be chosen on the basis of certain criteria.  
+   - Begins with a positive integer, sum of squares of digits must replace the number. Continue until the number is 1 or loops interminably without including 1. 
+   - The numbers which end in 1 are to be selected. Return ‘YES’ if the number is selected, and ‘NO’ if not.
 
-    <p align="center"><img src="https://i.makeagif.com/media/8-14-2017/ZtZuZT.gif" /></p>
-  
-  #### Constraints
-   ```
-   1<=n<=2^31-1
-   ```
+     <p align="center"><img src="https://i.makeagif.com/media/8-14-2017/ZtZuZT.gif" /></p>    
   
   #### Sample Input/Output
   ```
@@ -85,22 +77,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### December 3 - Lotto!
   
   #### Problem Statement
-  -In a lottery game , each participant  can choose a lucky board which is in the form of a 2D (x x y) grid. He/she can win the lottery if they are able to find their name on    the lucky board. Find whether a particular participant can win the game or not. Assume that there can be more than one winner who wins the lottery. 
+  - In a lottery game , each participant can choose a lucky board which is in the form of a 2D `(x x y)` grid. He/she can win the lottery if they are able to find their name on    the lucky board. Find whether a particular participant can win the game or not. Assume that there can be more than one winner who wins the lottery. 
   - Return true if the participant wins else return false
+ 
   ### Rules:
-  - 1.The name of the participant has to be arranged in a sequentially adjacent manner.
-  - 2.The  neighbouring alphabets can be horizontal as well as vertical
-  - 3.Same alphabet cell cannot be used more than once while forming the name.
-    
-  
-  ### Constraints
-  ```
-    x == board.length
-    y = board[i].length
-    1 <= x, y <= 6
-    1 <= name.length <= 15
-    board and name consists of only lowercase and uppercase English alphabets
-```
+  - The name of the participant has to be arranged in a sequentially adjacent manner.
+  - The  neighbouring alphabets can be horizontal as well as vertical
+  - Same alphabet cell cannot be used more than once while forming the name.
+        
   <p align="center"><img src="/src/assets/input1.png" /></p>
   
   #### Sample Input/Output
@@ -126,21 +110,15 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 <table>
     <thead>
         <tr>
-            <th><a href="https://github.com/bearlike">Krishnakanth</a></th>
-            <th><a href="https://github.com/mahavisvanathan">Mahalakshumi</a></th>       
-            <th><a href="https://github.com/mahavisvanathan">Mahalakshumi</a></th>       
+            <th><a href="https://github.com/NikhileshJr08">Nikhilesh S</a></th>            
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td align="center"><a href="https://github.com/bearlike"><img width="64" src="https://avatars1.githubusercontent.com/u/39209037" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/mahavisvanathan"><img width="64" src="https://avatars2.githubusercontent.com/u/40058339" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/mahavisvanathan"><img width="64" src="https://avatars2.githubusercontent.com/u/40058339" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/NikhileshJr08"><img width="64" src="https://avatars.githubusercontent.com/u/63784914" alt="f"></a></td>            
         </tr>
         <tr>
-            <td align="center"> :hammer::construction::pencil: </td>
-            <td align="center"> :hammer::construction: </td>
-            <td align="center"> :warning::pencil: </td>           
+            <td align="center"> :hammer::construction::pencil: </td>                       
         </tr>
     </tbody>
 </table>
