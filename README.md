@@ -56,11 +56,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
   #### Sample Input/Output
   ```
-  Input: n=2
+  Input: n = 2
   Output: NO
   ```
   ```
-  Input: n=19
+  Input: n = 19
   Output: YES
   ```
 
