@@ -71,6 +71,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    6^2 + 8^2 = 100
    1^2 + 0^2 + 0^2 = 1
    ```   
+   
+   #### Resources
+  - [Detecting loops](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
+  - [Unordered Hash sets in C++](https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/)
+  - [Sets in python](https://www.geeksforgeeks.org/sets-in-python/)
 ----
 
 ### December 3 - Lotto!
