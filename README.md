@@ -112,7 +112,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <th><a href="https://github.com/NikhileshJr08">Nikhilesh S</a></th>     
              <th><a href="https://github.com/keerthana-5170">Keerthana S</a></th> 
              <th><a href="https://github.com/harshitha060802">Harshitha</a></th>              
-             <th><a href="https://github.com/pranav0120">Vishnuvasan</a></th>
+             <th><a href="https://github.com/pranav0120">Pranav D</a></th>
         </tr>
     </thead>
     <tbody>
