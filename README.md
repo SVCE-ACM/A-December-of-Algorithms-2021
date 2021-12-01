@@ -71,6 +71,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    6^2 + 8^2 = 100
    1^2 + 0^2 + 0^2 = 1
    ```   
+   
+   #### Resources
+  - [Detecting loops](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
+  - [Unordered Hash sets in C++](https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/)
+  - [Sets in python](https://www.geeksforgeeks.org/sets-in-python/)
 ----
 
 ### December 3 - Lotto!
@@ -109,15 +114,24 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 <table>
     <thead>
         <tr>
-            <th><a href="https://github.com/NikhileshJr08">Nikhilesh S</a></th>            
+            <th><a href="https://github.com/NikhileshJr08">Nikhilesh S</a></th>     
+             <th><a href="https://github.com/keerthana-5170">Keerthana S</a></th> 
+             <th><a href="https://github.com/harshitha060802">Harshitha</a></th>              
+             <th><a href="https://github.com/pranav0120">Pranav D</a></th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td align="center"><a href="https://github.com/NikhileshJr08"><img width="64" src="https://avatars.githubusercontent.com/u/63784914" alt="f"></a></td>            
+            <td align="center"><a href="https://github.com/NikhileshJr08"><img width="100" src="https://avatars.githubusercontent.com/u/63784914" alt="f"></a></td>  
+            <td align="center"><a href="https://github.com/keerthana-5170"><img width="100" src="https://avatars.githubusercontent.com/keerthana-5170" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/harshitha060802"><img width="100" src="https://avatars.githubusercontent.com/harshitha060802" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/pranav0120"><img width="100" src="https://avatars.githubusercontent.com/u/89603581" alt="f"></a></td>
         </tr>
         <tr>
-            <td align="center"> :hammer::construction::pencil: </td>                       
+            <td align="center"> :hammer::construction::pencil: </td>
+            <td align="center"> :pencil: </td>
+            <td align="center"> :pencil: </td>
+            <td align="center"> :pencil: </td>
         </tr>
     </tbody>
 </table>
@@ -140,7 +154,7 @@ Not a problem. While coding every day is nice, we understand that other commitme
 Anything! New to GoLang? Best way to practice it. Wanna find out what all this hype about Python is? Use it! Any and all languages are welcomed. Maybe you could try using a different language for every problem as a mini-challenge?
 
 #### Fork? Pull request? What is all that? I don't know how to use GitHub!
-If you are new to Git or GitHub, check out this [small tutorial from our team](https://github.com/ASS-G/Git-Training-Kit) and [GitHub](https://guides.github.com/activities/hello-world/)
+If you are new to Git or GitHub, check out this out [GitHub](https://guides.github.com/activities/hello-world/)
 
 #### Where are the rest of the problems?
 Our code ninjas are hard at work preparing the rest of the problems. Don't worry, they'll be up soon.
