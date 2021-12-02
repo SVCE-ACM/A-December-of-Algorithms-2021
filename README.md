@@ -149,16 +149,20 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    
    ### NOTE: 
    This continues until none want to take the top biscuit and are thus unable to eat.
+   
    ### Return 
    The number of customers that are unable to eat.
+   
    ### Input format
    The first line contains the elements of the array customers
    The second line contains the elements of the array biscuits
+   
    ### Constraints   
    - 1 ≤ customers.length, biscuits.length ≤ 100
    - customers.length == biscuits.length
    - biscuits[i] is 0 or 1.
    - customers[i] is 0 or 1.
+   
    ### Sample Input
    ```
    customers = [1,1,1,0,1] , biscuits = [1,0,0,0,1,1]
