@@ -14,7 +14,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ## Index
   - [**December 1 - Elegant facelift**](#december-1---elegant-facelift)
   - [**December 2 - Bingo!**](#december-2---bingo)
-  - [**December 3 - Lotto!**](#december-3---lotto)  
+  - [**December 3 - Lotto!**](#december-3---lotto) 
+  - [**December 5 - Biscuit Bonanza**](#december-5---biscuit-bonanza)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -142,7 +143,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - The number of biscuits is equal to the number of customers. They are placed in a stack. 
    - At each step: If the customer at the front of the queue prefers the biscuit on the top of the stack, they will take it and leave the queue.
    - Otherwise, they will directly go to the queue's end.
-   <p align="center"><img "https://media.giphy.com/media/nAErqE3k2C3fy/giphy.gif" /></p>
+   <p align="center"><img src ="https://media.giphy.com/media/nAErqE3k2C3fy/giphy.gif" /></p>
    
    ### NOTE: This continues until none want to take the top biscuit and are thus unable to eat.
    - Consider two integer arrays ‘customers’ and ‘biscuits’ where biscuits[i] is the type of the ith biscuit in the stack (i = 0 is the top of the stack) and customers[j] is the preference of the jth customer in the initial queue (j = 0 is the front of the queue). 
