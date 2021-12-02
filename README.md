@@ -179,7 +179,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    ```
    0 
    ```
-    ### Sample Input
+   ### Sample Input
    ```
    customers = [1,1,0,0,1,0], biscuits = [0,1,0,1,1,1]
    ```
