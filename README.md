@@ -145,7 +145,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - Otherwise, they will directly go to the queue's end.
    <p align="center"><img src ="https://media.giphy.com/media/nAErqE3k2C3fy/giphy.gif" /></p>
    
-   ### NOTE: This continues until none want to take the top biscuit and are thus unable to eat.
+   ### NOTE: 
+   This continues until none want to take the top biscuit and are thus unable to eat.
    - Consider two integer arrays ‘customers’ and ‘biscuits’ where biscuits[i] is the type of the ith biscuit in the stack (i = 0 is the top of the stack) and customers[j] is the preference of the jth customer in the initial queue (j = 0 is the front of the queue). 
    ### Return 
    The number of customers that are unable to eat.
