@@ -14,7 +14,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ## Index
   - [**December 1 - Elegant facelift**](#december-1---elegant-facelift)
   - [**December 2 - Bingo!**](#december-2---bingo)
-  - [**December 3 - Lotto!**](#december-3---lotto)  
+  - [**December 3 - Lotto!**](#december-3---lotto)   
+  - [**December 4 - Sandhya and her Tic-Tac-Toe love**](#december-4---sandhya-and-her-tic-tac-toe-love)
+  - [**December 5 - Biscuit Bonanza**](#december-5---biscuit-bonanza)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -108,7 +110,84 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [Backtracking](https://www.geeksforgeeks.org/backtracking-algorithms/)
 
 ---
+### December 4 - Sandhya and her Tic-Tac-Toe love
+  
+  #### Problem Statement
+  - Sandhya likes to play tic-tac-toe (using `2x2` matrix), and uses the elements `0`and `1`. She is wondering how many matrices with `X` rows and `Y` columns there are. Everyone obviously knows that - it is just `2X⋅Y`. But what no one knows is that, she considers two identical matrices if and only if by permuting the `X` no.of rows and then permuting the `Y` no.of columns, and the resulting matrix is transverse of itself. 
+  - Help Sandhya by finding the number of `X×Y` matrices which are distinct according to her definition (even though she doesn't know how to solve them). Since the answer can/may be quite large, compute it modulo 10^9+7.
+       
+   <p align="center"><img src="https://media.giphy.com/media/3oriNKQe0D6uQVjcIM/giphy.gif" /></p>
+  
+  #### Sample Input/Output
+  ```
+  Input: 1 5
+  Output: 6
+  ```
+   #### Explaination
+    ```
+    According to Sandhya's definition, there are 6 different binary matrices. 
+    This is because the number of 1-s uniquely identifies a 1×5 matrix and 
+    the number of 1-s can take any value between 0 and 5 inclusive.
+    ```
+   #### Sample Input/Output
+  ```
+  Input: 10 10
+  Output: 508361223
+  ```
+  
+---
 
+### December 5 - Biscuit Bonanza
+ 
+   #### Problem Statement
+   - A local biscuit store sells only `2` types of biscuits: circular and rectangular biscuits. They are referred to by the numbers `0` and `1` respectively. The customers stand in a queue and they either purchase circular or rectangular biscuits. 
+   - The number of biscuits is equal to the number of customers. They are placed in a stack. 
+   - At each step: If the customer at the front of the queue prefers the biscuit on the top of the stack, they will take it and leave the queue.
+   - Otherwise, they will directly go to the queue's end.
+   -  Consider two integer arrays `customers` and `biscuits` where `biscuits[i]` is the type of the `i`th biscuit in the stack (i = 0 is the top of the stack) and `customers[j]` is the preference of the `j`th customer in the initial queue (j = 0 is the front of the queue). This continues until none want to take the top biscuit and are thus unable to eat.
+   -  Return the number of customers that are unable to eat.
+
+   <p align="center"><img src ="https://media.giphy.com/media/nAErqE3k2C3fy/giphy.gif" /></p>                  
+   
+   ### Sample Input
+   ```
+   customers = [1,1,1,0,1] , biscuits = [1,0,0,0,1,1]
+   ```
+   ### Sample Output
+   ```
+   3
+   ```
+   ### Sample Input
+   ```
+   customers = [1,1,0,0], biscuits = [0,1,0,1]
+   ```
+   ### Sample Output
+   ```
+   0 
+   ```
+   ### Sample Input
+   ```
+   customers = [1,1,0,0,1,0], biscuits = [0,1,0,1,1,1]
+   ```
+   ### Sample Output
+   ```
+   1
+   ```
+   ### Explanation
+   ```
+   Input: customers = [1,1,0,0], biscuits = [0,1,0,1]
+   Output: 0 
+   - Front customer leaves the top sandwich and returns to the end of the line making customers = [1,0,0,1].
+   - Front customer leaves the top sandwich and returns to the end of the line making customers = [0,0,1,1].
+   - Front customer takes the top sandwich and leaves the line making customers = [0,1,1] and biscuits = [1,0,1].
+   - Front customer leaves the top sandwich and returns to the end of the line making customers = [1,1,0].
+   - Front customer takes the top sandwich and leaves the line making customers = [1,0] and biscuits = [0,1].
+   - Front customer leaves the top sandwich and returns to the end of the line making customers = [0,1].
+   - Front customer takes the top sandwich and leaves the line making customers = [1] and biscuits = [1].
+   - Front customer takes the top sandwich and leaves the line making customers = [] and biscuits = [].
+   Hence all customers are able to eat.
+   ```
+---
 ## Maintainers
 
 <table>
@@ -118,6 +197,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
              <th><a href="https://github.com/keerthana-5170">Keerthana S</a></th> 
              <th><a href="https://github.com/harshitha060802">Harshitha</a></th>              
              <th><a href="https://github.com/pranav0120">Pranav D</a></th>
+             <th><a href="https://github.com/nityasam02">Nitya Samavedam</a></th>
+            <th><a href="https://github.com/Madhumita2002">Madhumita R</a></th>
         </tr>
     </thead>
     <tbody>
@@ -126,9 +207,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <td align="center"><a href="https://github.com/keerthana-5170"><img width="100" src="https://avatars.githubusercontent.com/keerthana-5170" alt="f"></a></td>
             <td align="center"><a href="https://github.com/harshitha060802"><img width="100" src="https://avatars.githubusercontent.com/harshitha060802" alt="f"></a></td>
             <td align="center"><a href="https://github.com/pranav0120"><img width="100" src="https://avatars.githubusercontent.com/u/89603581" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/nityasam02"><img width="100" src="https://avatars.githubusercontent.com/u/87812124?s=400&v=4" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Madhumita2002"><img width="100" src="https://avatars.githubusercontent.com/Madhumita2002" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction::pencil: </td>
+            <td align="center"> :pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
