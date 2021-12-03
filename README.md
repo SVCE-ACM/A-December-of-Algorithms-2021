@@ -151,7 +151,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    
    ### Sample Input
    ```
-   customers = [1,1,1,0,1] , biscuits = [1,0,0,0,1,1]
+   customers = [1,1,1,0,1]
+   biscuits = [1,0,0,0,1,1]
    ```
    ### Sample Output
    ```
@@ -159,7 +160,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    ```
    ### Sample Input
    ```
-   customers = [1,1,0,0], biscuits = [0,1,0,1]
+   customers = [1,1,0,0]
+   biscuits = [0,1,0,1]
    ```
    ### Sample Output
    ```
@@ -167,7 +169,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    ```
    ### Sample Input
    ```
-   customers = [1,1,0,0,1,0], biscuits = [0,1,0,1,1,1]
+   customers = [1,1,0,0,1,0]
+   biscuits = [0,1,0,1,1,1]
    ```
    ### Sample Output
    ```
