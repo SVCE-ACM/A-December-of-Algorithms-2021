@@ -99,8 +99,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   Output: true
   ```
    <p align="center"><img src="/src/assets/input2.png" /></p>
-   
-   #### Sample Input/Output
+     
   ```
   Input: [["L","N","A","C"],["W","B","A","D"],["T","Z","F","E"]], name = "DEV"
   Output: false
@@ -123,18 +122,16 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   Input: 1 5
   Output: 6
   ```
+  ```
+  Input: 10 10
+  Output: 508361223
+  ```
   #### Explaination
   ```
   According to Sandhya's definition, there are 6 different binary matrices. 
   This is because the number of 1-s uniquely identifies a 1×5 matrix and 
   the number of 1-s can take any value between 0 and 5 inclusive.
-```
-   #### Sample Input/Output
-  ```
-  Input: 10 10
-  Output: 508361223
-  ```
-  
+```      
 ---
 
 ### December 5 - Biscuit Bonanza
@@ -149,33 +146,23 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
    <p align="center"><img src ="https://media.giphy.com/media/nAErqE3k2C3fy/giphy.gif" /></p>                  
    
-   ### Sample Input
+   ### Sample Input and output
    ```
    customers = [1,1,1,0,1]
    biscuits = [1,0,0,0,1,1]
+   
+   Customers that are unable to eat = 3
    ```
-   ### Sample Output
-   ```
-   3
-   ```
-   ### Sample Input
    ```
    customers = [1,1,0,0]
    biscuits = [0,1,0,1]
-   ```
-   ### Sample Output
-   ```
-   0 
-   ```
-   ### Sample Input
+   Customers that are unable to eat = 0
+   ```   
    ```
    customers = [1,1,0,0,1,0]
    biscuits = [0,1,0,1,1,1]
-   ```
-   ### Sample Output
-   ```
-   1
-   ```
+   Customers that are unable to eat = 1
+   ```   
    ### Explanation
    ```
    Input: customers = [1,1,0,0], biscuits = [0,1,0,1]
