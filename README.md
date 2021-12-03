@@ -187,7 +187,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - Front customer takes the top sandwich and leaves the line making customers = [] and biscuits = [].
    Hence all customers are able to eat.
    ```
-
+---
 ## Maintainers
 
 <table>
