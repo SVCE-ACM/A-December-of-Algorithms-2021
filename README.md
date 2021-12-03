@@ -156,11 +156,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    ```
    customers = [1,1,0,0]
    biscuits = [0,1,0,1]
+   
    Customers that are unable to eat = 0
    ```   
    ```
    customers = [1,1,0,0,1,0]
    biscuits = [0,1,0,1,1,1]
+   
    Customers that are unable to eat = 1
    ```   
    ### Explanation
