@@ -123,12 +123,12 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   Input: 1 5
   Output: 6
   ```
-   #### Explaination
-    ```
-    According to Sandhya's definition, there are 6 different binary matrices. 
-    This is because the number of 1-s uniquely identifies a 1×5 matrix and 
-    the number of 1-s can take any value between 0 and 5 inclusive.
-    ```
+  #### Explaination
+  ```
+  According to Sandhya's definition, there are 6 different binary matrices. 
+  This is because the number of 1-s uniquely identifies a 1×5 matrix and 
+  the number of 1-s can take any value between 0 and 5 inclusive.
+```
    #### Sample Input/Output
   ```
   Input: 10 10
