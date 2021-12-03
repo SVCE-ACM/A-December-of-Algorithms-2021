@@ -15,7 +15,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 1 - Elegant facelift**](#december-1---elegant-facelift)
   - [**December 2 - Bingo!**](#december-2---bingo)
   - [**December 3 - Lotto!**](#december-3---lotto)   
-  - [**December 4 - Sandhya and her Tic-Tac-Toe love **](#december-4---sandhya-and-her-tic-tac-toe-love)
+  - [**December 4 - Sandhya and her Tic-Tac-Toe love**](#december-4---sandhya-and-her-tic-tac-toe-love)
   - [**December 5 - Biscuit Bonanza**](#december-5---biscuit-bonanza)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
@@ -113,8 +113,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### December 4 - Sandhya and her Tic-Tac-Toe love
   
   #### Problem Statement
-  - Sandhya likes to play tic-tac-toe (using 2*2 matrix), and uses the elements 0 and 1. She is wondering how many matrices with X rows and Y columns there are. Everyone obviously knows that - it is just 2X⋅Y. But what no one knows is that, she considers two identical matrices if and only if by permuting the X no.of rows and then permuting the Y no.of columns, and the resulting matrix is transverse of itself. 
-  - Help Sandhya by finding the number of X×Y matrices which are distinct according to her definition (even though she doesn't know how to solve them). Since the answer can/may be quite large, compute it modulo 10^9+7.
+  - Sandhya likes to play tic-tac-toe (using 2*2 matrix), and uses the elements `0`and `1`. She is wondering how many matrices with `X` rows and `Y` columns there are. Everyone obviously knows that - it is just `2X⋅Y`. But what no one knows is that, she considers two identical matrices if and only if by permuting the `X` no.of rows and then permuting the `Y` no.of columns, and the resulting matrix is transverse of itself. 
+  - Help Sandhya by finding the number of `X×Y` matrices which are distinct according to her definition (even though she doesn't know how to solve them). Since the answer can/may be quite large, compute it modulo 10^9+7.
        
    <p align="center"><img src="https://media.giphy.com/media/3oriNKQe0D6uQVjcIM/giphy.gif" /></p>
   
