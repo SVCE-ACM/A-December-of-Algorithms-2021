@@ -113,7 +113,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### December 4 - Sandhya and her Tic-Tac-Toe love
   
   #### Problem Statement
-  - Sandhya likes to play tic-tac-toe (using 2*2 matrix), and uses the elements `0`and `1`. She is wondering how many matrices with `X` rows and `Y` columns there are. Everyone obviously knows that - it is just `2X⋅Y`. But what no one knows is that, she considers two identical matrices if and only if by permuting the `X` no.of rows and then permuting the `Y` no.of columns, and the resulting matrix is transverse of itself. 
+  - Sandhya likes to play tic-tac-toe (using `2x2` matrix), and uses the elements `0`and `1`. She is wondering how many matrices with `X` rows and `Y` columns there are. Everyone obviously knows that - it is just `2X⋅Y`. But what no one knows is that, she considers two identical matrices if and only if by permuting the `X` no.of rows and then permuting the `Y` no.of columns, and the resulting matrix is transverse of itself. 
   - Help Sandhya by finding the number of `X×Y` matrices which are distinct according to her definition (even though she doesn't know how to solve them). Since the answer can/may be quite large, compute it modulo 10^9+7.
        
    <p align="center"><img src="https://media.giphy.com/media/3oriNKQe0D6uQVjcIM/giphy.gif" /></p>
@@ -140,11 +140,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### December 5 - Biscuit Bonanza
  
    #### Problem Statement
-   - A local biscuit store sells only 2 types of biscuits: circular and rectangular biscuits. They are referred to by the numbers '0' and '1' respectively. The customers stand in a queue and they either purchase circular or rectangular biscuits. 
+   - A local biscuit store sells only `2` types of biscuits: circular and rectangular biscuits. They are referred to by the numbers `0` and `1` respectively. The customers stand in a queue and they either purchase circular or rectangular biscuits. 
    - The number of biscuits is equal to the number of customers. They are placed in a stack. 
    - At each step: If the customer at the front of the queue prefers the biscuit on the top of the stack, they will take it and leave the queue.
    - Otherwise, they will directly go to the queue's end.
-   -  Consider two integer arrays ‘customers’ and ‘biscuits’ where biscuits[i] is the type of the ith biscuit in the stack (i = 0 is the top of the stack) and customers[j] is the preference of the jth customer in the initial queue (j = 0 is the front of the queue). This continues until none want to take the top biscuit and are thus unable to eat.
+   -  Consider two integer arrays `customers` and `biscuits` where `biscuits[i]` is the type of the `i`th biscuit in the stack (i = 0 is the top of the stack) and `customers[j]` is the preference of the `j`th customer in the initial queue (j = 0 is the front of the queue). This continues until none want to take the top biscuit and are thus unable to eat.
    -  Return the number of customers that are unable to eat.
 
    <p align="center"><img src ="https://media.giphy.com/media/nAErqE3k2C3fy/giphy.gif" /></p>                  
