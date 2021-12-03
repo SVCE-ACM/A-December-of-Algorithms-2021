@@ -186,7 +186,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - Front customer takes the top sandwich and leaves the line making customers = [1] and biscuits = [1].
    - Front customer takes the top sandwich and leaves the line making customers = [] and biscuits = [].
    Hence all customers are able to eat.
-   ```
+   ```   
+   #### Resources
+   - [Queues using Arrays](https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
+   - [Queues using Linked List](https://www.geeksforgeeks.org/queue-linked-list-implementation/?ref=rp)
 ---
 ## Maintainers
 
