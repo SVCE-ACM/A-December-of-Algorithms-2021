@@ -337,7 +337,7 @@ For each test case t, the output contains an integer indicating the minimal numb
              <th><a href="https://github.com/nityasam02">Nitya Samavedam</a></th>
             <th><a href="https://github.com/Madhumita2002">Madhumita R</a></th>
             <th><a href="https://github.com/Poujhit">Poujhit MU</a></th>
-            <th><a href="https://github.com/SahariKrithik</a></th>
+            <th><a href="https://github.com/SahariKrithik">Sahari Krithik</a></th>
         </tr>
     </thead>
     <tbody>
