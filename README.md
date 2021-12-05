@@ -18,7 +18,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 4 - Sandhya and her Tic-Tac-Toe love**](#december-4---sandhya-and-her-tic-tac-toe-love)
   - [**December 5 - Biscuit Bonanza**](#december-5---biscuit-bonanza)
   - [**December 7 - Amy helps Pawnee**](#december-7---amy-helps-pawnee)
-  - 
+  - [**December 8 - Anomalous Counter**](#december-8---anomalous-counter)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -245,6 +245,44 @@ We have a small collection of algorithms, one for every day of the month. Scroll
  2
  ```
 ---
+### December 8 - Anomalous Counter
+
+   #### Problem Statement
+   - You found a rather bizarre counter around your area. You see that there are two dials, one is the cycle dial and another is the counter value dial. 
+   - When you start the counter, you see in the counter dial that it starts with the initial value 3 and then you see the counter value decreases by 1 each second until the value becomes 1.
+   - In the next second you see that the cycle dialer is incremented to 1 and the counter value becomes twice the initial value of the counter in the previous cycle.
+   - You decided to invite your friends to play a guessing game, i.e to find the value displayed by the counter at a particular time(in seconds). 
+
+
+   <p align="center"><img src ="/src/assets/counter.png" /></p>                  
+
+   ### Sample Input and output
+   ```
+   Input:
+   time = 22
+   
+   Output:
+   counter value = 24
+   ```
+   ```
+   Input:
+   time = 0
+   
+   Output:
+   counter value = 0
+   ```
+
+   ### Explanation
+   ```
+   Input: time = 22
+   Output: 24
+   
+   time=22 marks the beginning of the fourth cycle. 
+   So the counter value is double the number displayed at the beginning of the third cycle(when time=10): 12X2 = 24.
+   This is shown in the diagram in the problem statement.
+   ```   
+
+---
 ## Maintainers
 
 <table>
@@ -256,6 +294,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
              <th><a href="https://github.com/pranav0120">Pranav D</a></th>
              <th><a href="https://github.com/nityasam02">Nitya Samavedam</a></th>
             <th><a href="https://github.com/Madhumita2002">Madhumita R</a></th>
+            <th><a href="https://github.com/Poujhit">Poujhit MU</a></th>
         </tr>
     </thead>
     <tbody>
@@ -266,9 +305,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <td align="center"><a href="https://github.com/pranav0120"><img width="100" src="https://avatars.githubusercontent.com/u/89603581" alt="f"></a></td>
             <td align="center"><a href="https://github.com/nityasam02"><img width="100" src="https://avatars.githubusercontent.com/u/87812124?s=400&v=4" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Madhumita2002"><img width="100" src="https://avatars.githubusercontent.com/Madhumita2002" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Poujhit"><img width="100" src="https://avatars.githubusercontent.com/Poujhit" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
