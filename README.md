@@ -208,6 +208,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
  Input: UTUTTU
  Output: 1  
  ```
+ ### Explanation
+ ```
+ To get all U and T together in the sample test case, first replace the T at index 3 with U at index 6.
+ Second, we can combine all U and T by swapping U at index 3 with T at index 2.
+ ```
 ---
 
 ### December 7 - Amy helps Pawnee!
