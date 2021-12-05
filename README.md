@@ -231,14 +231,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 #### Return
  A single line integer i.e the number of buildings that received the food packets on their roofs on each flight.
 
-#### Constraints
-- 2 ≤ N ≤ 10^5 
-- 0 ≤ x,y ≤ 10^6 
-- 0 ≤ M ≤ 10^6
-- 0≤ c ≤ 10^6
-
 #### Sample Input and Output
- ```
+ ``` 
  Number of Buildings: 3
  Coordinates of the buildings:
  1 0 0 2 2 2
