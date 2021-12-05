@@ -217,12 +217,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
  - All the buildings are represented by three pairs of points: `(a1, b1), (a2,b2) and (a3,b3).`
  - The jet can fly in a direction either parallel to the `x` axis or the `y` axis. It drops the food packets on every building Amy flies over in her flight. 
  - The food packet will be wasted if it is dropped on the boundary of the building as it will fall down. No two buildings touch each other. Figure out the number of buildings that receive the food packets on each flight. 
- 
- #### Input format
-- First line of the input contains `N`, the number of buildings.
-- Next `N` lines contain 6 space separated integers, representing the coordinate pairs of the building.
-- Next line contains `M`, the number of jet planes.
-- Next `M` lines contain a single line equation representing their flight in form `x = c` or `y = c`.
+  
 #### Note:
  Note the space around the equal sign in the equation.
  
