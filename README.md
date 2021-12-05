@@ -189,41 +189,24 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### December 6 - Save The Templars
 
 ### Problem Statement
-- The conflict continues. The Templar Assasins and the Undying are fighting to the death, but the bad is prevailing over the good. The Templars must band together in order to combat the Undying.
+- The conflict continues. The Templar Assasins `T` and the Undying `U` are fighting to the death, but the bad is prevailing over the good. The Templars must band together in order to combat the Undying.
 - At the top of the Undying Resource tower, everyone is initially arranged in a circular path.
-- The Templar Assassin at index 1 is in front of the Templar Assassin at index 2 and stands close to the Templar Assassin at index n.
+- The Templar Assassin at index 1 is in front of the Templar Assassin at index 2 and stands close to the Templar Assassin at index `n`.
 - The Templars must band together in order to win the battle.
 - The Templars have a particular ability that allows them to switch bodies with anyone.
 - Assist the Templars in determining the least number of swaps required so that they can all stand together.
+- Given the sequence of Templar Assasins `T` and the Undying `U`, return the minimal number of swaps required. 
 
 <p align="center"><img src ="/src/assets/templars.gif" /></p>
 
-INPUT :
-t appears on the first line of the input (the number of test cases).
-The following is the next 2*t line:
-n appears on the first line (the size of string).
-The next line contains the string s.
-The ith character denotes if there is a Templars (T) or a Undying (U).
-
-OUTPUT :
-For each test case t, the output contains an integer indicating the minimal number of swaps required.
-
-### CONSTRAINTS :
-- 1<=t<=100
-- 1<=n<=105
-
 #### Sample Input and Output
  ```
- Input : 
- 2
- 7
- UUTUTUT
- 6
- UTUTTU
- 
- Output :
- 1
- 1
+ Input: UUTUTUT
+ Output: 1
+ ```
+ ```
+ Input: UTUTTU
+ Output: 1  
  ```
 ---
 
