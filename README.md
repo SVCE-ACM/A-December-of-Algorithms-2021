@@ -17,7 +17,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 3 - Lotto!**](#december-3---lotto)   
   - [**December 4 - Sandhya and her Tic-Tac-Toe love**](#december-4---sandhya-and-her-tic-tac-toe-love)
   - [**December 5 - Biscuit Bonanza**](#december-5---biscuit-bonanza)
-  - [**December 8 - Anomalous Counter**](#december-8---anomalous-counter)
+  - [**December 7 - Amy helps Pawnee**](#december-7---amy-helps-pawnee)
+  - 
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -184,45 +185,66 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - [Queues using Arrays](https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
    - [Queues using Linked List](https://www.geeksforgeeks.org/queue-linked-list-implementation/?ref=rp)
 ---
-### December 8 - Anomalous Counter
+### December 7 - Amy helps Pawnee!
+
+ #### Problem Statement
+ - Amy Santiago is a pilot and she went to Pawnee for official work. She noticed that the city had a food shortage due to the devastating impact of COVID-19. So, she decided to help the people who are in desperate need of food by supplying them on their building with the help of her private jet-plane. 
+ - All the buildings are represented by three pairs of points: `(a1, b1), (a2,b2) and (a3,b3).`
+ - The jet can fly in a direction either parallel to the `x` axis or the `y` axis. It drops the food packets on every building Amy flies over in her flight. 
+ - The food packet will be wasted if it is dropped on the boundary of the building as it will fall down. No two buildings touch each other. Figure out the number of buildings that receive the food packets on each flight. 
  
-   #### Problem Statement
-   - You found a rather bizarre counter around your area. You see that there are two dials, one is the cycle dial and another is the counter value dial. 
-   - When you start the counter, you see in the counter dial that it starts with the initial value 3 and then you see the counter value decreases by 1 each second until the value becomes 1.
-   - In the next second you see that the cycle dialer is incremented to 1 and the counter value becomes twice the initial value of the counter in the previous cycle.
-   - You decided to invite your friends to play a guessing game, i.e to find the value displayed by the counter at a particular time(in seconds). 
+ ### Input format
+- First line of the input contains `N`, the number of buildings.
+- Next `N` lines contain 6 space separated integers, representing the coordinate pairs of the building.
+- Next line contains `M`, the number of jet planes.
+- Next `M` lines contain a single line equation representing their flight in form `x = c` or `y = c`.
 
+## Note:
+ Note the space around the equal sign in the equation.
+ 
+<p align="center"><img src ="https://media.giphy.com/media/8PKXkHuRl5ht8BvXrO/giphy.gif" /></p>    
+### Return
+A single line integer i.e the number of buildings that received the food packets on their roofs on each flight.
 
-   <p align="center"><img src ="/src/assets/counter.png" /></p>                  
-   
-   ### Sample Input and output
-   ```
-   Input:
-   time = 22
-   
-   Output:
-   counter value = 24
-   ```
-   ```
-   Input:
-   time = 0
-   
-   Output:
-   counter value = 0
-   ```
-   
-   ### Explanation
-   ```
-   Input: time = 22
-   Output: 24
-   
-   time=22 marks the beginning of the fourth cycle. 
-   So the counter value is double the number displayed at the beginning of the third cycle(when time=10): 12X2 = 24.
-   This is shown in the diagram in the problem statement.
-   ```   
+### Constraints
+- 2 ≤ N ≤ 10^5 
+- 0 ≤ x,y ≤ 10^6 
+- 0 ≤ M ≤ 10^6
+- 0≤ c ≤ 10^6
 
+### Sample Input and Output
+ ```
+ Number of Buildings: 3
+ Coordinates of the buildings:
+ 1 0 0 2 2 2
+ 1 3 3 5 4 0 
+ 5 4 4 5 4 4
+ Number of jet-planes: 3
+ x = 1
+ x = 2
+ y = 1
+ 
+ Buildings that received food:
+ 1
+ 1
+ 2
+ ```
+ ```
+ Number of Buildings: 4
+ Coordinates of the buildings:
+ 1 1 2 3 4 1
+ 2 5 3 3 0 0
+ 3 2 2 1 1 3
+ 4 5 5 0 1 0
+ Number of jet-planes: 2
+ x=1
+ y=3
+
+ Buildings that received food:
+ 1
+ 2
+ ```
 ---
-
 ## Maintainers
 
 <table>
@@ -233,8 +255,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
              <th><a href="https://github.com/harshitha060802">Harshitha</a></th>              
              <th><a href="https://github.com/pranav0120">Pranav D</a></th>
              <th><a href="https://github.com/nityasam02">Nitya Samavedam</a></th>
-             <th><a href="https://github.com/Madhumita2002">Madhumita R</a></th>
-            <th><a href="https://github.com/Poujhit">Poujhit MU</a></th>
+            <th><a href="https://github.com/Madhumita2002">Madhumita R</a></th>
         </tr>
     </thead>
     <tbody>
@@ -245,11 +266,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <td align="center"><a href="https://github.com/pranav0120"><img width="100" src="https://avatars.githubusercontent.com/u/89603581" alt="f"></a></td>
             <td align="center"><a href="https://github.com/nityasam02"><img width="100" src="https://avatars.githubusercontent.com/u/87812124?s=400&v=4" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Madhumita2002"><img width="100" src="https://avatars.githubusercontent.com/Madhumita2002" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/Poujhit"><img width="100" src="https://avatars.githubusercontent.com/Poujhit" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction::pencil: </td>
-            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
