@@ -17,6 +17,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 3 - Lotto!**](#december-3---lotto)   
   - [**December 4 - Sandhya and her Tic-Tac-Toe love**](#december-4---sandhya-and-her-tic-tac-toe-love)
   - [**December 5 - Biscuit Bonanza**](#december-5---biscuit-bonanza)
+  - [**December 6 - Save The Templars**](#december-6---save-the-templars)
   - [**December 7 - Amy helps Pawnee**](#december-7---amy-helps-pawnee)
   - [**December 8 - Anomalous Counter**](#december-8---anomalous-counter)
   - [**Maintainers**](#maintainers)
