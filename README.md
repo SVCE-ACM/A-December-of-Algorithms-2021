@@ -331,10 +331,10 @@ For each test case t, the output contains an integer indicating the minimal numb
     <thead>
         <tr>
             <th><a href="https://github.com/NikhileshJr08">Nikhilesh S</a></th>     
-             <th><a href="https://github.com/keerthana-5170">Keerthana S</a></th> 
-             <th><a href="https://github.com/harshitha060802">Harshitha</a></th>              
-             <th><a href="https://github.com/pranav0120">Pranav D</a></th>
-             <th><a href="https://github.com/nityasam02">Nitya Samavedam</a></th>
+            <th><a href="https://github.com/keerthana-5170">Keerthana S</a></th> 
+            <th><a href="https://github.com/harshitha060802">Harshitha</a></th>              
+            <th><a href="https://github.com/pranav0120">Pranav D</a></th>
+            <th><a href="https://github.com/nityasam02">Nitya Samavedam</a></th>
             <th><a href="https://github.com/Madhumita2002">Madhumita R</a></th>
             <th><a href="https://github.com/Poujhit">Poujhit MU</a></th>
             <th><a href="https://github.com/SahariKrithik">Sahari Krithik</a></th>
@@ -349,8 +349,7 @@ For each test case t, the output contains an integer indicating the minimal numb
             <td align="center"><a href="https://github.com/nityasam02"><img width="100" src="https://avatars.githubusercontent.com/u/87812124?s=400&v=4" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Madhumita2002"><img width="100" src="https://avatars.githubusercontent.com/Madhumita2002" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Poujhit"><img width="100" src="https://avatars.githubusercontent.com/Poujhit" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/SahariKrithik"><img width="100" src="https://avatars.githubusercontent.com/u/54771183" alt="f"></a></td>
-            
+            <td align="center"><a href="https://github.com/SahariKrithik"><img width="100" src="https://avatars.githubusercontent.com/u/54771183" alt="f"></a></td>            
         </tr>
         <tr>
             <td align="center"> :hammer::construction::pencil: </td>
