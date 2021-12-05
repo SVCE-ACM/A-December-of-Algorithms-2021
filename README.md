@@ -202,7 +202,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    
    Output:
    counter value = 24
-   
    ```
    ```
    Input:
@@ -210,7 +209,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    
    Output:
    counter value = 0
-   
    ```
    
    ### Explanation
