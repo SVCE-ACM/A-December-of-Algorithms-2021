@@ -220,7 +220,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
  -  A single line integer i.e the number of buildings that received the food packets on their roofs on each flight.
   
 #### Note:
- Note the space around the equal sign in the equation.
+ - Note the space around the equal sign in the equation.
  
 <p align="center"><img src ="https://media.giphy.com/media/8PKXkHuRl5ht8BvXrO/giphy.gif" /></p> 
 
