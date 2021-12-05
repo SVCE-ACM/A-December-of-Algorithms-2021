@@ -185,6 +185,46 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - [Queues using Arrays](https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
    - [Queues using Linked List](https://www.geeksforgeeks.org/queue-linked-list-implementation/?ref=rp)
 ---
+### December 6 - Save The Templars
+
+### Problem Statement
+-The conflict continues. The Templar Assasins and the Undying are fighting to the death, but the bad is prevailing over the good. The Templars must band together in order to combat the Undying.
+-At the top of the Undying Resource tower, everyone is initially arranged in a circular path.
+-The Templar Assassin at index 1 is in front of the Templar Assassin at index 2 and stands close to the Templar Assassin at index n.
+-The Templars must band together in order to win the battle.
+-The Templars have a particular ability that allows them to switch bodies with anyone.
+-Assist the Templars in determining the least number of swaps required so that they can all stand together.
+
+<p align="center"><img src ="/src/assets/templars.gif" /></p>
+
+INPUT :
+t appears on the first line of the input (the number of test cases).
+The following is the next 2*t line:
+n appears on the first line (the size of string).
+The next line contains the string s.
+The ith character denotes if there is a Templars (T) or a Undying (U).
+
+OUTPUT :
+For each test case t, the output contains an integer indicating the minimal number of swaps required.
+
+CONSTRAINTS :
+1<=t<=100
+1<=n<=105
+
+#### Sample Input and Output
+ ```
+ Input : 
+ 2
+ 7
+ UUTUTUT
+ 6
+ UTUTTU
+ 
+ Output :
+ 1
+ 1
+---
+
 ### December 7 - Amy helps Pawnee!
 
  #### Problem Statement
@@ -295,6 +335,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
              <th><a href="https://github.com/nityasam02">Nitya Samavedam</a></th>
             <th><a href="https://github.com/Madhumita2002">Madhumita R</a></th>
             <th><a href="https://github.com/Poujhit">Poujhit MU</a></th>
+            <th><a href="https://github.com/SahariKrithik</a></th>
         </tr>
     </thead>
     <tbody>
@@ -306,9 +347,12 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <td align="center"><a href="https://github.com/nityasam02"><img width="100" src="https://avatars.githubusercontent.com/u/87812124?s=400&v=4" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Madhumita2002"><img width="100" src="https://avatars.githubusercontent.com/Madhumita2002" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Poujhit"><img width="100" src="https://avatars.githubusercontent.com/Poujhit" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/SahariKrithik"><img width="100" src="https://avatars.githubusercontent.com/u/54771183" alt="f"></a></td>
+            
         </tr>
         <tr>
             <td align="center"> :hammer::construction::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
