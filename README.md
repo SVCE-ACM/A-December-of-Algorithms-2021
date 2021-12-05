@@ -272,18 +272,12 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
    ### Sample Input and output
    ```
-   Input:
-   time = 22
-   
-   Output:
-   counter value = 24
+   Input: time = 22   
+   Output: counter value = 24
    ```
    ```
-   Input:
-   time = 0
-   
-   Output:
-   counter value = 0
+   Input: time = 0
+   Output: counter value = 0
    ```
 
    ### Explanation
