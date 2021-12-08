@@ -302,26 +302,23 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 
    <p align="center"><img src ="https://media0.giphy.com/media/QFypAZbq5lz3i/200.gif" /></p> 
-   INPUT : First line contains an integer Q denotes the number of test cases. The Q following lines, each line contains two integers n, k.
+  - INPUT : First line contains an integer Q denotes the number of test cases. The Q following lines, each line contains two integers n, k.
 
-OUTPUT : For each test case, if there isn't a such scenario, output -1.otherwise print n lines, each line contains n characters. j-th character in i-th line is "1" if i-th participant wins j-th participant, otherwise "0". (i-th character in i-th line is always "0")
-Constraints :
+-OUTPUT : For each test case, if there isn't a such scenario, output -1.otherwise print n lines, each line contains n characters. j-th character in i-th line is "1" if i-th participant wins j-th participant, otherwise "0". (i-th character in i-th line is always "0")
+-Constraints :
 1 ≤ T ≤ 100
 1 ≤ n ≤ 103
 The sum of n over all test cases is at most 104
 1 ≤ k ≤ 109
  
-Subtasks:
+-Subtasks:
 Subtask #1 (10 points): n ≤ 5
 Subtask #2 (30 points): n ≤ 50
 Subtask #3 (60 points): original constrains
 
    
    ### Sample Input and output
-   ```
-   Input: time = 22   
-   Output: counter value = 24
-   ```
+
    ```
    Input: 3
 2 1
