@@ -20,6 +20,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 6 - Save The Templars**](#december-6---save-the-templars)
   - [**December 7 - Amy helps Pawnee**](#december-7---amy-helps-pawnee)
   - [**December 8 - Anomalous Counter**](#december-8---anomalous-counter)
+  - [**December 9 - Dream 11**](#december-9---dream-11)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -291,6 +292,37 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    ```   
 
 ---
+### December 9 - Dream 11
+
+   #### Problem Statement
+   - As a Cricket coach, you have to pick `P` understudies to address your school. There are `N` understudies. 
+   - The `i`th understudy has an aptitude rating, which is a positive number indicating how gifted they are. Right away, it likely will not be possible to pick a sensible gathering, so you will give a piece of the understudies one-on-one educating. 
+   - It requires one hour of preparing to extend the ability rating of any understudy by 1. The resistance season is starting very soon, so you'd like to notice the base number of extensive stretches of guidance you need to give before you can pick a sensible gathering.
+   - Output the base number of long periods of instruction required, before you can pick a reasonable group of `P` understudies.
+
+   <p align="center"><img src ="https://media.giphy.com/media/kBf6l8fkDWiWfDhdNu/giphy.gif" height = "300"/></p> 
+ 
+   ### Sample Input and output
+
+   ```
+   N = 4, P =3   
+   N = [3, 1, 9, 100]
+   
+   Base number of periods required = 14
+   ```
+   ```
+   N = 6, P = 2
+   N = [5, 5, 1, 2, 3, 4]
+   
+   Base number of periods required = 0
+   ```
+   ```
+   N = 5, P = 5
+   N = [7, 7, 1, 7, 7]
+   
+   Base number of periods required = 6
+   ```     
+---
 ## Maintainers
 
 <table>
@@ -304,6 +336,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <th><a href="https://github.com/Madhumita2002">Madhumita R</a></th>
             <th><a href="https://github.com/Poujhit">Poujhit MU</a></th>
             <th><a href="https://github.com/SahariKrithik">Sahari Krithik</a></th>
+            <th><a href="https://github.com/Cipher-unhsiV">Vishnuvasan</a></th>
         </tr>
     </thead>
     <tbody>
@@ -316,9 +349,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <td align="center"><a href="https://github.com/Madhumita2002"><img width="100" src="https://avatars.githubusercontent.com/Madhumita2002" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Poujhit"><img width="100" src="https://avatars.githubusercontent.com/Poujhit" alt="f"></a></td>
             <td align="center"><a href="https://github.com/SahariKrithik"><img width="100" src="https://avatars.githubusercontent.com/u/54771183" alt="f"></a></td>            
+            <td align="center"><a href="https://github.com/Cipher-unhsiV"><img width="100" src="https://avatars.githubusercontent.com/u/64918181?v=4" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
