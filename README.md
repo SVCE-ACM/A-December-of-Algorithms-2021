@@ -20,7 +20,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 6 - Save The Templars**](#december-6---save-the-templars)
   - [**December 7 - Amy helps Pawnee**](#december-7---amy-helps-pawnee)
   - [**December 8 - Anomalous Counter**](#december-8---anomalous-counter)
-  - [**December 9 - Archery with Deepika Kumari**](#december-9---archery-with-deepika-kumari)
+  - [**December 9 - Dream 11**](#december-9---dream-11)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -292,11 +292,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    ```   
 
 ---
-### December 9 - Archery with Deepika Kumari
+### December 9 - Dream 11
 
    #### Problem Statement
    - As a Cricket coach, you have to pick `P` understudies to address your school. There are `N` understudies. 
-   - The `i`th understudy has an aptitude rating `S`, which is a positive number indicating how gifted they are. Right away, it likely will not be possible to pick a sensible gathering, so you will give a piece of the understudies one-on-one educating. 
+   - The `i`th understudy has an aptitude rating, which is a positive number indicating how gifted they are. Right away, it likely will not be possible to pick a sensible gathering, so you will give a piece of the understudies one-on-one educating. 
    - It requires one hour of preparing to extend the ability rating of any understudy by 1. The resistance season is starting very soon, so you'd like to notice the base number of extensive stretches of guidance you need to give before you can pick a sensible gathering.
    - Output the base number of long periods of instruction required, before you can pick a reasonable group of `P` understudies.
 
