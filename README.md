@@ -294,49 +294,34 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ---
 ### December 9 - Archery with Deepika Kumari
 
-
    #### Problem Statement
-   - Deepika Kumari is participating in the Commonwealth Games for Archery where there are M participants in total, as per the rules of the game, each pair of participants             compete against each other once. 
-   - If the participant wins, he/she is awarded one score point and if a participant loses, he/she is awarded zero score point, likewise the probability of draw in the game is zero.  
-   - After all the rounds of games, The Commonwealth Games has decided to distribute the award to all the archers and the award is calculated as the square of his/her score.
-   - Calculate the possible budget the Host of the Commonwealth Games will reward for all the archers, given cash value as Z, evaluate if there is at least one case wherein the total cash the Hosts will reward is exactly Z? If any, output one of them.
+   - As a Cricket coach, you have to pick `P` understudies to address your school. There are `N` understudies. 
+   - The `i`th understudy has an aptitude rating `S`, which is a positive number indicating how gifted they are. Right away, it likely will not be possible to pick a sensible gathering, so you will give a piece of the understudies one-on-one educating. 
+   - It requires one hour of preparing to extend the ability rating of any understudy by 1. The resistance season is starting very soon, so you'd like to notice the base number of extensive stretches of guidance you need to give before you can pick a sensible gathering.
+   - Output the base number of long periods of instruction required, before you can pick a reasonable group of `P` understudies.
 
-
-   <p align="center"><img src ="https://media0.giphy.com/media/QFypAZbq5lz3i/200.gif" /></p> 
-INPUT : First line contains an integer Q denotes the number of test cases. The Q following lines, each line contains two integers n, k.
-
-OUTPUT : For each test case, if there isn't a such scenario, output -1.otherwise print n lines, each line contains n characters. j-th character in i-th line is "1" if i-th participant wins j-th participant, otherwise "0". (i-th character in i-th line is always "0")
-Constraints :
-1 ≤ T ≤ 100
-1 ≤ n ≤ 103
-The sum of n over all test cases is at most 104
-1 ≤ k ≤ 109
+   <p align="center"><img src ="https://media.giphy.com/media/kBf6l8fkDWiWfDhdNu/giphy.gif" height = "300"/></p> 
  
--Subtasks:
-Subtask #1 (10 points): n ≤ 5
-Subtask #2 (30 points): n ≤ 50
-Subtask #3 (60 points): original constrains
-
-   
    ### Sample Input and output
 
    ```
-   Input: 3
-2 1
-3 6
-4 10
-
-   Output: counter value = 01
-00
--1
-0100
-0011
-1001
-1000
-
+   N = 4, P =3   
+   N = [3, 1, 9, 100]
+   
+   Base number of periods required = 14
    ```
-  
-
+   ```
+   N = 6, P = 2
+   N = [5, 5, 1, 2, 3, 4]
+   
+   Base number of periods required = 0
+   ```
+   ```
+   N = 5, P = 5
+   N = [7, 7, 1, 7, 7]
+   
+   Base number of periods required = 6
+   ```     
 ---
 ## Maintainers
 
