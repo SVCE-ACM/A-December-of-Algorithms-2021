@@ -327,7 +327,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### December 10 - Juicy Orange Field
 
    #### Problem Statement
-   - You are in a field of juicy oranges that is like a grid of size n x n. You plan to collect most of the oranges in the field before the storm comes. Each cell can be any one of the following:
+   - You are in a field of juicy oranges that is like a grid of size `n x n`. You plan to collect most of the oranges in the field before the storm comes. Each cell can be any one of the following:
         - A cell can be empty (represented by 0), so you can pass through the cell.
         - A cell that contains the orange trees where you can pick up the oranges and pass through to the next cell. (represented by 1)
         - A cell covered with prickles and thorns that blocks your way to the next cell (represented by -1).
