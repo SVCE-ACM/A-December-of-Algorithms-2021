@@ -22,6 +22,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 8 - Anomalous Counter**](#december-8---anomalous-counter)
   - [**December 9 - Dream 11**](#december-9---dream-11)
   - [**December 10 - Juicy Orange Field**](#december-10---juicy-orange-field)
+  - [**December 11 - Maze Festival**](#december-10---maze-festival)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -408,7 +409,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
   ### Explanation
    ```
-  First line of the input contains the number of test cases T. It is followed by T test cases. Each test case's first line contains two integers N and m , where N is the number of magic spots stations from 1 to N and m is the number of pathways which connect the spots. Follows m lines each containing three numbers p , q and d which represent spots having name p connects station q and distance between them is d . After that a line follows with number A , B , C , where A represents the name of the start spot , C the destination spot and B is the spot through which the participant decides to go.For each test case , If there exists no paths as described in the problem print "No Path Found." otherwise in the first line print the total distance and in the second line path to be covered.
+  - First line of the input contains the number of test cases T.
+    It is followed by T test cases. Each test case's first line contains two integers N and m , where N is the number 
+    of magic spots from 1 to N and m is the number of pathways which connect the spots.
+  - Follows m lines each containing three numbers p , q and d which represent spots having name p
+    connects q and distance between them is d. After that a line follows with number A , B , C , where A 
+    represents the name of the start spot , C the destination spot and B is the spot through which the participant decides to go.
+  - For each test case , If there exists no paths as described in the problem print "No Path Found.",
+    otherwise in the first line print the total distance and in the second line path to be covered.
 
    ```   
 ---
