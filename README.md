@@ -21,6 +21,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 7 - Amy helps Pawnee**](#december-7---amy-helps-pawnee)
   - [**December 8 - Anomalous Counter**](#december-8---anomalous-counter)
   - [**December 9 - Dream 11**](#december-9---dream-11)
+  - [**December 11 - Juicy Orange Field**](#december-11---juicy-orange-field)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -336,7 +337,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         - When passing through a cell containing oranges, you pick it up, and the cell becomes an empty cell.
         - If there is no valid path between the first and last cell, then no oranges can be collected.
   
-   <p align="center"><img src ="https://media.giphy.com/media/dV1xaBDUu1IG4IMLpy/giphy.gif" height = "300"/></p> 
+   <p align="center"><img src ="/src/assets/orangefield.gif" height = "300"/></p> 
  
    ### Sample Input and output
 
