@@ -323,6 +323,39 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    Base number of periods required = 6
    ```     
 ---
+### December 11 - Juicy Orange Field
+
+   #### Problem Statement
+   - You are in a field of juicy oranges that is like a grid of size n x n. You plan to collect most of the oranges in the field before the storm comes. Each cell can be any one of the following:-
+        - A cell can be empty (represented by 0), so you can pass through the cell.
+        - A cell that contains the orange trees where you can pick up the oranges and pass through to the next cell. (represented by 1)
+        - A cell covered with prickles and thorns that blocks your way to the next cell (represented by -1).
+   - As it’s a big field you have to follow certain rules to find the maximum number of oranges you can collect before the storm hits:-
+        - You begin at the first cell and you have to reach the last cell by moving right or down through valid cells (cells that do not contain prickles and thorns).
+        - After reaching the last cell, you have to return to the first cell by moving left or up through valid cells.
+        - When passing through a cell containing oranges, you pick it up, and the cell becomes an empty cell.
+        - If there is no valid path between the first and last cell, then no oranges can be collected.
+  
+   <p align="center"><img src ="https://media.giphy.com/media/dV1xaBDUu1IG4IMLpy/giphy.gif" height = "300"/></p> 
+ 
+   ### Sample Input and output
+
+   ```
+   Input: field = [[0,1,-1],[1,0,-1],[1,1,1]]
+   Output: 5
+   ```
+  
+  ### Explanation
+   ```
+   Input: field = [[0,1,-1],[1,0,-1],[1,1,1]]
+   Output: 5
+   
+   You started at (0, 0) and went down, down, right right to reach (2, 2).
+   4 oranges were picked up during this single trip, and the matrix becomes [[0,1,-1],[0,0,-1],[0,0,0]].
+   Then, the player went left, up, up, left to return home, picking up one more orange.
+   The total number of oranges picked up is 5, and this is the maximum possible.
+   ```   
+---
 ## Maintainers
 
 <table>
