@@ -355,7 +355,103 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    4 oranges were picked up during this single trip, and the matrix becomes [[0,1,-1],[0,0,-1],[0,0,0]].
    Then, the player went left, up, up, left to return home, picking up one more orange.
    The total number of oranges picked up is 5, and this is the maximum possible.
+   ```      
+---
+### December 11 - Maze Festival
+
+   #### Problem Statement
+   - On the occasion of Halloween, a grand corn maze puzzle has been set up in the fields of **Hubb’s farm, New York**. There are several mystery boxes hidden at each magic spot. 
+   - Assume that there are `N` magic spots from `1` to `N` in the entire field.
+   - Given the points to the spots `P` and `Q` and the distance between them `D` and also a participant who choses the starting spot `A`, the path chosen to reach the final spot `B` and the final magic spot `C`.
+   - Identify whether the participant can reach the destination spot or not.   
+   - If yes print the minimum distance(shortest path) covered and the path taken by the participant to reach the final magic spot. Else print **"NO PATH FOUND”**.
+  
+   - Note: If a pathway connects `A` to `B` with distance `D` then it means that it will connect from `B` to `A` with the same distance `D`.
+      <p align="center"><img src ="/src/assets/corn-maze.gif" height = "300"/></p> 
+
+   ### Sample Input and output
+
+   ```
+    Input:    
+    N = 6
+    
+    P Q D
+    1 2 2
+    2 5 5
+    2 3 4
+    1 4 1
+    4 3 3
+    3 5 1
+    
+    A = 1, B = 3, C = 6
+    
+    Output: No path found
+   ```
+   ```
+    N = 10
+    
+    P Q D
+    1 5 78
+    1 8 221
+    2 7 92
+    2 8 159
+    3 5 55
+    3 6 179
+    3 10 237
+    4 8 205
+    5 6 191
+    8 10 157
+    
+    A = 6, B = 3, C = 2 
+
+    Output: Shortest path = 692
+           Path taken = 6 3 5 1 8 2
+   ```
+  ### Explanation
+   ```
+    Input:
+    N = 10
+     
+    P Q D
+    1 5 78
+    1 8 221
+    2 7 92
+    2 8 159
+    3 5 55
+    3 6 179
+    3 10 237
+    4 8 205
+    5 6 191
+    8 10 157
+    
+    A = 6, B = 3, C = 2
+    Output: Shortest path = 692
+            Path taken = 6 3 5 1 8 2
+            
+  - In the 2nd test case there are 10 magic spots and 10 number of pathways which connects the spots.
+    The next 10 lines of input contains 3 numbers representing the names of start spot,
+    and destination spot, distance between them 
+    for example, for the first magic spot
+     - starting spot is 1
+     - passing through spot is 5 
+     - distance between 1 and 5 is 78
+                                        1
+                                      /  \    
+                                4 - 8     6 - 5   
+                                   / \     \ /
+                                  2   10  -  3     
+                                 /            
+                                7
+  - For the user's input 6, 3, 2 representing starting, passing through,destination spots respectively there exits 
+  a shortest path to reach spot 2 from spot 6 passing through spot 3.
+  - The minimum distance travelled is 692
+  - Path followed is 6->3->5->1->8->2             
    ```   
+   
+   #### Resources
+  - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+  - [DFS traversal](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
+  - [BFS traversal](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 ---
 ## Maintainers
 
