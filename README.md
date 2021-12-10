@@ -358,24 +358,25 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    The total number of oranges picked up is 5, and this is the maximum possible.
    ```   
 ---
----
+
 ### December 11 - Maze Festival
 
    #### Problem Statement
-   - On the occasion of Halloween,a grand corn maze puzzle has been set up in the fields of Hubb’s farm,New York.There are several  mystery boxes hidden at each magic spot 
-     Assume that there are N magic spots from 1 to N in the entire field.
-   - At the beginning of each round the participants will be given the name of the magic spot to be reached.Given a participant who choses A,B,C the starting spot ,the path     chosen to reach the final spot and the final magic spot respectively.Identify whether the participant can reach the destination spot or not.If yes print the distance covered and the path taken by the participant to reach the final magic spot.Else print “NO PATH FOUND”.
+   - On the occasion of Halloween, a grand corn maze puzzle has been set up in the fields of **Hubb’s farm, New York**. There are several mystery boxes hidden at each magic spot. 
+   - Assume that there are `N` magic spots from `1` to `N` in the entire field.
+   - Given the points to the spots `p`, `q`, `d` and the distance between them `d` and also a participant who choses `A, B, C` the starting spot ,the path chosen to reach the final spot and the final magic spot respectively. 
+   - Identify whether the participant can reach the destination spot or not.   
+   - If yes print the distance covered and the path taken by the participant to reach the final magic spot. Else print **"NO PATH FOUND”**.
   
-   - Note: If a pathway connects A to B with distance d  then it means that it will connect from B to A with the same distance d.
+   - Note: If a pathway connects `A` to `B` with distance `d` then it means that it will connect from `B` to `A` with the same distance `d`.
       <p align="center"><img src ="/src/assets/corn-maze.gif" height = "300"/></p> 
 
    ### Sample Input and output
 
    ```
-   Input:
-    T=2
-
-    N=6,m=6
+   Input:    
+    N=6, m=6
+    
     p q d
     1 2 2
     2 5 5
@@ -383,7 +384,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     1 4 1
     4 3 3
     3 5 1
-    A=1,B=3,C=6
+    A=1, B=3, C=6
 
     N=10,m=10
     p q d
@@ -409,11 +410,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
   ### Explanation
    ```
-  - First line of the input contains the number of test cases T.
-    It is followed by T test cases. Each test case's first line contains two integers N and m , where N is the number 
+  - Each test case's first line contains two integers N and m , where N is the number 
     of magic spots from 1 to N and m is the number of pathways which connect the spots.
-  - Follows m lines each containing three numbers p , q and d which represent spots having name p
-    connects q and distance between them is d. After that a line follows with number A , B , C , where A 
+  - Follows m lines each containing three numbers . After that a line follows with number A , B , C , where A 
     represents the name of the start spot , C the destination spot and B is the spot through which the participant decides to go.
   - For each test case , If there exists no paths as described in the problem print "No Path Found.",
     otherwise in the first line print the total distance and in the second line path to be covered.
