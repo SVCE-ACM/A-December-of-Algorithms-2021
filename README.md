@@ -435,7 +435,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      - passing through spot is 5 
      - distance between 1 and 5 is 78
                                         1
-                                      / |  \    
+                                      /   \    
                                 4 - 8    6 - 5   
                                    / \    \  /
                                   2   10 - 3     
