@@ -21,8 +21,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 7 - Amy helps Pawnee**](#december-7---amy-helps-pawnee)
   - [**December 8 - Anomalous Counter**](#december-8---anomalous-counter)
   - [**December 9 - Dream 11**](#december-9---dream-11)
-  - [**December 10 - Juicy Orange Field**](#december-10---juicy-orange-field)
-  - [**December 11 - Maze Festival**](#december-11---maze-festival)
+  - [**December 10 - Juicy Orange Field**](#december-10---juicy-orange-field)  
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
