@@ -375,7 +375,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
    ```
    Input:    
-    N=6, m=6
+    N=6
     
     p q d
     1 2 2
@@ -384,9 +384,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     1 4 1
     4 3 3
     3 5 1
+    
     A=1, B=3, C=6
-
-    N=10,m=10
+    
+    Output: No path found
+   ```
+   ```
+    N=10
+    
     p q d
     1 5 78
     1 8 221
@@ -398,20 +403,17 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     4 8 205
     5 6 191
     8 10 157
+    
     A=6,B=3,C= 2
 
-   Output: 
-   No path found.
-   
-   692
-   6 3 5 1 8 2
-
+   Output: Shortest path = 692
+           Path taken = 6 3 5 1 8 2
    ```
-  
   ### Explanation
    ```
     Input:
-    N=10,m=10
+    N=10
+    
     p q d
     1 5 78
     1 8 221
@@ -423,10 +425,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     4 8 205
     5 6 191
     8 10 157
+    
     A=6,B=3,C=2
-    Output:
-    692
-    6 3 5 1 8 2
+    Output: Shortest path = 692
+            Path taken = 6 3 5 1 8 2
+            
   - In the 2nd test case there are 10 magic spots and 10 number of pathways which connects the spots.
     The next 10 lines of input contains 3 numbers representing the names of start spot,
     and destination spot, distance between them 
@@ -444,8 +447,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - For the user's input 6,3,2 representing starting, passing through,destination spots respectively there exits 
   a shortest path to reach spot 2 from spot 6 passing through spot 3.
   - The minimum distance travelled is 692
-  - Path followed is 6->3->5->1->8->2
-             
+  - Path followed is 6->3->5->1->8->2             
    ```   
 ---
 ## Maintainers
