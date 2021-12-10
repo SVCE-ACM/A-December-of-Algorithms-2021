@@ -449,6 +449,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - The minimum distance travelled is 692
   - Path followed is 6->3->5->1->8->2             
    ```   
+   
+   #### Resources
+  - [Graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+  - [DFS traversal](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
+  - [BFS traversal](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 ---
 ## Maintainers
 
