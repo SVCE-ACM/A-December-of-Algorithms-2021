@@ -404,7 +404,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     5 6 191
     8 10 157
     
-    A = 6,B = 3,C = 2 
+    A = 6, B = 3, C = 2 
 
    Output: Shortest path = 692
            Path taken = 6 3 5 1 8 2
@@ -426,7 +426,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     5 6 191
     8 10 157
     
-    A = 6,B = 3,C = 2
+    A = 6, B = 3, C = 2
     Output: Shortest path = 692
             Path taken = 6 3 5 1 8 2
             
