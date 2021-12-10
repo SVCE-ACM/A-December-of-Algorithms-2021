@@ -435,10 +435,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      - passing through spot is 5 
      - distance between 1 and 5 is 78
                                         1
-                                      /   \    
-                                4 - 8    6 - 5   
-                                   / \    \  /
-                                  2   10 - 3     
+                                      /  \    
+                                4 - 8     6 - 5   
+                                   / \     \ /
+                                  2   10  -  3     
                                  /            
                                 7
   - For the user's input 6,3,2 representing starting, passing through,destination spots respectively there exits 
