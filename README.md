@@ -368,14 +368,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - Identify whether the participant can reach the destination spot or not.   
    - If yes print the minimum distance(shortest path) covered and the path taken by the participant to reach the final magic spot. Else print **"NO PATH FOUND”**.
   
-   - Note: If a pathway connects `A` to `B` with distance `d` then it means that it will connect from `B` to `A` with the same distance `d`.
+   - Note: If a pathway connects `A` to `B` with distance `D` then it means that it will connect from `B` to `A` with the same distance `D`.
       <p align="center"><img src ="/src/assets/corn-maze.gif" height = "300"/></p> 
 
    ### Sample Input and output
 
    ```
    Input:    
-    N=6
+    N = 6
     
     P Q D
     1 2 2
@@ -385,12 +385,12 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     4 3 3
     3 5 1
     
-    A=1, B=3, C=6
+    A = 1, B = 3, C = 6
     
     Output: No path found
    ```
    ```
-    N=10
+    N = 10
     
     P Q D
     1 5 78
@@ -404,7 +404,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     5 6 191
     8 10 157
     
-    A=6,B=3,C= 2
+    A = 6,B = 3,C = 2 
 
    Output: Shortest path = 692
            Path taken = 6 3 5 1 8 2
@@ -412,9 +412,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   ### Explanation
    ```
     Input:
-    N=10
-    
-    p q d
+    N = 10
+     
+    P Q D
     1 5 78
     1 8 221
     2 7 92
@@ -426,7 +426,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     5 6 191
     8 10 157
     
-    A=6,B=3,C=2
+    A = 6,B = 3,C = 2
     Output: Shortest path = 692
             Path taken = 6 3 5 1 8 2
             
@@ -444,7 +444,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
                                   2   10  -  3     
                                  /            
                                 7
-  - For the user's input 6,3,2 representing starting, passing through,destination spots respectively there exits 
+  - For the user's input 6, 3, 2 representing starting, passing through,destination spots respectively there exits 
   a shortest path to reach spot 2 from spot 6 passing through spot 3.
   - The minimum distance travelled is 692
   - Path followed is 6->3->5->1->8->2             
