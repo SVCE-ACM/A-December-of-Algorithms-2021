@@ -364,7 +364,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    #### Problem Statement
    - On the occasion of Halloween, a grand corn maze puzzle has been set up in the fields of **Hubb’s farm, New York**. There are several mystery boxes hidden at each magic spot. 
    - Assume that there are `N` magic spots from `1` to `N` in the entire field.
-   - Given the points to the spots `p`, `q`, `d` and the distance between them `d` and also a participant who choses `A, B, C` the starting spot ,the path chosen to reach the final spot and the final magic spot respectively. 
+   - Given the points to the spots `P` and `Q` and the distance between them `D` and also a participant who choses the starting spot `A`, the path chosen to reach the final spot `B` and the final magic spot `C`.
    - Identify whether the participant can reach the destination spot or not.   
    - If yes print the minimum distance(shortest path) covered and the path taken by the participant to reach the final magic spot. Else print **"NO PATH FOUND”**.
   
@@ -377,7 +377,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    Input:    
     N=6
     
-    p q d
+    P Q D
     1 2 2
     2 5 5
     2 3 4
@@ -392,7 +392,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    ```
     N=10
     
-    p q d
+    P Q D
     1 5 78
     1 8 221
     2 7 92
