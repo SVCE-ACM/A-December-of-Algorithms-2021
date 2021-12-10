@@ -366,7 +366,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - Assume that there are `N` magic spots from `1` to `N` in the entire field.
    - Given the points to the spots `p`, `q`, `d` and the distance between them `d` and also a participant who choses `A, B, C` the starting spot ,the path chosen to reach the final spot and the final magic spot respectively. 
    - Identify whether the participant can reach the destination spot or not.   
-   - If yes print the distance covered and the path taken by the participant to reach the final magic spot. Else print **"NO PATH FOUND”**.
+   - If yes print the minimum distance(shortest path) covered and the path taken by the participant to reach the final magic spot. Else print **"NO PATH FOUND”**.
   
    - Note: If a pathway connects `A` to `B` with distance `d` then it means that it will connect from `B` to `A` with the same distance `d`.
       <p align="center"><img src ="/src/assets/corn-maze.gif" height = "300"/></p> 
@@ -410,13 +410,42 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
   ### Explanation
    ```
-  - Each test case's first line contains two integers N and m , where N is the number 
-    of magic spots from 1 to N and m is the number of pathways which connect the spots.
-  - Follows m lines each containing three numbers . After that a line follows with number A , B , C , where A 
-    represents the name of the start spot , C the destination spot and B is the spot through which the participant decides to go.
-  - For each test case , If there exists no paths as described in the problem print "No Path Found.",
-    otherwise in the first line print the total distance and in the second line path to be covered.
-
+    Input:
+    N=10,m=10
+    p q d
+    1 5 78
+    1 8 221
+    2 7 92
+    2 8 159
+    3 5 55
+    3 6 179
+    3 10 237
+    4 8 205
+    5 6 191
+    8 10 157
+    A=6,B=3,C=2
+    Output:
+    692
+    6 3 5 1 8 2
+  - In the 2nd test case there are 10 magic spots and 10 number of pathways which connects the spots.
+    The next 10 lines of input contains 3 numbers representing the names of start spot,
+    and destination spot, distance between them 
+    for example, for the first magic spot
+     - starting spot is 1
+     - passing through spot is 5 
+     - distance between 1 and 5 is 78
+                                        1
+                                      / |  \    
+                                4 - 8    6 - 5   
+                                   / \    \  /
+                                  2   10 - 3     
+                                 /            
+                                7
+  - For the user's input 6,3,2 representing starting, passing through,destination spots respectively there exits 
+  a shortest path to reach spot 2 from spot 6 passing through spot 3.
+  - The minimum distance travelled is 632
+  - Path followed is 6->3->5->1->8->2
+             
    ```   
 ---
 ## Maintainers
