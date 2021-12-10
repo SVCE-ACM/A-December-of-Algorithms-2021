@@ -443,8 +443,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
                                   2   10  -  3     
                                  /            
                                 7
-  - For the user's input 6, 3, 2 representing starting, passing through,destination spots respectively there exits 
-  a shortest path to reach spot 2 from spot 6 passing through spot 3.
+  - For the user's input 6, 3, 2 representing starting, passing through,destination spots respectively there exits a shortest path to reach spot 2 from spot 6 passing through spot 3.
   - The minimum distance travelled is 692
   - Path followed is 6->3->5->1->8->2             
    ```   
