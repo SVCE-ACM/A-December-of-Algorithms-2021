@@ -23,6 +23,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 9 - Dream 11**](#december-9---dream-11)
   - [**December 10 - Juicy Orange Field**](#december-10---juicy-orange-field)  
   - [**December 11 - Maze Festival**](#december-11---maze-festival)
+  - [**December 12 - Ford vs Ferrari**](#december-12---ford-vs-ferrari)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -453,6 +454,41 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [DFS traversal](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
   - [BFS traversal](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 ---
+### December 12 - Ford vs Ferrari
+
+  ### Problem Statement
+  - Two friends Carroll Shelby and Ken Miles are playing a game where they arrange all the toy cars in a row and run them in random directions. 
+  - Each car has a certain superiority level associated with it and both max and sergio are aware of the superiority levels. They want to know the state of cars once they move       them.
+  - We are given an array `cars` of integers representing cars in a row. For each car, the absolute value represents its superiority, and the sign represents its direction (positive meaning right, negative meaning left). 
+  - Each car moves at the same speed. Find out the state of the cars after all collisions. 
+  - If two cars meet, the less superior one will break. If both are of the same superiority, both will break. Two cars moving in the same direction will never meet.
+     <p align="center"><img src ="https://media1.giphy.com/media/mNT2zQTgAEY5q/giphy.gif?cid=ecf05e4743w1a4914iot1yt8hkqfk8cvsosad4uhxe4uzgtz&rid=giphy.gif&ct=g" height =             "300"/></p> 
+  
+  ### Sample Input and Output
+  
+   ```
+   Input: cars = [4,8,-2]
+   Output: [4,8]
+   ```
+   ```
+   Input: cars = [5,-5]
+   Output: []    
+   ```
+   ```
+   Input: cars = [10,2,-5]
+   Output: [10]    
+   ``` 
+    
+  ### Explanation
+   ```
+    Input: cars = [4,8,-2]
+    Output: [4,8]
+    
+    - The car with superiority level 8 and -2 collide resulting in car with superiority level 8. 
+    - The cars 4 and 8 never collide because they are moving in the same direction.        
+    - Therefore, the ouptut is [4,8]    
+   ```
+---    
 ## Maintainers
 
 <table>
