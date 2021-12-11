@@ -488,7 +488,17 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - The cars 4 and 8 never collide because they are moving in the same direction.        
     - Therefore, the ouptut is [4,8]    
    ```
+<details>
+    <summary>
+        <strong>Resources (Spoiler)</strong>
+    </summary>
+    <ul>
+        <li><a href="https://www.geeksforgeeks.org/stack-data-structure/">Stack</a></li>        
+    </ul>
+</details>
+
 ---    
+
 ## Maintainers
 
 <table>
