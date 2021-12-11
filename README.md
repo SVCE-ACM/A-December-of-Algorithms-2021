@@ -467,16 +467,16 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   ### Sample Input and Output
   
    ```
-   Input:cars=[4,8,-2]
-   Output:[4,8]
+   Input: cars = [4,8,-2]
+   Output: [4,8]
    ```
    ```
-   Input:cars=[5,-5]
+   Input: cars = [5,-5]
    Output: []    
    ```
    ```
-   Input:cars=[10,2,-5]
-   Output:[10]    
+   Input: cars = [10,2,-5]
+   Output: [10]    
    ``` 
     
   ### Explanation
