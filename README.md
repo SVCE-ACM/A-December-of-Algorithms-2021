@@ -23,6 +23,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 9 - Dream 11**](#december-9---dream-11)
   - [**December 10 - Juicy Orange Field**](#december-10---juicy-orange-field)  
   - [**December 11 - Maze Festival**](#december-11---maze-festival)
+  - [**December 12 - Ford vs Ferrari**](#december-12---ford-vs-ferrari)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -488,7 +489,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     Input: cars = [4,8,-2]
     Output: [4,8]
     
-    The car with superiority level 8 and -2 collide resulting in car with superiority level 8. The cars 4 and 8 never collide because they are moving in the same direction.         Therefore, the ouptut is [4,8]
+   -The car with superiority level 8 and -2 collide resulting in car with superiority level 8. 
+   -The cars 4 and 8 never collide because they are moving in the same direction.        
+   -Therefore, the ouptut is [4,8]
     
     ```
 ```
