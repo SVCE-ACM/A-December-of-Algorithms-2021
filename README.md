@@ -24,6 +24,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 10 - Juicy Orange Field**](#december-10---juicy-orange-field)  
   - [**December 11 - Maze Festival**](#december-11---maze-festival)
   - [**December 12 - Ford vs Ferrari**](#december-12---ford-vs-ferrari)
+  - [**December 14 - The Math Test**](#december-14---the-math-test)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -502,16 +503,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    
    #### Problem Statement
   - Amy has her Math exam tomorrow and she has not prepared for it. 
-  - There are n chapters in her book and i th chapter has chapter [ i ] concepts. She has x hours to prepare for the exam. She decides that she can study y number of concepts from the chapters in each hour. 
-  - If a chapter has less than y concepts, then she will cover all the concepts of that chapter and take a break for the rest of the hour.
-  - Return a minimum integer y such that she covers all the chapters of her Math book within x hours.
-  
-        
-   #### Rules:
-   
-   - 1<=chapter.length<=10^4 
-   - chapter.length <=x<=10^9
-   - 1<=chapter[i] <=10^9
+  - There are `n` chapters in her book and `i`th chapter has chapter [ i ] concepts. She has `x` hours to prepare for the exam. She decides that she can study `y` number of concepts from the chapters in each hour. 
+  - If a chapter has less than `y` concepts, then she will cover all the concepts of that chapter and take a break for the rest of the hour.
+  - Return a minimum integer `y` such that she covers all the chapters of her Math book within `x` hours.                 
         
    #### Sample Input/Output
    ```
@@ -527,8 +521,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    ```
    She can study 4 concepts from her chapters per hour such that, she can cover all the concepts from the chapters within 8 hours.
    ```   
-   
-
+---
 
 ## Maintainers
 
