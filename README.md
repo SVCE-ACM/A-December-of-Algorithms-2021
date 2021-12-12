@@ -505,7 +505,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Amy has her Math exam tomorrow and she has not prepared for it. 
   - There are `n` chapters in her book and `i`th chapter has chapter `i` concepts. She has `x` hours to prepare for the exam. She decides that she can study `y` number of concepts from the chapters in each hour. 
   - If a chapter has less than `y` concepts, then she will cover all the concepts of that chapter and take a break for the rest of the hour.
-  - Return a minimum integer `y` such that she covers all the chapters of her Math book within `x` hours.                 
+  - Return a minimum integer `y` such that she covers all the chapters of her Math book within `x` hours.         
+   <p align="center"><img src ="https://media3.giphy.com/media/JRPftUYuIRw3axuh5y/giphy-downsized-large.gif" height ="300"/></p>         
         
    #### Sample Input/Output
    ```
