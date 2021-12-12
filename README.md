@@ -508,12 +508,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Return a minimum integer `y` such that she covers all the chapters of her Math book within `x` hours.         
    <p align="center"><img src ="https://media3.giphy.com/media/JRPftUYuIRw3axuh5y/giphy-downsized-large.gif" height ="300"/></p>     
    
-   #### Rules
-   ```
-   - 1<=chapter.length<=10^4
-   - chapter.length<=x<=10^9
-   - 1<=chapter[i]<=10^9      
-   ```
+   #### Rules:
+  - 1<=chapter.length<=10^4 
+  - chapter.length<=x<=10^9
+  - 1<=chapter[i]<=10^9
    
    #### Sample Input/Output
    ```
@@ -540,11 +538,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Return the least number of bracelets that can be made in a day for them to be delivered in n days.      
    <p align="center"><img src ="https://media3.giphy.com/media/3ohhwsUruCzuLhvjuU/giphy.gif" height ="300"/></p>   
    
-   #### Rules
-   ```
-   - 1<=n<=noofbracelets.length<=5x10^4
-   - 1<= noofbracelets[i]<=500     
-   ```
+   #### Rules:
+  - 1<=n<=noofbracelets.length<=5x10^4 
+  - 1<=noofbracelets[i]<=500
+
         
    #### Sample Input/Output
    ```
