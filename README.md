@@ -507,7 +507,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         - If a chapter has less than y concepts, then she will cover all the concepts of that chapter and take a break for the rest of the hour.
         - Return a minimum integer y such that she covers all the chapters of her Math book within x hours.
         
-        <p align="center"><img src="https://media3.giphy.com/media/JRPftUYuIRw3axuh5y/giphy-downsized-large.gif" /></p>    
+ 
         
    ### Rules:
    
