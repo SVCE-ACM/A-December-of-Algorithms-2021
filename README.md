@@ -511,9 +511,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    #### Rules
    ```
    - 1<=chapter.length<=10^4
-   - chapter.length <=x<=10^9
-   - 1<=chapter[i] <=10^9      
+   - chapter.length<=x<=10^9
+   - 1<=chapter[i]<=10^9      
    ```
+   
    #### Sample Input/Output
    ```
    Input: chapter = [3,6,7,11] , x = 8
@@ -537,7 +538,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - The i th customer has ordered noofbracelets[i].
   - She prepares the bracelets according to the order in which she received the bookings. She schedules a maximum number of bracelets to be made and delivered in a day, such that she has sufficient time to manage her college work. 
   - Return the least number of bracelets that can be made in a day for them to be delivered in n days.      
-   <p align="center"><img src ="https://media3.giphy.com/media/3ohhwsUruCzuLhvjuU/giphy.gif" height ="300"/></p>         
+   <p align="center"><img src ="https://media3.giphy.com/media/3ohhwsUruCzuLhvjuU/giphy.gif" height ="300"/></p>   
+   
+   #### Rules
+   ```
+   - 1<=n<=noofbracelets.length<=5x10^4
+   - 1<= noofbracelets[i]<=500     
+   ```
         
    #### Sample Input/Output
    ```
