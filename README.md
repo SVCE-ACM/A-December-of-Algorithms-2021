@@ -506,8 +506,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - There are `n` chapters in her book and `i`th chapter has chapter `i` concepts. She has `x` hours to prepare for the exam. She decides that she can study `y` number of concepts from the chapters in each hour. 
   - If a chapter has less than `y` concepts, then she will cover all the concepts of that chapter and take a break for the rest of the hour.
   - Return a minimum integer `y` such that she covers all the chapters of her Math book within `x` hours.         
-   <p align="center"><img src ="https://media3.giphy.com/media/JRPftUYuIRw3axuh5y/giphy-downsized-large.gif" height ="300"/></p>         
-        
+   <p align="center"><img src ="https://media3.giphy.com/media/JRPftUYuIRw3axuh5y/giphy-downsized-large.gif" height ="300"/></p>     
+   
+   #### Rules
+   ```
+   - 1<=chapter.length<=10^4
+   - chapter.length <=x<=10^9
+   - 1<=chapter[i] <=10^9      
+   ```
    #### Sample Input/Output
    ```
    Input: chapter = [3,6,7,11] , x = 8
@@ -521,6 +527,36 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    #### Explanation
    ```
    She can study 4 concepts from her chapters per hour such that, she can cover all the concepts from the chapters within 8 hours.
+   ```   
+---
+### December 15 - Twinkling Bracelets
+   
+   #### Problem Statement
+  - Pinky is a college student who works for her mom’s online Bracelet store and sells amazing collections of bracelets on a daily basis.
+  - She takes a maximum number of n days for the bracelets to be delivered to the customers.
+  - The i th customer has ordered noofbracelets[i].
+  - She prepares the bracelets according to the order in which she received the bookings. She schedules a maximum number of bracelets to be made and delivered in a day, such that she has sufficient time to manage her college work. 
+  - Return the least number of bracelets that can be made in a day for them to be delivered in n days.      
+   <p align="center"><img src ="https://media3.giphy.com/media/3ohhwsUruCzuLhvjuU/giphy.gif" height ="300"/></p>         
+        
+   #### Sample Input/Output
+   ```
+   Input: noofbracelets =[3,2,2,4,1,4]  , n = 3
+   Output: 6
+   ```
+   ```
+   Input: noofbracelets =[1,2,3,1,1]  , n = 4
+   Output: 3
+   ```
+  
+   #### Explanation
+   ```
+   Pinky can make 6 bracelets and deliver them in a day such that she delivers all the orders within 3 days.
+
+   Day 1:  3,2
+   Day 2:  2,4
+   Day 3:  1,4
+
    ```   
 ---
 
