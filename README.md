@@ -512,38 +512,38 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    
    ### Sample Input/Output
     ```
-    Input:
-    z=3 x=3
-    k₀=5 r₀=110
-    k₁=9 r₁=500
-    k₂=20 r₂=400
-    m₀=10 n₀=100
-    m₁=2 n₁=200
-    m₂=30 n₂=300
-    Output:
+     Input:
+     z=3 x=3
+     k₀=5 r₀=110
+     k₁=9 r₁=500
+     k₂=20 r₂=400
+     m₀=10 n₀=100
+     m₁=2 n₁=200
+     m₂=30 n₂=300
+     Output:
      2
     ```
     ```
-    Input:
-    z=2 x=2
-    k₀=3 r₀=100
-    k₁=5 r₁=150
-    m₀=4 n₀=145
-    m₁=2 n₁=80
-    Output:
-    2
+     Input:
+     z=2 x=2
+     k₀=3 r₀=100
+     k₁=5 r₁=150
+     m₀=4 n₀=145
+     m₁=2 n₁=80
+     Output:
+     2
     ```
    ### Explanation
     ```
      In case 1:
-     -Client 0 will be interested in diamond 0 because it has more than k₀=5 units of purity and costs less than r₀=110 . Both of the other diamonds are outside of this client's       price range.
-     -Client 1 will be interested in diamonds 0 and 2 , as both these diamonds have more than k₁=9 units of purity and cost less than r₁=500 . They will not be interested in the      remaining diamonds because it's less pure.
-     -Client 2 will be interested in diamond 2 because it has more than k₂=20  units of purity and costs less than r₂=400 . They will not be interested in the other two                diamonds because they are less pure.
-     -All three clients are interested in the same two houses, so you can sell at most two houses in the following scenarios:
-     -Client 0 buys diamond 0 and client 1 buys diamond 2.
-     -Client 1 buys diamond 0 and client 2 buys diamond 2.
-     -Client 0 buys diamond 0 and client 2 buys diamond 2 .
-     -Thus, we print the maximum number of diamond you can sell,2, on a new line.
+     - Client 0 will be interested in diamond 0 because it has more than k₀=5 units of purity and costs less than r₀=110 . Both of the other diamonds are outside of this                client's price range.
+     - Client 1 will be interested in diamonds 0 and 2 , as both these diamonds have more than k₁=9 units of purity and cost less than r₁=500 . They will not be interested in          the remaining diamonds because it's less pure.
+     - Client 2 will be interested in diamond 2 because it has more than k₂=20  units of purity and costs less than r₂=400 . They will not be interested in the other two                diamonds because they are less pure.
+     - All three clients are interested in the same two houses, so you can sell at most two houses in the following scenarios:
+     - Client 0 buys diamond 0 and client 1 buys diamond 2.
+     - Client 1 buys diamond 0 and client 2 buys diamond 2.
+     - Client 0 buys diamond 0 and client 2 buys diamond 2 .
+     - Thus, we print the maximum number of diamond you can sell,2, on a new line.
    ```
 ```
 
