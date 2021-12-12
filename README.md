@@ -511,7 +511,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      <p align="center"><img src ="https://media4.giphy.com/media/xT5LMRMGxjCAX5LaGQ/giphy.gif?cid=ecf05e47d5prkcverwbbuqnkq3epxahaah7dwxk7j7y61u4v&rid=giphy.gif&ct=g"                 height ="300"/></p>     
    
    ### Sample Input/Output
-    ```
+     ```
      Input:
      z=3 x=3
      k₀=5 r₀=110
@@ -522,8 +522,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      m₂=30 n₂=300
      Output:
      2
-    ```
-    ```
+     ```
+     ```
      Input:
      z=2 x=2
      k₀=3 r₀=100
@@ -532,9 +532,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      m₁=2 n₁=80
      Output:
      2
-    ```
-   ### Explanation
-    ```
+     ```
+  ### Explanation
+     ```
      In case 1:
      - Client 0 will be interested in diamond 0 because it has more than k₀=5 units of purity and costs less than r₀=110 . Both of the other diamonds are outside of this                client's price range.
      - Client 1 will be interested in diamonds 0 and 2 , as both these diamonds have more than k₁=9 units of purity and cost less than r₁=500 . They will not be interested in          the remaining diamonds because it's less pure.
@@ -544,6 +544,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      - Client 1 buys diamond 0 and client 2 buys diamond 2.
      - Client 0 buys diamond 0 and client 2 buys diamond 2 .
      - Thus, we print the maximum number of diamond you can sell,2, on a new line.
+    
    ```
 ```
 
