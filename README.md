@@ -498,6 +498,39 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 </details>
 
 ---    
+### December 14 - The Math Test
+
+   #### Problem Statement
+        - Amy has her Math exam tomorrow and she has not prepared for it. 
+        - There are n chapters in her book and i th chapter has chapter[i] concepts.
+        - She has x hours to prepare for the exam. She decides that she can study y number of concepts from the chapters in each hour.
+        - If a chapter has less than y concepts, then she will cover all the concepts of that chapter and take a break for the rest of the hour.
+        - Return a minimum integer y such that she covers all the chapters of her Math book within x hours.
+        
+        <p align="center"><img src="https://media3.giphy.com/media/JRPftUYuIRw3axuh5y/giphy-downsized-large.gif" /></p>    
+        
+   ### Rules:
+   
+   - 1<=chapter.length<=10^4 
+   - chapter.length <=x<=10^9
+   - 1<=chapter[i] <=10^9
+        
+   #### Sample Input/Output
+   ```
+   Input: chapter = [3,6,7,11] , x = 8
+   Output: 4
+   ```
+   ```
+   Input: chapter = [30,11,23,4,20] , x = 5
+   Output: 30
+   ```
+  
+   #### Explanation
+   ```
+   She can study 4 concepts from her chapters per hour such that, she can cover all the concepts from the chapters within 8 hours.
+   ```   
+   
+
 
 ## Maintainers
 
