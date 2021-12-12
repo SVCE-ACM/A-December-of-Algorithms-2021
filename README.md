@@ -549,7 +549,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      - Client 1 buys diamond 0 and client 2 buys diamond 2.
      - Client 0 buys diamond 0 and client 2 buys diamond 2 .
      - Thus, we print the maximum number of diamond you can sell,2, on a new line.
-    
     ```
 ```     
 
