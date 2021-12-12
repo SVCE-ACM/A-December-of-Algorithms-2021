@@ -500,7 +500,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ---    
 ### December 14 - The Math Test
    
-   ### Problem Statement
+   #### Problem Statement
   - Amy has her Math exam tomorrow and she has not prepared for it. 
   - There are n chapters in her book and i th chapter has chapter [ i ] concepts. She has x hours to prepare for the exam. She decides that she can study y number of concepts from the chapters in each hour. 
   - If a chapter has less than y concepts, then she will cover all the concepts of that chapter and take a break for the rest of the hour.
