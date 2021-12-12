@@ -24,6 +24,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 10 - Juicy Orange Field**](#december-10---juicy-orange-field)  
   - [**December 11 - Maze Festival**](#december-11---maze-festival)
   - [**December 12 - Ford vs Ferrari**](#december-12---ford-vs-ferrari)
+  - [**December 13 - Desert Shopping**](#december-12---desert-shopping)
   - [**December 14 - The Math Test**](#december-14---the-math-test)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
@@ -489,6 +490,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - The cars 4 and 8 never collide because they are moving in the same direction.        
     - Therefore, the ouptut is [4,8]    
    ```
+   
 <details>
     <summary>
         <strong>Resources (Spoiler)</strong>
@@ -499,6 +501,54 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 </details>
 
 ---    
+
+### December 13- Desert Shopping 
+
+   #### Problem Statement 
+   -You are a diamond merchant in Dubai.You have x unsold diamonds, and each diamond p has a purity level mₚ,and a minimum price nₚ.
+   -You also have z clients, and each client j wants a diamond with a purity greater than kⱼ  and a price less than or equal to rⱼ.
+   -Each client can buy at most one diamond, and each diamond can have at most one buyer. What is the maximum number of diamonds you can sell?
+   <p align="center"><img src ="https://media4.giphy.com/media/xT5LMRMGxjCAX5LaGQ/giphy.gif?cid=ecf05e47d5prkcverwbbuqnkq3epxahaah7dwxk7j7y61u4v&rid=giphy.gif&ct=g"                 height ="300"/></p>     
+   
+   #### Sample Input/Output
+    ```
+    Input:
+    z=3 x=3
+    k₀=5 r₀=110
+    k₁=9 r₁=500
+    k₂=20 r₂=400
+    m₀=10 n₀=100
+    m₁=2 n₁=200
+    m₂=30 n₂=300
+    Output:
+     2
+    ```
+    ```
+    Input:
+    z=2 x=2
+    k₀=3 r₀=100
+    k₁=5 r₁=150
+    m₀=4 n₀=145
+    m₁=2 n₁=80
+    Output:
+    2
+    ```
+    ```
+   #### Explanation
+     ```
+   In case 1:
+  -Client 0 will be interested in diamond 0 because it has more than k₀=5 units of purity and costs less than r₀=110 . Both of the other diamonds are outside of this client's      price range.
+  -Client 1 will be interested in diamonds 0 and 2 , as both these diamonds have more than k₁=9 units of purity and cost less than r₁=500 . They will not be interested in the      remaining diamonds because it's less pure.
+  -Client 2 will be interested in diamond 2 because it has more than k₂=20  units of purity and costs less than r₂=400 . They will not be interested in the other two diamonds      because they are less pure.
+  -All three clients are interested in the same two houses, so you can sell at most two houses in the following scenarios:
+  -Client 0 buys diamond 0 and client 1 buys diamond 2.
+  -Client 1 buys diamond 0 and client 2 buys diamond 2.
+  -Client 0 buys diamond 0 and client 2 buys diamond 2 .
+  -Thus, we print the maximum number of diamond you can sell,2, on a new line.
+     ```
+   ```
+
+
 ### December 14 - The Math Test
    
    #### Problem Statement
