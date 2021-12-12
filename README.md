@@ -505,10 +505,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### December 13- Desert Shopping 
 
    ### Problem Statement 
-   -You are a diamond merchant in Dubai.You have x unsold diamonds, and each diamond p has a purity level mₚ,and a minimum price nₚ.
-   -You also have z clients, and each client j wants a diamond with a purity greater than kⱼ  and a price less than or equal to rⱼ.
-   -Each client can buy at most one diamond, and each diamond can have at most one buyer. What is the maximum number of diamonds you can sell?
-   <p align="center"><img src ="https://media4.giphy.com/media/xT5LMRMGxjCAX5LaGQ/giphy.gif?cid=ecf05e47d5prkcverwbbuqnkq3epxahaah7dwxk7j7y61u4v&rid=giphy.gif&ct=g"                 height ="300"/></p>     
+   - You are a diamond merchant in Dubai.You have x unsold diamonds, and each diamond p has a purity level mₚ,and a minimum price nₚ.
+   - You also have z clients, and each client j wants a diamond with a purity greater than kⱼ  and a price less than or equal to rⱼ.
+   - Each client can buy at most one diamond, and each diamond can have at most one buyer. What is the maximum number of diamonds you can sell?
+     <p align="center"><img src ="https://media4.giphy.com/media/xT5LMRMGxjCAX5LaGQ/giphy.gif?cid=ecf05e47d5prkcverwbbuqnkq3epxahaah7dwxk7j7y61u4v&rid=giphy.gif&ct=g"                 height ="300"/></p>     
    
    ### Sample Input/Output
     ```
@@ -533,20 +533,19 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     Output:
     2
     ```
-    ```
    ### Explanation
     ```
-   In case 1:
-  -Client 0 will be interested in diamond 0 because it has more than k₀=5 units of purity and costs less than r₀=110 . Both of the other diamonds are outside of this client's      price range.
-  -Client 1 will be interested in diamonds 0 and 2 , as both these diamonds have more than k₁=9 units of purity and cost less than r₁=500 . They will not be interested in the      remaining diamonds because it's less pure.
-  -Client 2 will be interested in diamond 2 because it has more than k₂=20  units of purity and costs less than r₂=400 . They will not be interested in the other two diamonds      because they are less pure.
-  -All three clients are interested in the same two houses, so you can sell at most two houses in the following scenarios:
-  -Client 0 buys diamond 0 and client 1 buys diamond 2.
-  -Client 1 buys diamond 0 and client 2 buys diamond 2.
-  -Client 0 buys diamond 0 and client 2 buys diamond 2 .
-  -Thus, we print the maximum number of diamond you can sell,2, on a new line.
-    ```
-    ```
+     In case 1:
+     -Client 0 will be interested in diamond 0 because it has more than k₀=5 units of purity and costs less than r₀=110 . Both of the other diamonds are outside of this client's       price range.
+     -Client 1 will be interested in diamonds 0 and 2 , as both these diamonds have more than k₁=9 units of purity and cost less than r₁=500 . They will not be interested in the      remaining diamonds because it's less pure.
+     -Client 2 will be interested in diamond 2 because it has more than k₂=20  units of purity and costs less than r₂=400 . They will not be interested in the other two                diamonds because they are less pure.
+     -All three clients are interested in the same two houses, so you can sell at most two houses in the following scenarios:
+     -Client 0 buys diamond 0 and client 1 buys diamond 2.
+     -Client 1 buys diamond 0 and client 2 buys diamond 2.
+     -Client 0 buys diamond 0 and client 2 buys diamond 2 .
+     -Thus, we print the maximum number of diamond you can sell,2, on a new line.
+   ```
+```
 
 
 ### December 14 - The Math Test
