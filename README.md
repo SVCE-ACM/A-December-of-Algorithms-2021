@@ -504,14 +504,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### December 13- Desert Shopping 
 
-   ### Problem Statement 
+  #### Problem Statement 
    - You are a diamond merchant in Dubai.You have x unsold diamonds, and each diamond p has a purity level mₚ,and a minimum price nₚ.
    - You also have z clients, and each client j wants a diamond with a purity greater than kⱼ  and a price less than or equal to rⱼ.
    - Each client can buy at most one diamond, and each diamond can have at most one buyer. What is the maximum number of diamonds you can sell?
      <p align="center"><img src ="https://media4.giphy.com/media/xT5LMRMGxjCAX5LaGQ/giphy.gif?cid=ecf05e47d5prkcverwbbuqnkq3epxahaah7dwxk7j7y61u4v&rid=giphy.gif&ct=g"                 height ="300"/></p>     
    
    ### Sample Input/Output
-     ```
+      ```
      Input:
      z=3 x=3
      k₀=5 r₀=110
@@ -534,6 +534,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      2
      ```
   ### Explanation
+  
      ```
      In case 1:
      - Client 0 will be interested in diamond 0 because it has more than k₀=5 units of purity and costs less than r₀=110 . Both of the other diamonds are outside of this                client's price range.
