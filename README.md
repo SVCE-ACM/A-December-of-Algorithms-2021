@@ -24,6 +24,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 10 - Juicy Orange Field**](#december-10---juicy-orange-field)  
   - [**December 11 - Maze Festival**](#december-11---maze-festival)
   - [**December 12 - Ford vs Ferrari**](#december-12---ford-vs-ferrari)
+  - [**December 13 - Desert Shopping**](#december-13---desert-shopping)
+  - [**December 14 - The Math Test**](#december-14---the-math-test)
+  - [**December 15 - Twinkling Bracelets**](#december-15---twinkling-bracelets)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -488,6 +491,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - The cars 4 and 8 never collide because they are moving in the same direction.        
     - Therefore, the ouptut is [4,8]    
    ```
+   
 <details>
     <summary>
         <strong>Resources (Spoiler)</strong>
@@ -498,6 +502,108 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 </details>
 
 ---    
+
+### December 13 - Desert Shopping 
+
+  #### Problem Statement 
+   - You are a diamond merchant in Dubai. You have `x` unsold diamonds, and each diamond `p` has a purity level `mₚ`, and a minimum price `nₚ`.
+   - You also have `z` clients, and each client `j` wants a diamond with a purity greater than `kⱼ` and a price **less than or equal to** `rⱼ`.
+   - Each client can buy at most one diamond, and each diamond can have at most one buyer. What is the maximum number of diamonds you can sell?
+     <p align="center"><img src ="https://media4.giphy.com/media/xT5LMRMGxjCAX5LaGQ/giphy.gif?cid=ecf05e47d5prkcverwbbuqnkq3epxahaah7dwxk7j7y61u4v&rid=giphy.gif&ct=g"                 height ="300"/></p>     
+   
+   ### Sample Input/Output
+   
+   ```
+     Input:
+     z = 3, x = 3
+     k₀ = 5, r₀ = 110
+     k₁ = 9, r₁ = 500
+     k₂ = 20, r₂ = 400
+     m₀ = 10, n₀ = 100
+     m₁ = 2, n₁ = 200
+     m₂ = 30, n₂ = 300
+     
+     Output: Maximum number of diamonds sold = 2
+   ```
+   ```
+     Input:
+     z = 2, x = 2
+     k₀ = 3, r₀ = 100
+     k₁ = 5, r₁ = 150
+     m₀ = 4, n₀ = 145
+     m₁ = 2, n₁ = 80
+     
+     Output: Maximum number of diamonds sold = 2
+   ```
+  ### Explanation
+  ```
+   In case 1:
+     - Client 0 will be interested in diamond 0 because it has more than k₀ = 5 units of purity and costs less than r₀ = 110 . 
+     - Both of the other diamonds are outside of this client's price range.
+     - Client 1 will be interested in diamonds 0 and 2 , as both these diamonds have more than k₁ = 9 units of purity and cost less than r₁ = 500 .
+     - They will not be interested in the remaining diamonds because it's less pure.
+     - Client 2 will be interested in diamond 2 because it has more than k₂ = 20  units of purity and costs less than r₂ = 400 . 
+     - They will not be interested in the other two diamonds because they are less pure.
+     - All three clients are interested in the same two houses, so you can sell at most two houses in the following scenarios:
+     - Client 0 buys diamond 0 and client 1 buys diamond 2.
+     - Client 1 buys diamond 0 and client 2 buys diamond 2.
+     - Client 0 buys diamond 0 and client 2 buys diamond 2 .
+     - Thus, we print the maximum number of diamond you can sell, 2, on a new line.            
+   ```
+---    
+
+### December 14 - The Math Test
+   
+   #### Problem Statement
+  - Amy has her Math exam tomorrow and she has not prepared for it. 
+  - There are `n` chapters in her book and `i`th chapter has chapter `i` concepts. She has `x` hours to prepare for the exam. She decides that she can study `y` number of concepts from the chapters in each hour. 
+  - If a chapter has less than `y` concepts, then she will cover all the concepts of that chapter and take a break for the rest of the hour.
+  - Return a minimum integer `y` such that she covers all the chapters of her Math book within `x` hours.         
+   <p align="center"><img src ="https://media3.giphy.com/media/JRPftUYuIRw3axuh5y/giphy-downsized-large.gif" height ="300"/></p>     
+      
+   #### Sample Input/Output
+   ```
+   Input: chapter = [3,6,7,11], x = 8
+   Output: 4
+   ```
+   ```
+   Input: chapter = [30,11,23,4,20], x = 5
+   Output: 30
+   ```
+  
+   #### Explanation
+   ```
+   She can study 4 concepts from her chapters per hour such that, she can cover all the concepts from the chapters within 8 hours.
+   ```   
+---
+### December 15 - Twinkling Bracelets
+   
+   #### Problem Statement
+  - Pinky is a college student who works for her mom’s online Bracelet store and sells amazing collections of bracelets on a daily basis.
+  - She takes a maximum number of `n` days for the bracelets to be delivered to the customers.
+  - The `i`th customer has ordered `i` number of bracelets.
+  - She prepares the bracelets according to the order in which she received the bookings. She schedules a maximum number of bracelets to be made and delivered in a day, such that she has sufficient time to manage her college work. 
+  - Return the least number of bracelets that can be made in a day for them to be delivered in n days.      
+   <p align="center"><img src ="https://media3.giphy.com/media/3ohhwsUruCzuLhvjuU/giphy.gif" height ="300"/></p>   
+     
+   #### Sample Input/Output
+   ```
+   Input: noofbracelets = [3,2,2,4,1,4], n = 3
+   Output: 6
+   ```
+   ```
+   Input: noofbracelets = [1,2,3,1,1], n = 4
+   Output: 3
+   ```  
+   #### Explanation
+   ```
+   Pinky can make 6 bracelets and deliver them in a day such that she delivers all the orders within 3 days.
+
+   Day 1:  3, 2
+   Day 2:  2, 4
+   Day 3:  1, 4
+   ```   
+---
 
 ## Maintainers
 
