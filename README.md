@@ -580,7 +580,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    
    #### Problem Statement
   - Pinky is a college student who works for her mom’s online Bracelet store and sells amazing collections of bracelets on a daily basis.
-  - She takes a maximum number of `n` days for the bracelets to be delivered to the customers.
+  - She takes a maximum number of `n` days for the bracelets to be delivered to the customers. 
   - The `i`th customer has ordered `i` number of bracelets.
   - She prepares the bracelets according to the order in which she received the bookings. She schedules a maximum number of bracelets to be made and delivered in a day, such that she has sufficient time to manage her college work. 
   - Return the least number of bracelets that can be made in a day for them to be delivered in n days.      
@@ -588,11 +588,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      
    #### Sample Input/Output
    ```
-   Input: noofbracelets = [3,2,2,4,1,4], n = 3
+   Input: number of bracelets = [3,2,2,4,1,4], n = 3
    Output: 6
    ```
    ```
-   Input: noofbracelets = [1,2,3,1,1], n = 4
+   Input: number of bracelets = [1,2,3,1,1], n = 4
    Output: 3
    ```  
    #### Explanation
@@ -602,7 +602,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    Day 1:  3, 2
    Day 2:  2, 4
    Day 3:  1, 4
-   ```   
+   ```  
 ---
 
 ## Maintainers
