@@ -534,7 +534,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      m₁ = 2, n₁ = 80
      
      Output: Maximum number of diamonds sold = 2
-  ```
+   ```
   ### Explanation
    
     ```
