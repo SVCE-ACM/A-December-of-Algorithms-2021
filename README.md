@@ -502,7 +502,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ---    
 
-### December 13- Desert Shopping 
+### December 13 - Desert Shopping 
 
   #### Problem Statement 
    - You are a diamond merchant in Dubai. You have `x` unsold diamonds, and each diamond `p` has a purity level `mₚ`,and a minimum price `nₚ`.
