@@ -26,6 +26,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 12 - Ford vs Ferrari**](#december-12---ford-vs-ferrari)
   - [**December 13 - Desert Shopping**](#december-13---desert-shopping)
   - [**December 14 - The Math Test**](#december-14---the-math-test)
+  - [**December 15 - Twinkling Bracelets**](#december-15---twinkling-bracelets)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -505,7 +506,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### December 13 - Desert Shopping 
 
   #### Problem Statement 
-   - You are a diamond merchant in Dubai. You have `x` unsold diamonds, and each diamond `p` has a purity level `mₚ`,and a minimum price `nₚ`.
+   - You are a diamond merchant in Dubai. You have `x` unsold diamonds, and each diamond `p` has a purity level `mₚ`, and a minimum price `nₚ`.
    - You also have `z` clients, and each client `j` wants a diamond with a purity greater than `kⱼ` and a price **less than or equal to** `rⱼ`.
    - Each client can buy at most one diamond, and each diamond can have at most one buyer. What is the maximum number of diamonds you can sell?
      <p align="center"><img src ="https://media4.giphy.com/media/xT5LMRMGxjCAX5LaGQ/giphy.gif?cid=ecf05e47d5prkcverwbbuqnkq3epxahaah7dwxk7j7y61u4v&rid=giphy.gif&ct=g"                 height ="300"/></p>     
@@ -560,19 +561,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - If a chapter has less than `y` concepts, then she will cover all the concepts of that chapter and take a break for the rest of the hour.
   - Return a minimum integer `y` such that she covers all the chapters of her Math book within `x` hours.         
    <p align="center"><img src ="https://media3.giphy.com/media/JRPftUYuIRw3axuh5y/giphy-downsized-large.gif" height ="300"/></p>     
-   
-   #### Rules:
-  - 1<=chapter.length<=10^4 
-  - chapter.length<=x<=10^9
-  - 1<=chapter[i]<=10^9
-   
+      
    #### Sample Input/Output
    ```
-   Input: chapter = [3,6,7,11] , x = 8
+   Input: chapter = [3,6,7,11], x = 8
    Output: 4
    ```
    ```
-   Input: chapter = [30,11,23,4,20] , x = 5
+   Input: chapter = [30,11,23,4,20], x = 5
    Output: 30
    ```
   
@@ -585,30 +581,28 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    
    #### Problem Statement
   - Pinky is a college student who works for her mom’s online Bracelet store and sells amazing collections of bracelets on a daily basis.
-  - She takes a maximum number of n days for the bracelets to be delivered to the customers.
-  - The i th customer has ordered noofbracelets[i].
+  - She takes a maximum number of `n` days for the bracelets to be delivered to the customers.
+  - The `i`th customer has ordered `i` number of bracelets.
   - She prepares the bracelets according to the order in which she received the bookings. She schedules a maximum number of bracelets to be made and delivered in a day, such that she has sufficient time to manage her college work. 
   - Return the least number of bracelets that can be made in a day for them to be delivered in n days.      
    <p align="center"><img src ="https://media3.giphy.com/media/3ohhwsUruCzuLhvjuU/giphy.gif" height ="300"/></p>   
      
    #### Sample Input/Output
    ```
-   Input: noofbracelets =[3,2,2,4,1,4]  , n = 3
+   Input: noofbracelets = [3,2,2,4,1,4], n = 3
    Output: 6
    ```
    ```
-   Input: noofbracelets =[1,2,3,1,1]  , n = 4
+   Input: noofbracelets = [1,2,3,1,1], n = 4
    Output: 3
-   ```
-  
+   ```  
    #### Explanation
    ```
    Pinky can make 6 bracelets and deliver them in a day such that she delivers all the orders within 3 days.
 
-   Day 1:  3,2
-   Day 2:  2,4
-   Day 3:  1,4
-
+   Day 1:  3, 2
+   Day 2:  2, 4
+   Day 3:  1, 4
    ```   
 ---
 
