@@ -24,7 +24,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 10 - Juicy Orange Field**](#december-10---juicy-orange-field)  
   - [**December 11 - Maze Festival**](#december-11---maze-festival)
   - [**December 12 - Ford vs Ferrari**](#december-12---ford-vs-ferrari)
-  - [**December 13 - Desert Shopping**](#december-12---desert-shopping)
+  - [**December 13 - Desert Shopping**](#december-13---desert-shopping)
   - [**December 14 - The Math Test**](#december-14---the-math-test)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
