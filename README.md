@@ -602,7 +602,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    Day 1:  3, 2
    Day 2:  2, 4
    Day 3:  1, 4
-   ```   
+   ```  
 ---
 
 ## Maintainers
