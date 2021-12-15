@@ -621,31 +621,31 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   #### Sample Input/Output
      
   ```
-   Input:
-    T = 1, X = 2, A = 2
-    (C1 C2) = 1 4
+  Input:
+   T = 1, X = 2, A = 2
+   (C1 C2) = 1 4
    
-   Output:
-    1 -1
+  Output:
+   1 -1
   ```
   ```
-   Input:
-    T = 1, X = 1, A=2    
-    (C1 C2) = 1 
+  Input:
+   T = 1, X = 1, A=2    
+   (C1 C2) = 1 
    
-   Ouput:
-    1  1    
+  Ouput:
+   1  1    
   ```
      
   #### Explanation
       
    ```
-     For test case 1:
-        - Leo chooses to always move to the left (i.e. to the smaller coordinate); this forces the ranger at coordinate 1 to always move to the left, and eventually being 
-          cornered and eliminated.
-        - However, the officer at coordinate 4 cannot be eliminated, and hence Chef will be caught at the end.
-          For test case 2:
-          Similarly, Leo chooses to always move to the left, and eventually eliminating the only ranger, thus running away at the end.       
+   For test case 1:
+      - Leo chooses to always move to the left (i.e. to the smaller coordinate); this forces the ranger at coordinate 1 to always move to the left, and eventually being 
+        cornered and eliminated.
+      - However, the officer at coordinate 4 cannot be eliminated, and hence Chef will be caught at the end.
+        For test case 2:
+        Similarly, Leo chooses to always move to the left, and eventually eliminating the only ranger, thus running away at the end.       
    ```
 ---
 
