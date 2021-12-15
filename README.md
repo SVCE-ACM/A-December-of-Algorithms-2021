@@ -26,7 +26,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 12 - Ford vs Ferrari**](#december-12---ford-vs-ferrari)
   - [**December 13 - Desert Shopping**](#december-13---desert-shopping)
   - [**December 14 - The Math Test**](#december-14---the-math-test)
-  - [**December 15 - Twinkling Bracelets**](#december-15---twinkling-bracelets)
+  - [**December 15 - Twinkling Bracelets**](#december-15---twinkling-bracelets)  
+  - [**December 16 - Catch Me If You Can**](#december-16---catch-me-if-you-can)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -604,8 +605,53 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    Day 3:  1, 4
    ```  
 ---
+### December 16 - Catch Me If You Can 
+ 
+   #### Problem Statement 
+   - Leo is a lion that escaped from the zoo, and `X` forest rangers are up for catching him. 
+   - The rangers want to catch Leo no matter the cost, and Leo also wants to eliminate as many rangers as possible (preferably everyone) before getting caught (or before running      away after eliminating everyone). Neither the rangers nor Leo will run away before accomplishing their goals.
+   - Leo and the officers are on a one-dimensional grid with coordinates ranging from `−10¹º to 10¹º`. Leo is initially standing at coordinate `A`, and the `i`th ranger is initially at coordinate `Ci`. The rangers and Leo then take turns to move, with the ranger team moving first.
+   - During their turn, rangers will have to move to an adjacent unoccupied cell one by one, in any order they want. Every ranger will have to move. At every moment of time, no      two rangers can be in the same cell, and also no ranger can be in the same cell as Leo. 
+   - If the ranger is unable to move to an adjacent unoccupied cell, he is eliminated (and the cell he was in becomes unoccupied). Note that the ranger team will try to move to      eliminate as few rangers as possible. 
+   - After the ranger team's turn, Leo also moves to an adjacent unoccupied cell, or gets caught if he cannot find any adjacent unoccupied cell. 
+   - The process then repeats until either Leo is caught, or all rangers are eliminated and Leo runs away.
+   - You need to find out the maximum number of rangers that can be eliminated by Leo, and if Leo can run away or not.
+  
+     <p align="center"><img src ="https://media.giphy.com/media/TSUqYlyxpfgfC/giphy.gif" width="320" height ="300"/></p> 
+  #### Sample Input/Output
+     
+  ```
+  Input:
+   T = 1, X = 2, A = 2
+   (C1 C2) = 1 4
+   
+  Output:
+   1 -1
+  ```
+  ```
+  Input:
+   T = 1, X = 1, A=2    
+   (C1 C2) = 1 
+   
+  Ouput:
+   1  1    
+  ```
+     
+  #### Explanation
+      
+   ```
+   For test case 1:
+      - Leo chooses to always move to the left (i.e. to the smaller coordinate); this forces the ranger at coordinate 1 to always move to the left, and eventually being 
+        cornered and eliminated.
+      - However, the officer at coordinate 4 cannot be eliminated, and hence Chef will be caught at the end.
+        For test case 2:
+        Similarly, Leo chooses to always move to the left, and eventually eliminating the only ranger, thus running away at the end.       
+   ```
+---
 
-## Maintainers
+     
+ 
+ ## Maintainers
 
 <table>
     <thead>
