@@ -618,43 +618,44 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - You need to find out the maximum number of rangers that can be eliminated by Leo, and if Leo can run away or not.
   
      <p align="center"><img src ="https://media1.giphy.com/media/3o6wrrNFa9OH9FFRpS/giphy.gif?cid=ecf05e47bo4ffef479has5hwhib8vdpm3w673dgg058rj659&rid=giphy.gif&ct=g" height           ="300"/></p> 
-   #### Sample Input/Output
+  #### Sample Input/Output
      
-     ```
-       Input:
-       T=1
-       X=2
-       A=2
-      (C1 C2)=1 4
-       Output:
-       1 -1
-     ```
-     ```
-       Input:
-       T=1
-       X=1
-       A=2
-      (C1 C2)=1 
-       Ouput:
-       1  1
-     ```
+  ```
+   Input:
+    T=1
+    X=2
+    A=2
+    (C1 C2)=1 4
+   Output:
+    1 -1
+  ```
+  ```
+   Input:
+    T=1
+    X=1
+    A=2
+    (C1 C2)=1 
+   Ouput:
+    1  1    
+  ```
      
   #### Explanation
       
-    ```
-        For test case 1:
+   ```
+     For test case 1:
         - Leo chooses to always move to the left (i.e. to the smaller coordinate); this forces the ranger at coordinate 1 to always move to the left, and eventually being 
           cornered and eliminated.
         - However, the officer at coordinate 4 cannot be eliminated, and hence Chef will be caught at the end.
           For test case 2:
           Similarly, Leo chooses to always move to the left, and eventually eliminating the only ranger, thus running away at the end.
-      
+       
    ```
 ---
+
      
-   
+ 
  ## Maintainers
-```
+
 <table>
     <thead>
         <tr>
