@@ -626,6 +626,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     X=2
     A=2
     (C1 C2)=1 4
+   
    Output:
     1 -1
   ```
@@ -635,6 +636,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     X=1
     A=2
     (C1 C2)=1 
+   
    Ouput:
     1  1    
   ```
