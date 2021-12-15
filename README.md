@@ -26,8 +26,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 12 - Ford vs Ferrari**](#december-12---ford-vs-ferrari)
   - [**December 13 - Desert Shopping**](#december-13---desert-shopping)
   - [**December 14 - The Math Test**](#december-14---the-math-test)
-  - [**December 15 - Twinkling Bracelets**](#december-15---twinkling-bracelets)
-  - [**December 16 - Catch Me If You Can**](#december-15---catch-me-if-you-can)
+  - [**December 15 - Twinkling Bracelets**](#december-15---twinkling-bracelets)  
+  - [**December 16 - Catch Me If You Can**](#december-16---catch-me-if-you-can)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
