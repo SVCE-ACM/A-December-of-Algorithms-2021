@@ -605,12 +605,12 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    Day 3:  1, 4
    ```  
 ---
-### December 16- Catch Me If You Can 
+### December 16 - Catch Me If You Can 
  
    #### Problem Statement 
-   - Leo is a lion that escaped from the zoo, and X forest rangers are up for catching him. 
+   - Leo is a lion that escaped from the zoo, and `X` forest rangers are up for catching him. 
    - The rangers want to catch Leo no matter the cost, and Leo also wants to eliminate as many rangers as possible (preferably everyone) before getting caught (or before running      away after eliminating everyone). Neither the rangers nor Leo will run away before accomplishing their goals.
-   - Leo and the officers are on a one-dimensional grid with coordinates ranging from −10¹º to 10¹º. Leo is initially standing at coordinate A, and the i-th ranger is initially      at coordinate Ci. The rangers and Leo then take turns to move, with the ranger team moving first.
+   - Leo and the officers are on a one-dimensional grid with coordinates ranging from `−10¹º to 10¹º`. Leo is initially standing at coordinate `A`, and the `i`th ranger is initially at coordinate `Ci`. The rangers and Leo then take turns to move, with the ranger team moving first.
    - During their turn, rangers will have to move to an adjacent unoccupied cell one by one, in any order they want. Every ranger will have to move. At every moment of time, no      two rangers can be in the same cell, and also no ranger can be in the same cell as Leo. 
    - If the ranger is unable to move to an adjacent unoccupied cell, he is eliminated (and the cell he was in becomes unoccupied). Note that the ranger team will try to move to      eliminate as few rangers as possible. 
    - After the ranger team's turn, Leo also moves to an adjacent unoccupied cell, or gets caught if he cannot find any adjacent unoccupied cell. 
@@ -622,20 +622,16 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      
   ```
    Input:
-    T=1
-    X=2
-    A=2
-    (C1 C2)=1 4
+    T = 1, X = 2, A = 2
+    (C1 C2) = 1 4
    
    Output:
     1 -1
   ```
   ```
    Input:
-    T=1
-    X=1
-    A=2
-    (C1 C2)=1 
+    T = 1, X = 1, A=2    
+    (C1 C2) = 1 
    
    Ouput:
     1  1    
@@ -649,8 +645,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
           cornered and eliminated.
         - However, the officer at coordinate 4 cannot be eliminated, and hence Chef will be caught at the end.
           For test case 2:
-          Similarly, Leo chooses to always move to the left, and eventually eliminating the only ranger, thus running away at the end.
-       
+          Similarly, Leo chooses to always move to the left, and eventually eliminating the only ranger, thus running away at the end.       
    ```
 ---
 
