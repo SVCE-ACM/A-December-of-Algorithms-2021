@@ -619,7 +619,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      <p align="center"><img src ="https://media1.giphy.com/media/3o6wrrNFa9OH9FFRpS/giphy.gif?cid=ecf05e47bo4ffef479has5hwhib8vdpm3w673dgg058rj659&rid=giphy.gif&ct=g" height           ="300"/></p> 
    #### Sample Input/Output
      
-      ```
+     ```
        Input:
        T=1
        X=2
@@ -627,8 +627,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       (C1 C2)=1 4
        Output:
        1 -1
-       ```
-       ```
+     ```
+     ```
        Input:
        T=1
        X=1
@@ -636,12 +636,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       (C1 C2)=1 
        Ouput:
        1  1
-       ```
-       ```
+     ```
      
   #### Explanation
       
-        ```
+    ```
         For test case 1:
         - Leo chooses to always move to the left (i.e. to the smaller coordinate); this forces the ranger at coordinate 1 to always move to the left, and eventually being 
           cornered and eliminated.
@@ -649,8 +648,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
           For test case 2:
           Similarly, Leo chooses to always move to the left, and eventually eliminating the only ranger, thus running away at the end.
       
-        ```
-     ```
+   ```
       
      
    
