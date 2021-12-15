@@ -617,7 +617,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - The process then repeats until either Leo is caught, or all rangers are eliminated and Leo runs away.
    - You need to find out the maximum number of rangers that can be eliminated by Leo, and if Leo can run away or not.
   
-     <p align="center"><img src ="https://media1.giphy.com/media/3o6wrrNFa9OH9FFRpS/giphy.gif?cid=ecf05e47bo4ffef479has5hwhib8vdpm3w673dgg058rj659&rid=giphy.gif&ct=g" height           ="300"/></p> 
+     <p align="center"><img src ="https://media.giphy.com/media/TSUqYlyxpfgfC/giphy.gif" height ="300"/></p> 
   #### Sample Input/Output
      
   ```
