@@ -697,6 +697,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <th><a href="https://github.com/harshitha060802">Harshitha</a></th>              
             <th><a href="https://github.com/pranav0120">Pranav D</a></th>
             <th><a href="https://github.com/nityasam02">Nitya Samavedam</a></th>
+             <th><a href="https://github.com/nithishkb">Nithish Kumar B</a></th>
             <th><a href="https://github.com/Madhumita2002">Madhumita R</a></th>
             <th><a href="https://github.com/Poujhit">Poujhit MU</a></th>
             <th><a href="https://github.com/SahariKrithik">Sahari Krithik</a></th>
@@ -710,6 +711,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <td align="center"><a href="https://github.com/harshitha060802"><img width="100" src="https://avatars.githubusercontent.com/harshitha060802" alt="f"></a></td>
             <td align="center"><a href="https://github.com/pranav0120"><img width="100" src="https://avatars.githubusercontent.com/u/89603581" alt="f"></a></td>
             <td align="center"><a href="https://github.com/nityasam02"><img width="100" src="https://avatars.githubusercontent.com/u/87812124?s=400&v=4" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/nithishkb"><img width="100" src="https://avatars.githubusercontent.com/u/75293567?s=400&v=4" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Madhumita2002"><img width="100" src="https://avatars.githubusercontent.com/Madhumita2002" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Poujhit"><img width="100" src="https://avatars.githubusercontent.com/Poujhit" alt="f"></a></td>
             <td align="center"><a href="https://github.com/SahariKrithik"><img width="100" src="https://avatars.githubusercontent.com/u/54771183" alt="f"></a></td>            
@@ -717,6 +719,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         </tr>
         <tr>
             <td align="center"> :hammer::construction::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
