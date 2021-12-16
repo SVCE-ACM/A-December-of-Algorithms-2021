@@ -29,6 +29,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 15 - Twinkling Bracelets**](#december-15---twinkling-bracelets)  
   - [**December 16 - Catch Me If You Can**](#december-16---catch-me-if-you-can)
   - [**December 17 - The Bossy Manager**](#december-16---The-Bossy-Manager)
+  - [**December 18 - Connections**](#december-18---Connections)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
