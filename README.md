@@ -679,8 +679,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   Output: The minimum time to process all the tasks is 15.
   ```
 #### Explanation:
-  ```
-  n=2
+  ```  
   Task size = [4,3]
   Processing time = [6,5]
   Number of tasks = [8,8]
