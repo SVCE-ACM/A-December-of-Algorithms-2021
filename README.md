@@ -648,6 +648,42 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         Similarly, Leo chooses to always move to the left, and eventually eliminating the only ranger, thus running away at the end.       
    ```
 ---
+### December 18 - Connection 
+ 
+   #### Problem Statement 
+   You are given an n x n binary matrix grid where 1 represents house and 0 represents wire.
+   A house is a 4-directionally connected group of 1's not connected to any other 1's. There are exactly two houses in grid. 
+   You may change 0's to 1's to connect the two houses to form one house.
+   Return the smallest number of 0's you must flip to connect the two houses.
+
+     <p align="center"><img src ="https://giphy.com/gifs/thegoldbergs-season-5-episode-1-xUNd9YJwF6ifDUnqNi" width="320" height ="300"/></p> 
+  #### Sample Input/Output
+     
+  ```
+  Input: grid = [[0,1],[1,0]]
+  
+  Output: 1
+
+  ```
+  ```
+  Input: grid = [[0,1,0],[0,0,0],[0,0,1]]
+  
+  Output: 2
+
+  ```
+     
+  #### Constraints
+      
+   ```
+   
+   n == grid.length == grid[i].length
+   2 <= n <= 100
+   grid[i][j] is either 0 or 1.
+   There are exactly two houses in a grid.
+
+   ```
+---
+
 
      
  
@@ -661,6 +697,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <th><a href="https://github.com/harshitha060802">Harshitha</a></th>              
             <th><a href="https://github.com/pranav0120">Pranav D</a></th>
             <th><a href="https://github.com/nityasam02">Nitya Samavedam</a></th>
+             <th><a href="https://github.com/nithishkb">Nithish Kumar B</a></th>
             <th><a href="https://github.com/Madhumita2002">Madhumita R</a></th>
             <th><a href="https://github.com/Poujhit">Poujhit MU</a></th>
             <th><a href="https://github.com/SahariKrithik">Sahari Krithik</a></th>
