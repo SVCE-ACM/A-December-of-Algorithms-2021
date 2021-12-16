@@ -652,60 +652,49 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    ### December 17 - The Bossy Manager
   
   #### Problem Statement
-  - Ram is an assistant manager in the bank. His boss, the manager, is very bossy and assigns him to tasks and asks him to complete them as soon as possible. But this manager also has some parameters which are assigned to each and every task which he has to note.
-They are:
-The maximum number of tasks he can complete in a single go
-The time taken to complete the single task for that job
-The number of tasks each job can process
-And at last the manager asks Ram to calculate the minimum time needed to process a set of tasks for the given job. Ram did a course on data structures and using his knowledge on this subject he plans to complete this task in less time. Try helping Ram out and see if he can outwit his manager!
+  - Ram is an assistant manager in the bank. His boss, is very bossy and assigns him to tasks and asks him to complete them as soon as possible. But this manager also has some parameters which are assigned to each and every task which he has to note. They are:
+    - The maximum number of tasks he can complete in a single go
+    - The time taken to complete the single task for that job
+    - The number of tasks each job can process
+  - And at last the manager asks Ram to calculate the minimum time needed to process a set of tasks for the given job. Ram did a course on data structures and using his knowledge on this subject he plans to complete this task in less time. Try helping Ram out and see if he can outwit his manager!
 
-   <p align="center"><img src="https://media.giphy.com/media/gdWu0t5imxLXcpSMks/giphy.gif" /></p>
-  
-  #### EXAMPLE AND EXPLAINATION:
-  ```
-  n=2
-Tasksize = [4,3]
-processingTime = [6,5]
-numTasks =[8,8]
-
-Queue 0 can process a maximum of 4 tasks in 6 minutes, and queue is 1 can process a maximum of 3 tasks in 5 minutes. Each queue has 8 tasks to process. The time required to perform the assigned tasks in the minimum possible time is calculated as follows:
-
-For queue 0:
-- At time = 0, a new batch of 4 tasks is initiated 
-- At time=6, the first batch of tasks is processed and a new batch of 4 tasks is initiated.
-- At time = 12, the second batch of tasks is processed. There are no more tasks left to process in this queue.
-
-For queue 1:
-- At time =0, a new batch of 3 tasks is initiated.
-- At time=5, the first batch of tasks is processed and a new batch of 3 tasks is initiated.
-- At time =15, the third batch of tasks is processed. There are no more tasks left to process in this queue.
-The minimum time to process all the tasks is 15.
-
-  ```
-  #### CONSTRAINTS
-  ```
-- 1 ≤ n ≤ 105
-- 1 ≤ tasksize[i] ≤ 109
-- 1 ≤ processingTime[i] ≤ 105
-- 1 ≤ numTasks[i] ≤ 109
-
-```     
+   <p align="center"><img src="https://media.giphy.com/media/gdWu0t5imxLXcpSMks/giphy.gif" /></p>    
+    
 #### SAMPLE INPUT AND OUTPUT:
   ```
-INPUT:
-Number of queues, n=4
-Tasksize =[3,2,5,7]
+  INPUT:
+  Number of queues, n=4
+  Tasksize =[3,2,5,7]
 
-Number of queues, n=4
-processingTime = [5,4,10,12]
+  Number of queues, n=4
+  processingTime = [5,4,10,12]
 
-Number of queues, n=4
-numTasks = [10,6,10,5]
+  Number of queues, n=4
+  numTasks = [10,6,10,5]
 
-OUTPUT:
-20
+  OUTPUT:
+  20
+``` 
+#### EXPLAINATION:
+  ```
+  n=2
+  Tasksize = [4,3]
+  processingTime = [6,5]
+  numTasks =[8,8]
 
-```     
+  Queue 0 can process a maximum of 4 tasks in 6 minutes, and queue is 1 can process a maximum of 3 tasks in 5 minutes. Each queue has 8 tasks to process. The time required to perform the assigned tasks in the minimum possible time is calculated as follows:
+
+  For queue 0:
+  - At time = 0, a new batch of 4 tasks is initiated 
+  - At time=6, the first batch of tasks is processed and a new batch of 4 tasks is initiated.
+  - At time = 12, the second batch of tasks is processed. There are no more tasks left to process in this queue.
+
+  For queue 1:  
+  - At time =0, a new batch of 3 tasks is initiated.
+  - At time=5, the first batch of tasks is processed and a new batch of 3 tasks is initiated.
+  - At time =15, the third batch of tasks is processed. There are no more tasks left to process in this queue.
+  The minimum time to process all the tasks is 15.
+  ```  
 ---
 ### December 18 - Connections
  
@@ -723,18 +712,13 @@ OUTPUT:
   Input: grid = [[0,1],[1,0]]
   
   Output: 1
-
   ```
   ```
   Input: grid = [[0,1,0],[0,0,0],[0,0,1]]
   
   Output: 2
-
   ```       
----
-
-
-     
+---    
  
  ## Maintainers
 
