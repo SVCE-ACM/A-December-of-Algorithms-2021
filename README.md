@@ -656,7 +656,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    You may change 0's to 1's to connect the two houses to form one house.
    Return the smallest number of 0's you must flip to connect the two houses.
 
-    <p align="center"><img src ="https://media4.giphy.com/media/xUNd9YJwF6ifDUnqNi/giphy.gif?cid=ecf05e47s3ejk3hk6lsneer36fglvl81absx6mrc8t420bcf&rid=giphy.gif&ct=g" width="320" height ="300"/></p>  
+ 
   #### Sample Input/Output
      
   ```
