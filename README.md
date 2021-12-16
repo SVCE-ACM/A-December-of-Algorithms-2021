@@ -652,7 +652,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    ### December 17 - The Bossy Manager
   
   #### Problem Statement
-  - Ram is an assistant manager in the bank. His boss, is very bossy and assigns him to tasks and asks him to complete them as soon as possible. But this manager also has some parameters which are assigned to each and every task which he has to note. They are:
+  - Ram is an assistant manager in the bank. His boss, is very bossy and assigns him to tasks and asks him to complete them as soon as possible. 
+  - This manager also has some parameters which are assigned to each and every task which he has to note. They are:
     - The maximum number of tasks he can complete in a single go
     - The time taken to complete the single task for that job
     - The number of tasks each job can process
@@ -662,37 +663,39 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     
 #### SAMPLE INPUT AND OUTPUT:
   ```
-  INPUT:
-  Number of queues, n=4
-  Tasksize =[3,2,5,7]
+  Input:  
+  Task size = [3,2,5,7]
+  Processing time = [5,4,10,12]  
+  Number of tasks = [10,6,10,5]
 
-  Number of queues, n=4
-  processingTime = [5,4,10,12]
-
-  Number of queues, n=4
-  numTasks = [10,6,10,5]
-
-  OUTPUT:
-  20
-``` 
+  Output: The minimum time to process all the tasks is 20.
+  ``` 
+  ```
+  Input: 
+  Task size = [4,3]
+  Processing time = [6,5]
+  Number of tasks = [8,8]
+  
+  Output: The minimum time to process all the tasks is 15.
+  ```
 #### EXPLAINATION:
   ```
   n=2
-  Tasksize = [4,3]
-  processingTime = [6,5]
-  numTasks =[8,8]
+  Task size = [4,3]
+  Processing time = [6,5]
+  Number of tasks = [8,8]
 
   Queue 0 can process a maximum of 4 tasks in 6 minutes, and queue is 1 can process a maximum of 3 tasks in 5 minutes. Each queue has 8 tasks to process. The time required to perform the assigned tasks in the minimum possible time is calculated as follows:
 
   For queue 0:
   - At time = 0, a new batch of 4 tasks is initiated 
-  - At time=6, the first batch of tasks is processed and a new batch of 4 tasks is initiated.
+  - At time= 6, the first batch of tasks is processed and a new batch of 4 tasks is initiated.
   - At time = 12, the second batch of tasks is processed. There are no more tasks left to process in this queue.
 
   For queue 1:  
-  - At time =0, a new batch of 3 tasks is initiated.
-  - At time=5, the first batch of tasks is processed and a new batch of 3 tasks is initiated.
-  - At time =15, the third batch of tasks is processed. There are no more tasks left to process in this queue.
+  - At time = 0, a new batch of 3 tasks is initiated.
+  - At time= 5, the first batch of tasks is processed and a new batch of 3 tasks is initiated.
+  - At time = 15, the third batch of tasks is processed. There are no more tasks left to process in this queue.
   The minimum time to process all the tasks is 15.
   ```  
 ---
@@ -730,7 +733,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <th><a href="https://github.com/harshitha060802">Harshitha</a></th>              
             <th><a href="https://github.com/pranav0120">Pranav D</a></th>
             <th><a href="https://github.com/nityasam02">Nitya Samavedam</a></th>
-             <th><a href="https://github.com/nithishkb">Nithish Kumar B</a></th>
+            <th><a href="https://github.com/nithishkb">Nithish Kumar B</a></th>
             <th><a href="https://github.com/Madhumita2002">Madhumita R</a></th>
             <th><a href="https://github.com/Poujhit">Poujhit MU</a></th>
             <th><a href="https://github.com/SahariKrithik">Sahari Krithik</a></th>
