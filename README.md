@@ -659,9 +659,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - The number of tasks each job can process
   - And at last the manager asks Ram to calculate the minimum time needed to process a set of tasks for the given job. Ram did a course on data structures and using his knowledge on this subject he plans to complete this task in less time. Try helping Ram out and see if he can outwit his manager!
 
-   <p align="center"><img src="https://media.giphy.com/media/gdWu0t5imxLXcpSMks/giphy.gif" /></p>    
+   <p align="center"><img src="https://media.giphy.com/media/YwpylUojkfOZa/giphy.gif" /></p>    
     
-#### SAMPLE INPUT AND OUTPUT:
+#### Sample Input/Output:
   ```
   Input:  
   Task size = [3,2,5,7]
@@ -678,7 +678,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
   Output: The minimum time to process all the tasks is 15.
   ```
-#### EXPLAINATION:
+#### Explanation:
   ```
   n=2
   Task size = [4,3]
