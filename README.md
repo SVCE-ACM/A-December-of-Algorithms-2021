@@ -662,6 +662,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         For test case 2:
         Similarly, Leo chooses to always move to the left, and eventually eliminating the only ranger, thus running away at the end.       
    ```
+---
+
    ### December 17 - The Bossy Manager
   
   #### Problem Statement
