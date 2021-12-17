@@ -157,9 +157,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   ```
   Input: 10 10
   Output: 508361223
-  ```
- 
-```      
+  ```  
 ---
 
 ### December 5 - Biscuit Bonanza
