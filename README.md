@@ -135,29 +135,17 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   Input: 1 5
   Output: 6
   ```
+  ```
+   Input: 10 10
+   Output: 508361223
+  ``` 
+  
    #### Explaination
-  ```
-  According to Sandhya's definition, there are 6 different binary matrices. 
-  This is because the number of 1-s uniquely identifies a 1×5 matrix and 
-  the number of 1-s can take any value between 0 and 5 inclusive.
-  ```
-   #### INPUT
-  ```
-  The first and only line of the input contains two space-separated integers N and M.
-  ```
-   #### OUTPUT
-  ```
- Print a single line containing one integer — the number of matrices modulo 10^9+7.
-  ```
-#### CONSTRAINTS
-  ```
- 1 ≤ X,Y,X⋅Y ≤ 550
-  ```
-   #### ANOTHER SAMPLE INPUT/OUTPUT
-  ```
-  Input: 10 10
-  Output: 508361223
-  ```  
+   ```
+   According to Sandhya's definition, there are 6 different binary matrices. 
+   This is because the number of 1-s uniquely identifies a 1×5 matrix and 
+   the number of 1-s can take any value between 0 and 5 inclusive.
+   ```            
 ---
 
 ### December 5 - Biscuit Bonanza
