@@ -30,7 +30,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 16 - Catch Me If You Can**](#december-16---catch-me-if-you-can)
   - [**December 17 - The Bossy Manager**](#december-17---The-Bossy-Manager)
   - [**December 18 - Connections**](#december-18---Connections)
-  - [**December 20 - Connections**](#december-18---Connections)
+  - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-server(s))
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -744,7 +744,7 @@ Note that the requests are zero-indexed.
    #### Contraints
     1 <= arrival[i], load[i] <= 10^8
     
-  ### Sample Input and output
+  #### Sample Input and output
 
    ```
    Input: n = 3, arrival = [1,2,3,4,5], load = [5,2,3,3,3] 
@@ -760,7 +760,7 @@ Note that the requests are zero-indexed.
   Input: k = 3, arrival = [1,2,3], load = [10,12,11]
   Output: [0,1,2]
    ```
-  ### Explanation
+  #### Explanation
    ```
    Input: k = 3, arrival = [1,2,3,4], load = [1,2,1,2]
    Output: [0]
