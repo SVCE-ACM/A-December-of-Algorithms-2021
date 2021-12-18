@@ -30,6 +30,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 16 - Catch Me If You Can**](#december-16---catch-me-if-you-can)
   - [**December 17 - The Bossy Manager**](#december-17---The-Bossy-Manager)
   - [**December 18 - Connections**](#december-18---Connections)
+  - [**December 20 - Winter is coming.**](#december-19---winter-is-coming)
   - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-servers)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
@@ -726,6 +727,43 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   Output: 2
   ```       
 ---
+### December 19 - Winter is coming.
+
+#### Problem Statement
+- Winter semester is about to begin. The previous semester’s professors had already instructed the students that it is mandatory to take up a value added course in order to take up a subject course. There are a total of `num` courses to be taken and they are labelled from `0` to `num-1`. Consider the array `course` where `course[i] = [ai, bi]`. 
+- It is mandatory for a student to take up the value added course ai in order to take up the subject course bi.
+
+Eg : the pair `[3,8]` says that one must take up the value added course `3` in order to take up the subject course `8`. 
+
+- These mandatory courses can be indirect as well. Suppose, course `p` is mandatory to take up course `q` and course `q` is mandatory to take up course `r`. Then, course `p`   is mandatory in order to take up course `r`.  
+- Consider another array `answer` where `answer[x] = [mx, nx]`. You must answer if course `mx` is mandatory in order to take up course `nx` or not for the `xth` query. 
+- Return a boolean array `result`, where `result[x]` is the answer to the `xth` query.
+
+<p align="center"><img src ="https://media.giphy.com/media/oxLsWbH1rvy2A/giphy.gif" width="320" height ="300"/></p> 
+
+#### Sample Input and Output
+
+```
+Input: num = 2, course = [[1,0]], answer = [[0,1],[1,0]]
+Output: [false,true]
+```
+```
+Input: num = 3, course = [[1,2],[1,0],[2,0]], answer = [[1,0],[1,2]]
+Output: [true,true]
+```
+```
+Input: num = 2, course = [], answer = [[1,0],[0,1]]
+Output: [false,false]
+```
+
+#### Explanation 
+```
+Input: num = 2, course = [[1,0]], answer = [[0,1],[1,0]]
+Output: [false,true]
+Explanation: The pair [1, 0] indicates that you have to take the value added course 1 before you can take the subject course 0. 
+Course 0 is not mandatory to take up course 1, but the opposite is true.
+```  
+ ---
 
 ### December 20 - High Traffic Server(s)
  
