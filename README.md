@@ -30,7 +30,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 16 - Catch Me If You Can**](#december-16---catch-me-if-you-can)
   - [**December 17 - The Bossy Manager**](#december-17---The-Bossy-Manager)
   - [**December 18 - Connections**](#december-18---Connections)
-  - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-server)
+  - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-servers)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
