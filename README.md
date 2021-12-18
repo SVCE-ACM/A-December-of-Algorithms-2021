@@ -735,7 +735,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - That `k`th request is discarded if all servers are busy (not handled at all).
    - Assign the request to the `(k % n)`th server if it’s available.
    - Otherwise, forward the request to the next server that is accessible. If the kth server is busy, for example, try routing the request to the `(k+1)`th server, then the `(k+2)`th server, and so on.
+  
    You are given the arrival time of the requests and the load time(time taken to complete the request by the server). Your objective is to **find the server which handles the most number of requests**. 
+   
 Note that the requests are zero-indexed.
 
    
@@ -752,17 +754,17 @@ Note that the requests are zero-indexed.
    ```
    
    ```
-   Input: k = 3, arrival = [1,2,3,4], load = [1,2,1,2]
+   Input: n = 3, arrival = [1,2,3,4], load = [1,2,1,2]
    Output: [0]
    ```
    
    ```
-  Input: k = 3, arrival = [1,2,3], load = [10,12,11]
+  Input: n = 3, arrival = [1,2,3], load = [10,12,11]
   Output: [0,1,2]
    ```
   #### Explanation
    ```
-   Input: k = 3, arrival = [1,2,3,4], load = [1,2,1,2]
+   Input: n = 3, arrival = [1,2,3,4], load = [1,2,1,2]
    Output: [0]
    
    The first three requests are processed by the first three servers.
