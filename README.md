@@ -30,6 +30,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 16 - Catch Me If You Can**](#december-16---catch-me-if-you-can)
   - [**December 17 - The Bossy Manager**](#december-17---The-Bossy-Manager)
   - [**December 18 - Connections**](#december-18---Connections)
+  - [**December 19 - Winter is coming**](#december-19---winter-is-coming)
+  - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-servers)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -136,15 +138,16 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   Output: 6
   ```
   ```
-  Input: 10 10
-  Output: 508361223
-  ```
-  #### Explaination
-  ```
-  According to Sandhya's definition, there are 6 different binary matrices. 
-  This is because the number of 1-s uniquely identifies a 1×5 matrix and 
-  the number of 1-s can take any value between 0 and 5 inclusive.
-```      
+   Input: 10 10
+   Output: 508361223
+  ``` 
+  
+   #### Explaination
+   ```
+   According to Sandhya's definition, there are 6 different binary matrices. 
+   This is because the number of 1-s uniquely identifies a 1×5 matrix and 
+   the number of 1-s can take any value between 0 and 5 inclusive.
+   ```            
 ---
 
 ### December 5 - Biscuit Bonanza
@@ -649,6 +652,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         For test case 2:
         Similarly, Leo chooses to always move to the left, and eventually eliminating the only ranger, thus running away at the end.       
    ```
+---
+
    ### December 17 - The Bossy Manager
   
   #### Problem Statement
@@ -720,7 +725,80 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
   Output: 2
   ```       
----    
+---
+### December 19 - Winter is coming
+
+#### Problem Statement
+- Winter semester is about to begin. The previous semester’s professors had already instructed the students that it is mandatory to take up a value added course in order to take up a subject course. There are a total of `num` courses to be taken and they are labelled from `0` to `num-1`. Consider the array `course` where `course[i] = [ai, bi]`. 
+- It is mandatory for a student to take up the value added course `ai` in order to take up the subject course `bi`.
+
+Eg : the pair `[3,8]` says that one must take up the value added course `3` in order to take up the subject course `8`. 
+
+- These mandatory courses can be indirect as well. Suppose, course `p` is mandatory to take up course `q` and course `q` is mandatory to take up course `r`. Then, course `p`   is mandatory in order to take up course `r`.  
+- Consider another array `answer` where `answer[x] = [mx, nx]`. You must answer if course `mx` is mandatory in order to take up course `nx` or not for the `xth` query. 
+- Return a boolean array `result`, where `result[x]` is the answer to the `xth` query.
+
+<p align="center"><img src ="https://media.giphy.com/media/oxLsWbH1rvy2A/giphy.gif" width="320" height ="300"/></p> 
+
+#### Sample Input and Output
+
+```
+Input: num = 2, course = [[1,0]], answer = [[0,1],[1,0]]
+Output: [false,true]
+```
+```
+Input: num = 3, course = [[1,2],[1,0],[2,0]], answer = [[1,0],[1,2]]
+Output: [true,true]
+```
+```
+Input: num = 2, course = [], answer = [[1,0],[0,1]]
+Output: [false,false]
+```
+#### Explanation 
+```
+Input: num = 2, course = [[1,0]], answer = [[0,1],[1,0]]
+Output: [false,true]
+Explanation: The pair [1, 0] indicates that you have to take the value added course 1 before you can take the subject course 0. 
+Course 0 is not mandatory to take up course 1, but the opposite is true.
+```  
+ ---
+
+### December 20 - High Traffic Server(s)
+ 
+   #### Problem Statement
+   In your company there are `n` servers, numbered `0` to `n-1`, that are handling numerous requests at the same time. Each server has limitless processing power, but it can only handle one request at a time. The requests are routed to servers using the following algorithm:
+   - The `k`th request arrives. That `k`th request is discarded if all servers are busy (not handled at all).
+   - Assign the request to the `(k % n)`th server if it’s available.
+   - Otherwise, forward the request to the next server that is accessible. If the kth server is busy, for example, try routing the request to the `(k+1)`th server, then the `(k+2)`th server, and so on.
+  
+   You are given the arrival time of the requests and the load time(time taken to complete the request by the server). Your objective is to **find the server which handles the most number of requests**.    
+   
+   <p align="center"><img src ="https://media4.giphy.com/media/XsHkc4MCBXDn0yNybG/giphy.gif" width="320" height ="300"/></p> 
+      
+  #### Sample Input and output
+
+   ```
+   Input: n = 3, arrival = [1,2,3,4,5], load = [5,2,3,3,3] 
+   Output: [1] 
+   ```   
+   ```
+   Input: n = 3, arrival = [1,2,3,4], load = [1,2,1,2]
+   Output: [0]
+   ```   
+   ```
+  Input: n = 3, arrival = [1,2,3], load = [10,12,11]
+  Output: [0,1,2]
+   ```
+  #### Explanation
+   ```
+   Input: n = 3, arrival = [1,2,3,4], load = [1,2,1,2]
+   Output: [0]
+   
+   The first three requests are processed by the first three servers.
+   The third request has arrived. Because the server is accessible, it is handled by server 0.
+   Server 0 dealt with two requests, whereas servers 1 and 2 each dealt with one. As a result, server 0 is the busiest.
+   ```      
+---   
  
  ## Maintainers
 
