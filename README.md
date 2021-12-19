@@ -730,7 +730,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### December 19 - Winter is coming
 
 #### Problem Statement
-- Winter semester is about to begin. The previous semester’s professors had already instructed the students that it is mandatory to take up a value added course in order to take up a subject course. There are a total of `num` courses to be taken and they are labelled from `0` to `num-1`. Consider the array `course` where `course[i] = [ai, bi]`. 
+- Winter semester is about to begin. The previous semester’s professors had already instructed the students that it is mandatory to take up a value added course in order to take up a subject course. There are a total of `num` courses to be taken and they are labelled from `0` to `num-1`. Consider the array `course` where 
+`course[i] = [ai, bi]`. 
 - It is mandatory for a student to take up the value added course `ai` in order to take up the subject course `bi`.
 
 Eg : the pair `[3,8]` says that one must take up the value added course `3` in order to take up the subject course `8`. 
