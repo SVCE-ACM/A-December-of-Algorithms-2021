@@ -30,7 +30,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 16 - Catch Me If You Can**](#december-16---catch-me-if-you-can)
   - [**December 17 - The Bossy Manager**](#december-17---The-Bossy-Manager)
   - [**December 18 - Connections**](#december-18---Connections)
-  - [**December 19 - Winter is coming.**](#december-19---winter-is-coming)
+  - [**December 19 - Winter is coming**](#december-19---winter-is-coming)
   - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-servers)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
@@ -727,7 +727,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   Output: 2
   ```       
 ---
-### December 19 - Winter is coming.
+### December 19 - Winter is coming
 
 #### Problem Statement
 - Winter semester is about to begin. The previous semester’s professors had already instructed the students that it is mandatory to take up a value added course in order to take up a subject course. There are a total of `num` courses to be taken and they are labelled from `0` to `num-1`. Consider the array `course` where `course[i] = [ai, bi]`. 
