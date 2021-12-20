@@ -186,14 +186,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    ```
    Input: customers = [1,1,0,0], biscuits = [0,1,0,1]
    Output: 0 
-   - Front customer leaves the top sandwich and returns to the end of the line making customers = [1,0,0,1].
-   - Front customer leaves the top sandwich and returns to the end of the line making customers = [0,0,1,1].
-   - Front customer takes the top sandwich and leaves the line making customers = [0,1,1] and biscuits = [1,0,1].
-   - Front customer leaves the top sandwich and returns to the end of the line making customers = [1,1,0].
-   - Front customer takes the top sandwich and leaves the line making customers = [1,0] and biscuits = [0,1].
-   - Front customer leaves the top sandwich and returns to the end of the line making customers = [0,1].
-   - Front customer takes the top sandwich and leaves the line making customers = [1] and biscuits = [1].
-   - Front customer takes the top sandwich and leaves the line making customers = [] and biscuits = [].
+   - Front customer leaves the top biscuit and returns to the end of the line making customers = [1,0,0,1].
+   - Front customer leaves the top biscuit and returns to the end of the line making customers = [0,0,1,1].
+   - Front customer takes the top biscuit and leaves the line making customers = [0,1,1] and biscuits = [1,0,1].
+   - Front customer leaves the top biscuit and returns to the end of the line making customers = [1,1,0].
+   - Front customer takes the top biscuit and leaves the line making customers = [1,0] and biscuits = [0,1].
+   - Front customer leaves the top biscuit and returns to the end of the line making customers = [0,1].
+   - Front customer takes the top biscuit and leaves the line making customers = [1] and biscuits = [1].
+   - Front customer takes the top biscuit and leaves the line making customers = [] and biscuits = [].
    Hence all customers are able to eat.
    ```   
    #### Resources
