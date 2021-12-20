@@ -811,7 +811,7 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    - Return the minimum number of moves to transform the board into a checkerboard. Return -1 if the task is impossible.
    - This is how a [`checkerboard`](https://www.nctm.org/uploadedImages/Publications/TCM_Blog/checkerboard.png) is. (assume the white colour as `1s` and black as `0s`) 
    
-   <p align="center"><img src ="/src/assets/checkersboard.png" width="820" height ="250"/></p> 
+   <p align="center"><img src ="/src/assets/checkersboard.png" width="780" height ="250"/></p> 
       
   #### Sample Input and output
 
