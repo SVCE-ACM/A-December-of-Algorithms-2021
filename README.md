@@ -32,6 +32,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 18 - Connections**](#december-18---Connections)
   - [**December 19 - Winter is coming**](#december-19---winter-is-coming)
   - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-servers)
+  - [**December 21 - Transform to Checkerboard**](#december-20---transform-to-checkerboard)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -799,6 +800,42 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    The first three requests are processed by the first three servers.
    The third request has arrived. Because the server is accessible, it is handled by server 0.
    Server 0 dealt with two requests, whereas servers 1 and 2 each dealt with one. As a result, server 0 is the busiest.
+   ```      
+---
+
+### December 21 - Transform to Checkerboard
+ 
+   #### Problem Statement
+
+   - You've been handed a `x * x` binary grid to work with. You can swap any two rows or columns with each other in each move.
+   - Return the minimum number of moves to transform the board into a checkerboard. Return -1 if the task is impossible.
+   - This is how a [`checkerboard`](https://www.nctm.org/uploadedImages/Publications/TCM_Blog/checkerboard.png) is. (assume the white colour as `1s` and black as `0s`) 
+   
+   <p align="center"><img src ="/src/assets/checkersboard.png" width="820" height ="250"/></p> 
+      
+  #### Sample Input and output
+
+   ```
+   Input: board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
+   Output: 2
+   ```   
+   ```
+  Input: board = [[0,1],[1,0]]
+  Output: 0
+   ```   
+   ```
+   Input: board = [[1,0],[1,0]]
+   Output: -1
+   ```
+  #### Explanation
+   ```
+   Input: board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
+   Output: 2
+   
+   One potential sequence of moves is shown.
+   The first move swaps the first and second column.
+   The second move swaps the second and third row.
+   Check the above image for more context.
    ```      
 ---   
  
