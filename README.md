@@ -32,7 +32,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 18 - Connections**](#december-18---Connections)
   - [**December 19 - Winter is coming**](#december-19---winter-is-coming)
   - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-servers)
-  - [**December 21 - Transform to Checkerboard**](#december-20---transform-to-checkerboard)
+  - [**December 21 - Transform to Checkerboard**](#december-21---transform-to-checkerboard)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
