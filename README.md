@@ -32,6 +32,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 18 - Connections**](#december-18---Connections)
   - [**December 19 - Winter is coming**](#december-19---winter-is-coming)
   - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-servers)
+  - [**December 21 - Transform to Checkerboard**](#december-21---transform-to-checkerboard)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -185,14 +186,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    ```
    Input: customers = [1,1,0,0], biscuits = [0,1,0,1]
    Output: 0 
-   - Front customer leaves the top sandwich and returns to the end of the line making customers = [1,0,0,1].
-   - Front customer leaves the top sandwich and returns to the end of the line making customers = [0,0,1,1].
-   - Front customer takes the top sandwich and leaves the line making customers = [0,1,1] and biscuits = [1,0,1].
-   - Front customer leaves the top sandwich and returns to the end of the line making customers = [1,1,0].
-   - Front customer takes the top sandwich and leaves the line making customers = [1,0] and biscuits = [0,1].
-   - Front customer leaves the top sandwich and returns to the end of the line making customers = [0,1].
-   - Front customer takes the top sandwich and leaves the line making customers = [1] and biscuits = [1].
-   - Front customer takes the top sandwich and leaves the line making customers = [] and biscuits = [].
+   - Front customer leaves the top biscuit and returns to the end of the line making customers = [1,0,0,1].
+   - Front customer leaves the top biscuit and returns to the end of the line making customers = [0,0,1,1].
+   - Front customer takes the top biscuit and leaves the line making customers = [0,1,1] and biscuits = [1,0,1].
+   - Front customer leaves the top biscuit and returns to the end of the line making customers = [1,1,0].
+   - Front customer takes the top biscuit and leaves the line making customers = [1,0] and biscuits = [0,1].
+   - Front customer leaves the top biscuit and returns to the end of the line making customers = [0,1].
+   - Front customer takes the top biscuit and leaves the line making customers = [1] and biscuits = [1].
+   - Front customer takes the top biscuit and leaves the line making customers = [] and biscuits = [].
    Hence all customers are able to eat.
    ```   
    #### Resources
@@ -729,7 +730,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### December 19 - Winter is coming
 
 #### Problem Statement
-- Winter semester is about to begin. The previous semester’s professors had already instructed the students that it is mandatory to take up a value added course in order to take up a subject course. There are a total of `num` courses to be taken and they are labelled from `0` to `num-1`. Consider the array `course` where `course[i] = [ai, bi]`. 
+- Winter semester is about to begin. The previous semester’s professors had already instructed the students that it is mandatory to take up a value added course in order to take up a subject course. There are a total of `num` courses to be taken and they are labelled from `0` to `num-1`. Consider the array `course` where 
+`course[i] = [ai, bi]`. 
 - It is mandatory for a student to take up the value added course `ai` in order to take up the subject course `bi`.
 
 Eg : the pair `[3,8]` says that one must take up the value added course `3` in order to take up the subject course `8`. 
@@ -797,6 +799,42 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    The first three requests are processed by the first three servers.
    The third request has arrived. Because the server is accessible, it is handled by server 0.
    Server 0 dealt with two requests, whereas servers 1 and 2 each dealt with one. As a result, server 0 is the busiest.
+   ```      
+---
+
+### December 21 - Transform to Checkerboard
+ 
+   #### Problem Statement
+
+   - You've been handed a `x*x` binary grid to work with. You can swap any two rows or columns with each other in each move.
+   - Return the minimum number of moves to transform the board into a checkerboard. Return `-1` if the task is impossible.
+   - This is how a [checkerboard](https://www.nctm.org/uploadedImages/Publications/TCM_Blog/checkerboard.png) is.
+   
+   <p align="center"><img src ="/src/assets/checkersboard.png" width="780" height ="250"/></p> 
+      
+  #### Sample Input and output
+
+   ```
+   Input: board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
+   Output: 2
+   ```   
+   ```
+  Input: board = [[0,1],[1,0]]
+  Output: 0
+   ```   
+   ```
+   Input: board = [[1,0],[1,0]]
+   Output: -1
+   ```
+  #### Explanation
+   ```
+   Input: board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
+   Output: 2
+   
+   One potential sequence of moves is shown.
+   The first move swaps the first and second column.
+   The second move swaps the second and third row.
+   Check the above image for more context.
    ```      
 ---   
  
