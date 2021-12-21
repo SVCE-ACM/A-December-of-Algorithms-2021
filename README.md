@@ -33,6 +33,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 19 - Winter is coming**](#december-19---winter-is-coming)
   - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-servers)
   - [**December 21 - Transform to Checkerboard**](#december-21---transform-to-checkerboard)
+  - [**December 22 - Richie Rich**](#december-22---richie-rich)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -837,6 +838,39 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Check the above image for more context.
    ```      
 ---   
+### December 22 - Richie Rich
+ 
+   #### Problem Statement
+
+   - Christian is a world renowned entrepreneur who has a lot of craze for maths. In order to exhibit his love for maths he decided to buy a land and design it in the form of an undirected simple graph with `X` vertices (numbered 1 through `X`) and `Y` edges (numbered 1 through `Y`). 
+   - For each valid `p`, the `p`th edge connects vertices `mₚ` and `nₚ`. Christian wants to show off his car and bike collection on the field and therefore wants to place his bikes and cars on the edges so that the graph would be perfectly balanced, which means that for each vertex, the number of bikes edges incident to it must be equal to the number of cars edges incident to it.
+   - Obviously, Christian does not want to leave any edges blank, but he immediately realised that in such a case, it generally may be impossible to make the graph perfectly balanced, so instead he decided to display his helicopter collection on some of the edges, so that it is always possible to balance the graph.
+   - Since helicopters are the most expensive, Christian’s satisfaction with the graph will be greater when he uses fewer edges to display his helicopter collection.
+   - Can you help him choose what he has to display(bike,car or helicopter) on the edges so that he can show off his love for maths and his wealth in a perfectly balanced and satisfactory manner?
+   - Return an array, for each valid `p`, the `p`th of these lines should contain the integer `0` if you want the `i`th edge to be a helicopter, `1` if you want it to be a bike or `−1` if you want it to be a car.   
+      
+  #### Sample Input and output
+   
+   ```
+   Input: X = 5, Y = 6
+          [mₚ, nₚ] = [[1, 2], [2, 3], [3, 1], [3, 4], [4, 5], [5, 3]]
+   Output: [-1, 1, 1, -1, 1, -1]
+   ```
+   ```
+   Input: X = 6, Y = 9
+          [mₚ, nₚ] = [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4], [3, 6], [4, 5], [5, 6]]  
+   Output: [-1, 1, 0, 0, 1, -1, 0, 0, 0]
+   ```
+  #### Explanation
+   <p align="center"><img src ="/src/assets/helicopterGraph.png"/></p> 
+   
+   ```
+   The graph can be perfectly balanced without using any helicopters on the edges.
+   Green colour - car on the edges.
+   Red colour - bike on the edges.
+   Thus, without using any helicopters on the edges the graph is perfectly balanced in this case.
+   ```      
+ ---
  
  ## Maintainers
 
