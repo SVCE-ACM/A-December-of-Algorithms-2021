@@ -865,14 +865,12 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Output: [-1, 1, 0, 0, 1, -1, 0, 0, 0]
    ```
   #### Explanation
+  <p align="center"><img src ="/src/assets/helicopterGraph.png"/></p> 
    ```
-   Input: board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
-   Output: 2
-   <p align="center"><img src ="/src/assets/checkersboard.png" width="780" height ="250"/></p> 
-   One potential sequence of moves is shown.
-   The first move swaps the first and second column.
-   The second move swaps the second and third row.
-   Check the above image for more context.
+   The graph can be perfectly balanced without using any helicopters on the edges.
+   Green colour - car on the edges.
+   Red colour - bike on the edges.
+   Thus, without using any helicopters on the edges the graph is perfectly balanced in this case.
    ```      
  ---
  
