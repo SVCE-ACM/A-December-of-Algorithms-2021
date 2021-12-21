@@ -33,6 +33,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 19 - Winter is coming**](#december-19---winter-is-coming)
   - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-servers)
   - [**December 21 - Transform to Checkerboard**](#december-21---transform-to-checkerboard)
+  - [**December 22 - Richie Rich**](#december-22---richie-rich)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -847,20 +848,27 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    - Obviously, Christian does not want to leave any edges blank, but he immediately realised that in such a case, it generally may be impossible to make the graph perfectly balanced, so instead he decided to display his helicopter collection on some of the edges, so that it is always possible to balance the graph.
    - Since helicopters are the most expensive, Christian’s satisfaction with the graph will be greater when he uses fewer edges to display his helicopter collection.
    - Can you help him choose what he has to display(bike,car or helicopter) on the edges so that he can show off his love for maths and his wealth in a perfectly balanced and satisfactory manner?
+   - Return an array, for each valid `p`, the `p`th of these lines should contain the integer `0` if you want the `i`th edge to be a helicopter, `1` if you want it to be a bike or `−1` if you want it to be a car.
 
    <p align="center"><img src ="/src/assets/checkersboard.png" width="780" height ="250"/></p> 
       
   #### Sample Input and output
    
    ```
-   Input: board = [[1,0],[1,0]]
-   Output: -1
+   Input: X = 5, Y = 6
+          [mₚ, nₚ] = [[1, 2], [2, 3], [3, 1], [3, 4], [4, 5], [5, 3]]
+   Output: [-1, 1, 1, -1, 1, -1]
+   ```
+   ```
+   Input: X = 6, Y = 9
+          [mₚ, nₚ] = [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4], [3, 6], [4, 5], [5, 6]]  
+   Output: [-1, 1, 0, 0, 1, -1, 0, 0, 0]
    ```
   #### Explanation
    ```
    Input: board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
    Output: 2
-   
+   <p align="center"><img src ="/src/assets/checkersboard.png" width="780" height ="250"/></p> 
    One potential sequence of moves is shown.
    The first move swaps the first and second column.
    The second move swaps the second and third row.
