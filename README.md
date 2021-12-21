@@ -807,9 +807,9 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
  
    #### Problem Statement
 
-   - You've been handed a `x * x` binary grid to work with. You can swap any two rows or columns with each other in each move.
-   - Return the minimum number of moves to transform the board into a checkerboard. Return -1 if the task is impossible.
-   - This is how a [`checkerboard`](https://www.nctm.org/uploadedImages/Publications/TCM_Blog/checkerboard.png) is.
+   - You've been handed a `x*x` binary grid to work with. You can swap any two rows or columns with each other in each move.
+   - Return the minimum number of moves to transform the board into a checkerboard. Return `-1` if the task is impossible.
+   - This is how a [checkerboard](https://www.nctm.org/uploadedImages/Publications/TCM_Blog/checkerboard.png) is.
    
    <p align="center"><img src ="/src/assets/checkersboard.png" width="780" height ="250"/></p> 
       
