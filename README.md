@@ -848,9 +848,7 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    - Obviously, Christian does not want to leave any edges blank, but he immediately realised that in such a case, it generally may be impossible to make the graph perfectly balanced, so instead he decided to display his helicopter collection on some of the edges, so that it is always possible to balance the graph.
    - Since helicopters are the most expensive, Christian’s satisfaction with the graph will be greater when he uses fewer edges to display his helicopter collection.
    - Can you help him choose what he has to display(bike,car or helicopter) on the edges so that he can show off his love for maths and his wealth in a perfectly balanced and satisfactory manner?
-   - Return an array, for each valid `p`, the `p`th of these lines should contain the integer `0` if you want the `i`th edge to be a helicopter, `1` if you want it to be a bike or `−1` if you want it to be a car.
-
-   <p align="center"><img src ="/src/assets/checkersboard.png" width="780" height ="250"/></p> 
+   - Return an array, for each valid `p`, the `p`th of these lines should contain the integer `0` if you want the `i`th edge to be a helicopter, `1` if you want it to be a bike or `−1` if you want it to be a car.   
       
   #### Sample Input and output
    
@@ -865,7 +863,8 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Output: [-1, 1, 0, 0, 1, -1, 0, 0, 0]
    ```
   #### Explanation
-  <p align="center"><img src ="/src/assets/helicopterGraph.png"/></p> 
+   <p align="center"><img src ="/src/assets/helicopterGraph.png"/></p> 
+   
    ```
    The graph can be perfectly balanced without using any helicopters on the edges.
    Green colour - car on the edges.
