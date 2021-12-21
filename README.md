@@ -838,6 +838,35 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Check the above image for more context.
    ```      
 ---   
+### December 22 - Richie Rich
+ 
+   #### Problem Statement
+
+   - Christian is a world renowned entrepreneur who has a lot of craze for maths. In order to exhibit his love for maths he decided to buy a land and design it in the form of an undirected simple graph with `X` vertices (numbered 1 through `X`) and `Y` edges (numbered 1 through `Y`). 
+   - For each valid `p`, the `p`th edge connects vertices `mₚ` and `nₚ`. Christian wants to show off his car and bike collection on the field and therefore wants to place his bikes and cars on the edges so that the graph would be perfectly balanced, which means that for each vertex, the number of bikes edges incident to it must be equal to the number of cars edges incident to it.
+   - Obviously, Christian does not want to leave any edges blank, but he immediately realised that in such a case, it generally may be impossible to make the graph perfectly balanced, so instead he decided to display his helicopter collection on some of the edges, so that it is always possible to balance the graph.
+   - Since helicopters are the most expensive, Christian’s satisfaction with the graph will be greater when he uses fewer edges to display his helicopter collection.
+   - Can you help him choose what he has to display(bike,car or helicopter) on the edges so that he can show off his love for maths and his wealth in a perfectly balanced and satisfactory manner?
+
+   <p align="center"><img src ="/src/assets/checkersboard.png" width="780" height ="250"/></p> 
+      
+  #### Sample Input and output
+   
+   ```
+   Input: board = [[1,0],[1,0]]
+   Output: -1
+   ```
+  #### Explanation
+   ```
+   Input: board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
+   Output: 2
+   
+   One potential sequence of moves is shown.
+   The first move swaps the first and second column.
+   The second move swaps the second and third row.
+   Check the above image for more context.
+   ```      
+ ---
  
  ## Maintainers
 
