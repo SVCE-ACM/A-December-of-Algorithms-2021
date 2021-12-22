@@ -34,6 +34,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-servers)
   - [**December 21 - Transform to Checkerboard**](#december-21---transform-to-checkerboard)
   - [**December 22 - Richie Rich**](#december-22---richie-rich)
+  - [**December 23 - 
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -877,16 +878,14 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    #### Problem Statement
 
    - The National Ant Marathon Committee has decided to conduct this year’s marathon. The committee has to decide the route that is cyclic and consists of 4 different roads.
-   - Their city has X intersections and Y bidirectional roads.They want to hold it in all places throughout the city and make sure they cover a new route every day.
+   - Their city has `X` intersections and `Y` bidirectional roads.They want to hold it in all places throughout the city and make sure they cover a new route every day.
    - Two routes are said to be equal if their sets of component roads are equal.
    - You need to determine the maximum number of days the marathon needs to be held such that every route travelled is different.
+   - Two arrays `A` and `B` which define a bidirectional road connecting intersections `Ai` and `Bi`. 
    
    #### Rules:
   - The first line of input contains a pair of space-separated integers, X (the number of intersections) and  Y (the number of roads), respectively.
-  - Each line i of the X subsequent lines contains a pair of space-separated integers,Ai and Bi, defining a bidirectional road connecting intersections Ai and Bi.
-  - 1 ≤ X ≤ 5 x 10^4
-  - 1 ≤ Y ≤ 10^5
-  - 1 ≤ Ai , Bi ≤  X
+  - Each line i of the X subsequent lines contains a pair of space-separated integers,Ai and Bi, defining a bidirectional road connecting intersections Ai and Bi.  
   - Each bidirectional road connects 2 distinct intersections (i.e., no road connects an intersection to itself).
   - Each pair of intersections is directly connected by no more than 1 road.
   
@@ -894,22 +893,24 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    
    #### Sample Input/Output
    ```
-   Input:4 6
-1 2
-2 3
-3 4
-4 1
-1 3
-2 4
+   Input: X = 4, Y = 6
+             A  B
+             1  2
+             2  3
+             3  4
+             4  1
+             1  3
+             2  4
 
    Output: 3
    ```
    ```
-   Input: 3 4
-1 2
-3 2
-1 3
-2 1
+   Input: X = 3, Y = 4
+             A  B
+             1  2
+             3  2
+             1  3
+             2  1
 
    Output: 2
    ```
@@ -917,12 +918,11 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    ```
    In case 1: There are 3 different cyclic routes that can be taken for the marathon.
 
-1->2->3->4->1
-1->3->2->4->1
-1->2->4->3->1
+    1->2->3->4->1
+    1->3->2->4->1
+    1->2->4->3->1
 
-Recall that each route is a set of intersections forming a cycle, so each unique route is the same regardless of which city on the route the ants start out at. Thus, we print 3 (the number of routes) as our answer.
-
+    Recall that each route is a set of intersections forming a cycle, so each unique route is the same regardless of which city on the route the ants start out at. Thus, we print 3 (the number of routes) as our answer.
    ```         
   ---
  
