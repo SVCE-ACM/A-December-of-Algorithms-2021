@@ -34,6 +34,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-servers)
   - [**December 21 - Transform to Checkerboard**](#december-21---transform-to-checkerboard)
   - [**December 22 - Richie Rich**](#december-22---richie-rich)
+  - [**December 23 - Ant Got Track**](#december-23---ant-got-track)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -871,6 +872,52 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Thus, without using any helicopters on the edges the graph is perfectly balanced in this case.
    ```      
  ---
+  ### December 23 - Ant Got Track
+ 
+   #### Problem Statement
+
+   - The National Ant Marathon Committee has decided to conduct this year’s marathon. The committee has to decide the route that is cyclic and consists of 4 different roads.
+   - Their city has `X` intersections and `Y` bidirectional roads.They want to hold it in all places throughout the city and make sure they cover a new route every day.
+   - Two routes are said to be equal if their sets of component roads are equal.
+   - You need to determine the maximum number of days the marathon needs to be held such that every route travelled is different.
+   - Two arrays `A` and `B` which define a bidirectional road connecting intersections `Ai` and `Bi`. 
+      
+  <p align="center"><img src="https://c.tenor.com/gkfAjgzEulcAAAAC/ant-ants.gif" /></p>  
+   
+   #### Sample Input/Output
+   ```
+   Input: X = 4, Y = 6
+             A  B
+             1  2
+             2  3
+             3  4
+             4  1
+             1  3
+             2  4
+
+   Output: 3
+   ```
+   ```
+   Input: X = 3, Y = 4
+             A  B
+             1  2
+             3  2
+             1  3
+             2  1
+
+   Output: 2
+   ```
+   #### Explanation
+   ```
+   In case 1: There are 3 different cyclic routes that can be taken for the marathon.
+
+    1->2->3->4->1
+    1->3->2->4->1
+    1->2->4->3->1
+
+    Recall that each route is a set of intersections forming a cycle, so each unique route is the same regardless of which city on the route the ants start out at. Thus, we print 3 (the number of routes) as our answer.
+   ```         
+---
  
  ## Maintainers
 
