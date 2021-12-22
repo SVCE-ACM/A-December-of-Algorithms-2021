@@ -34,7 +34,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 20 - High Traffic Server(s)**](#december-20---high-traffic-servers)
   - [**December 21 - Transform to Checkerboard**](#december-21---transform-to-checkerboard)
   - [**December 22 - Richie Rich**](#december-22---richie-rich)
-  - [**December 23 - 
+  - [**December 23 - Ant Got Track**](#december-23---ant-got-track)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -882,13 +882,7 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    - Two routes are said to be equal if their sets of component roads are equal.
    - You need to determine the maximum number of days the marathon needs to be held such that every route travelled is different.
    - Two arrays `A` and `B` which define a bidirectional road connecting intersections `Ai` and `Bi`. 
-   
-   #### Rules:
-  - The first line of input contains a pair of space-separated integers, X (the number of intersections) and  Y (the number of roads), respectively.
-  - Each line i of the X subsequent lines contains a pair of space-separated integers,Ai and Bi, defining a bidirectional road connecting intersections Ai and Bi.  
-  - Each bidirectional road connects 2 distinct intersections (i.e., no road connects an intersection to itself).
-  - Each pair of intersections is directly connected by no more than 1 road.
-  
+      
   <p align="center"><img src="https://c.tenor.com/gkfAjgzEulcAAAAC/ant-ants.gif" /></p>  
    
    #### Sample Input/Output
@@ -924,7 +918,7 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
 
     Recall that each route is a set of intersections forming a cycle, so each unique route is the same regardless of which city on the route the ants start out at. Thus, we print 3 (the number of routes) as our answer.
    ```         
-  ---
+---
  
  ## Maintainers
 
