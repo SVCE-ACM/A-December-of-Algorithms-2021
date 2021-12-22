@@ -905,8 +905,12 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Output: 3
    ```
    ```
-   Input: 
-   Output: 
+   Input: 3 4
+1 2
+3 2
+1 3
+2 1
+   Output: 2
    ```
    #### Explanation
    ```
