@@ -872,6 +872,54 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Thus, without using any helicopters on the edges the graph is perfectly balanced in this case.
    ```      
  ---
+  ### December 23 - Ant Got Track
+ 
+   #### Problem Statement
+
+   - The National Ant Marathon Committee has decided to conduct this year’s marathon. The committee has to decide the route that is cyclic and consists of 4 different roads.
+   - Their city has X intersections and Y bidirectional roads.They want to hold it in all places throughout the city and make sure they cover a new route every day.
+   - Two routes are said to be equal if their sets of component roads are equal.
+   - You need to determine the maximum number of days the marathon needs to be held such that every route travelled is different.
+   
+   #### Rules:
+  - The first line of input contains a pair of space-separated integers, X (the number of intersections) and  Y (the number of roads), respectively.
+  - Each line i of the X subsequent lines contains a pair of space-separated integers,Ai and Bi, defining a bidirectional road connecting intersections Ai and Bi.
+  - 1 ≤ X ≤ 5 x 10^4
+  - 1 ≤ Y ≤ 10^5
+  - 1 ≤ Ai , Bi ≤  X
+  - Each bidirectional road connects 2 distinct intersections (i.e., no road connects an intersection to itself).
+  - Each pair of intersections is directly connected by no more than 1 road.
+  
+  <p align="center"><img src="https://c.tenor.com/gkfAjgzEulcAAAAC/ant-ants.gif" /></p>  
+   
+   #### Sample Input/Output
+   ```
+   Input:4 6
+1 2
+2 3
+3 4
+4 1
+1 3
+2 4
+
+   Output: 3
+   ```
+   ```
+   Input: 
+   Output: 
+   ```
+   #### Explanation
+   ```
+   In case 1: There are 3 different cyclic routes that can be taken for the marathon.
+
+1->2->3->4->1
+1->3->2->4->1
+1->2->4->3->1
+
+Recall that each route is a set of intersections forming a cycle, so each unique route is the same regardless of which city on the route the ants start out at. Thus, we print 3 (the number of routes) as our answer.
+
+   ```         
+  ---
  
  ## Maintainers
 
