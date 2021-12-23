@@ -920,6 +920,8 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
     Recall that each route is a set of intersections forming a cycle, so each unique route is the same regardless of which city on the route the ants start out at. Thus, we print 3 (the number of routes) as our answer.
    ```         
 ---
+### Mayday Mayday!!
+
  #### Problem Statement 
  
  - Lawrence is a delivery partner with grofers and due to the festive season his orders have increased and he is in a very dire situation. Please help Lawrence. 
@@ -942,21 +944,21 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
  
  #### Sample Input/Output 
  ```
- Input: M=1
+  Input: M=1
         X=1
         R₁=1 Y₁=5 T₁=6 K₁=10
         
- Output: 0
+  Output: 0
  ```
  ```
- Input: M=1
+  Input: M=1
         X=2
         R₂=1 Y₂=5 T₂=6 K₂=10
         R₂=1 Y₂=5 T₂=6 K₂=10
         
- Output: 50
+  Output: 50
  ```
- #### Explanation
+  #### Explanation
  - Example 1: There is only 1 order and all of the groceries from this order can be served. So zero salary has to be forfeited.
  - Example 2: There are two orders and you cannot serve 5 groceries. You can select these 5 groceries from any order.
  
