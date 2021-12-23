@@ -35,6 +35,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 21 - Transform to Checkerboard**](#december-21---transform-to-checkerboard)
   - [**December 22 - Richie Rich**](#december-22---richie-rich)
   - [**December 23 - Ant Got Track**](#december-23---ant-got-track)
+  - [**December 24 - Mayday Mayday!!**](#december-24---mayday-mayday)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -919,8 +920,52 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
     Recall that each route is a set of intersections forming a cycle, so each unique route is the same regardless of which city on the route the ants start out at. Thus, we print 3 (the number of routes) as our answer.
    ```         
 ---
+ #### Problem Statement 
  
- ## Maintainers
+ - Lawrence is a delivery partner with grofers and due to the festive season his orders have increased and he is in a very dire situation. Please help Lawrence. 
+ - Lawrence gets X orders. The orders are numbered from 1 to X. He gets order i at Ri time, and this order contains Yi number of groceries. Lawrence needs to deliver each of      these Yi groceries before Ti time and for each unit of groceries he cannot deliver before this deadline he needs to forfeit Ki unit of his salary as penalty. 
+ - Given all of the orders, help Lawrence to minimize the amount of salary he will have to forfeit .
+ - Important Note: Lawrence can deliver at most one grocery at a unit time and for each grocery he needs exactly one unit of time to deliver. Also Lawrence can deliver a          grocery instantly, when the grocery is available right next to the delivery address. 
+ - If Lawrence wants to deliver a grocery at time p, then the latest he can deliver that grocery is at time time p. In another words, for order i Lawrence can deliver the          groceries at time units Ri, Ri+1, Ri+2, ..., Ti-1. Please note that Lawrence cannot deliver groceries from order i exactly at time unit Ti.
+
+<p align="center"><img src="https://media0.giphy.com/media/9VgufqkSI0x9GamjVf/giphy.gif?cid=ecf05e47aapru8nky8rqlvci3muawh0wirfc3gb6g35uwedg&rid=giphy.gif&ct=g" /></p>   
+ 
+ #### Input Format 
+ 
+ -  The first line of the input contains an integer "M" denoting the number of test cases. The description of M test cases follows. 
+ -  Each test case starts with a line containing "X" the number of orders. Each of the next N lines contains the description of an order. 
+ -  Order i is given as a four integers Ri, Yi, Ti and Ki in a single line separated by a single space.
+ 
+ #### Output Format 
+ 
+ - For each test case, output a single line containing the minimum amount of salary Lawrence has to forfeit.
+ 
+ #### Sample Input/Output 
+ ```
+ Input: M=1
+        X=1
+        R₁=1 Y₁=5 T₁=6 K₁=10
+        
+ Output: 0
+ ```
+ ```
+ Input: M=1
+        X=2
+        R₂=1 Y₂=5 T₂=6 K₂=10
+        R₂=1 Y₂=5 T₂=6 K₂=10
+        
+ Output: 50
+ ```
+ #### Explanation
+ - Example 1: There is only 1 order and all of the groceries from this order can be served. So zero salary has to be forfeited.
+ - Example 2: There are two orders and you cannot serve 5 groceries. You can select these 5 groceries from any order.
+ 
+ ```
+```
+ 
+ 
+
+## Maintainers
 
 <table>
     <thead>
