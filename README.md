@@ -960,8 +960,8 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
   ```
    #### Explanation
   ```
-  -  Example 1: There is only 1 order and all of the groceries from this order can be served. So zero salary has to be forfeited.
-  -  Example 2: There are two orders and you cannot serve 5 groceries. You can select these 5 groceries from any order.
+  - Example 1: There is only 1 order and all of the groceries from this order can be served. So zero salary has to be forfeited.
+  - Example 2: There are two orders and you cannot serve 5 groceries. You can select these 5 groceries from any order.
   ```
 ---
 
