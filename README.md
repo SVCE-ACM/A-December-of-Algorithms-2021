@@ -962,7 +962,7 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
   - Each road has its own length. It is known that between two resting areas there is exactly one path that goes through the roads and resting areas such that no resting area       appears in the path more than once. Roads do not intersect each other and it takes 0 time to pass through a resting area. 
   - During their last visit,Adhi and Vishal previously rested in resting areas A1, A2, ..., AM so they will rest in one of these areas again. To make the camping trip more         adventurous they do not agree on the resting area beforehand. Rather, Adhi will pick a random resting area C from this list of resting areas and Vishal will independently       pick a random resting area J from this list of resting areas. Both random choices will be taken uniformly over the list of resting areas. 
   - The day before the camping trip, Vishal was a little scared and he spoke with his brother about their plan and asked him to calculate the expected distance between resting     areas that Adhi and Vishal randomly pick. Please remember that Adhi’s brother knows neither C nor J. Help him calculate this expected distance.
-  <p align="center"><img src="https://media1.giphy.com/media/3oEhmJ0Hw7eFtcowRa/giphy.gif?cid=ecf05e47o0ewsw8faygmraa9wj4624mlqs3amalfdwl2c3ef&rid=giphy.gif&ct=g" /></p>
+  <p align="center"><img src="https://media1.giphy.com/media/3oEhmJ0Hw7eFtcowRa/giphy.gif?cid=ecf05e47q5necrlqd7z3cfy0ma9kx7fgyoqc4ubwx98kqwef&rid=giphy.gif&ct=g" /></p>
   
  #### Input Format 
  - The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
