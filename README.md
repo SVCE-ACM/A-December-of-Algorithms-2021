@@ -925,34 +925,22 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
   #### Problem Statement 
  
   - Lawrence is a delivery partner with grofers and due to the festive season his orders have increased and he is in a very dire situation. Please help Lawrence. 
-  - Lawrence gets X orders. The orders are numbered from 1 to X. He gets order i at Ri time, and this order contains Yi number of groceries. Lawrence needs to deliver each of      these Yi groceries before Ti time and for each unit of groceries he cannot deliver before this deadline he needs to forfeit Ki unit of his salary as penalty. 
+  - Lawrence gets `X` orders. The orders are numbered from 1 to `X`. He gets order `i` at `Ri` time, and this order contains `Yi` number of groceries. Lawrence needs to deliver each of these `Yi` groceries before `Ti` time and for each unit of groceries he cannot deliver before this deadline he needs to forfeit `Ki` unit of his salary as penalty. 
   - Given all of the orders, help Lawrence to minimize the amount of salary he will have to forfeit .
-  - Important Note: Lawrence can deliver at most one grocery at a unit time and for each grocery he needs exactly one unit of time to deliver. Also Lawrence can deliver a          grocery instantly, when the grocery is available right next to the delivery address. 
-  - If Lawrence wants to deliver a grocery at time p, then the latest he can deliver that grocery is at time time p. In another words, for order i Lawrence can deliver the          groceries at time units Ri, Ri+1, Ri+2, ..., Ti-1. Please note that Lawrence cannot deliver groceries from order i exactly at time unit Ti.
+  - **Important Note:** Lawrence can deliver at most one grocery at a unit time and for each grocery he needs exactly one unit of time to deliver. Also Lawrence can deliver a          grocery instantly, when the grocery is available right next to the delivery address. 
+  - If Lawrence wants to deliver a grocery at time `p`, then the latest he can deliver that grocery is at time time `p`. In another words, for order `i` Lawrence can deliver the groceries at time units `Ri, Ri+1, Ri+2, ..., Ti-1`. Please note that Lawrence cannot deliver groceries from order `i` exactly at time unit `Ti`.
 
-<p align="center"><img src="https://media0.giphy.com/media/9VgufqkSI0x9GamjVf/giphy.gif?cid=ecf05e47aapru8nky8rqlvci3muawh0wirfc3gb6g35uwedg&rid=giphy.gif&ct=g" /></p>   
- 
-  #### Input Format 
- 
-  -  The first line of the input contains an integer "M" denoting the number of test cases. The description of M test cases follows. 
-  -  Each test case starts with a line containing "X" the number of orders. Each of the next N lines contains the description of an order. 
-  -  Order i is given as a four integers Ri, Yi, Ti and Ki in a single line separated by a single space.
- 
-  #### Output Format 
- 
-  - For each test case, output a single line containing the minimum amount of salary Lawrence has to forfeit.
+<p align="center"><img src="https://media0.giphy.com/media/9VgufqkSI0x9GamjVf/giphy.gif?cid=ecf05e47aapru8nky8rqlvci3muawh0wirfc3gb6g35uwedg&rid=giphy.gif&ct=g" /></p>      
  
  #### Sample Input/Output 
   ```
-    Input: M=1
-           X=1
+    Input: X=1
            R₁=1 Y₁=5 T₁=6 K₁=10
         
     Output: 0
   ```
   ```
-   Input: M=1
-          X=2
+   Input: X=2
           R₂=1 Y₂=5 T₂=6 K₂=10
           R₂=1 Y₂=5 T₂=6 K₂=10
         
@@ -964,9 +952,6 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Example 2: There are two orders and you cannot serve 5 groceries. You can select these 5 groceries from any order.
   ```
 ---
-
- 
- 
 
 ## Maintainers
 
