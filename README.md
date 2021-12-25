@@ -1011,12 +1011,12 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
   - For example, there are x=5 art galleries displaying y=3 types of arts. The following is a graph that shows a possible layout of the art galleries connected by z=4 paths.       Each of the galleries is labeled gallery number/art types displayed/ who(madhav/akshara) visit(s).
   - Here ‘B’ and ‘L’ represent madhav and akshara, respectively. In this example, both madhav and akshara take the same path, i.e. 1→3→5 and arrive at time 15+5=20 having           clicked pictures of all three types of arts they wanted to. Neither of them visit shopping centers 2 or 4.
  <p align="center"><img src="https://s3.amazonaws.com/hr-assets/0/1544041107-a20059b5a2-SynchronousShoppingExample.png" /></p>
-  - Complete the art function in the editor. It should return an integer that represents the minimum time required for their photo session .
+   - Complete the art function in the editor. It should return an integer that represents the minimum time required for their photo session .
     art has the following parameters:
-  - x: an integer, the number of art galleries
-  - y: an integer, the number of types of arts 
-  - centers: an array of strings of space-separated integers where the first integer of each element is the number of types of art displayed at a gallery and the remainder are     the types displayed
-  - roads: a 2-dimensional array of integers where the first two values are the art galleries connected by the bi-directional road, and the third is the travel time for that       road.
+   - x: an integer, the number of art galleries
+   - y: an integer, the number of types of arts 
+   - centers: an array of strings of space-separated integers where the first integer of each element is the number of types of art displayed at a gallery and the remainder are      the types displayed
+   - roads: a 2-dimensional array of integers where the first two values are the art galleries connected by the bi-directional road, and the third is the travel time for that        road.
   
   #### Sample Input/Output
     
