@@ -967,19 +967,17 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
 
 #### Sample Input/Output
   ```
-   Input: T=1
-          C=6 B=2
+   Input: C=6 B=2
           P=1 Q=3 R=1
           P=2 Q=3 R=2
           P=3 Q=4 R=3
           P=4 Q=5 R=4
           P=4 Q=6 R=5
           A1=1 A2=5
-    Output: numer=4 denom=1
+   Output: numer=4 denom=1
    ```
    ```
-   Input: T=1
-          C=6 B=6
+   Input: C=6 B=6
           P=1 Q=3 R=1
           P=2 Q=3 R=2
           P=3 Q=4 R=3
