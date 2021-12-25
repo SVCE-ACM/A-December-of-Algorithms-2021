@@ -953,7 +953,7 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Example 2: There are two orders and you cannot serve 5 groceries. You can select these 5 groceries from any order.
   ```
 ---
- ### Decemeber 25 - Ranthambore Diaries
+ ### December 25 - Ranthambore Diaries
  
   #### Problem Statement 
   
