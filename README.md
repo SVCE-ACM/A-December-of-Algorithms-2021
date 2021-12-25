@@ -37,6 +37,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 23 - Ant Got Track**](#december-23---ant-got-track)
   - [**December 24 - Mayday Mayday!!**](#december-24---mayday-mayday)
   - [**December 25 - Ranthambore Diaries**](#december-25---ranthambore-diaries)
+  - [**December 26 - Bellisima Florencia**](#december-26---bellisima-florencia)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -953,31 +954,44 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Example 2: There are two orders and you cannot serve 5 groceries. You can select these 5 groceries from any order.
   ```
 ---
- ### December 25 - Ranthambore Diaries
+ ### Decemebr 25 - Ranthambore Diaries
  
   #### Problem Statement 
   
   - Adhi and his friend Vishal decided to go camping in the forests of Ranthambore 5 years after their previous trip to the forests. However during the nights they can set up       their tents only in the “resting areas” designated by the government. 
-  - The forest has `X` resting areas that they can set up their tents in. The resting areas are numbered from 1 to `X` and are connected with `X-1` roads. 
-  - Each road has its own length. It is known that between two resting areas there is exactly **one*** path that goes through the roads and resting areas such that no resting area appears in the path more than once. Roads do not intersect each other and it takes **0** time to pass through a resting area. 
-  - During their last visit, Adhi and Vishal previously rested in resting areas `A1, A2, ..., AM` so they will rest in one of these areas again. To make the camping trip more     adventurous they do not agree on the resting area beforehand. Rather, Adhi will pick a random resting area `C` from this list of resting areas and Vishal will independently       pick a random resting area `J` from this list of resting areas. Both random choices will be taken uniformly over the list of resting areas. 
-  - The day before the camping trip, Vishal was a little scared and he spoke with his brother about their plan and asked him to calculate the expected distance between resting     areas that Adhi and Vishal randomly pick. Please remember that Adhi’s brother knows neither `C` nor `J`. Help him calculate this expected distance.
-  - Return two integers `numer` and `denom`. These indicate the fraction numer/denom giving expected distance between the resting areas randomly chosen by Adhi and Vishal. This fraction should be reduced so that gcd(numer, denom) = 1 and denom ≥ 1.
-  <p align="center"><img src="https://media3.giphy.com/media/LMnpMq01YnUrBjvTLM/giphy.gif?cid=ecf05e4727j6d5fqqok1l8q81h4ndbk6w89q993w8axbng72&rid=giphy.gif&ct=g" /></p>   
+  - The forest has X resting areas that they can set up their tents in. The resting areas are numbered from 1 to X and are connected with X-1 roads. 
+  - Each road has its own length. It is known that between two resting areas there is exactly one path that goes through the roads and resting areas such that no resting area       appears in the path more than once. Roads do not intersect each other and it takes 0 time to pass through a resting area. 
+  - During their last visit,Adhi and Vishal previously rested in resting areas A1, A2, ..., AM so they will rest in one of these areas again. To make the camping trip more         adventurous they do not agree on the resting area beforehand. Rather, Adhi will pick a random resting area C from this list of resting areas and Vishal will independently       pick a random resting area J from this list of resting areas. Both random choices will be taken uniformly over the list of resting areas. 
+  - The day before the camping trip, Vishal was a little scared and he spoke with his brother about their plan and asked him to calculate the expected distance between resting     areas that Adhi and Vishal randomly pick. Please remember that Adhi’s brother knows neither C nor J. Help him calculate this expected distance.
+  <p align="center"><img src="https://media3.giphy.com/media/LMnpMq01YnUrBjvTLM/giphy.gif?cid=ecf05e4727j6d5fqqok1l8q81h4ndbk6w89q993w8axbng72&rid=giphy.gif&ct=g" /></p>
+  
+ #### Input Format 
+ - The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+ - The first line of each test case contains two space-separated integers C and B.
+ - The next C-1 lines contain three space-separated integers P, Q, and R describing a road with length R between resting areas P and Q.
+ - The final line of each case contains B space-separated integers A1, A2, ..., AM.
+
+#### Output Format
+- For each test case, output a single line containing two integers numer and denom separated by a space. 
+- These indicate the fraction numer/denom giving expected distance between the resting areas randomly chosen by Adhi and Vishal. 
+- This fraction should be reduced so that gcd(numer, denom) = 1 and denom ≥ 1.
 
 #### Sample Input/Output
   ```
-   Input: C=6 B=2
+   Input: T=1
+          C=6 B=2
           P=1 Q=3 R=1
           P=2 Q=3 R=2
           P=3 Q=4 R=3
           P=4 Q=5 R=4
           P=4 Q=6 R=5
           A1=1 A2=5
-   Output: numer=4 denom=1
+    Output: numer=4 denom=1
+
    ```
    ```
-   Input: C=6 B=6
+   Input: T=1
+          C=6 B=6
           P=1 Q=3 R=1
           P=2 Q=3 R=2
           P=3 Q=4 R=3
@@ -985,6 +999,48 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
           P=4 Q=6 R=5
           A1=1 A2=2 A3=3 A4=4 A5=5 A6=6
    Output: numer=29 denom=6
+
+   ```
+---
+ ### Bellisima Florencia
+  
+  #### Problem Statement 
+  
+  - Florence is a scenic city that has a number of art galleries connected by bidirectional roads, each of which has a travel time associated with it. Each of the art galleries     may have an artist who displays one or more kinds of arts.  A couple, Madhav and Akshara, are at art gallery 1 (each of the gallery is numbered consecutively from 1 to x ).   - They have a list of arts they want to click photos of, and to save time, they will divide the list between them. Determine the total travel time for the couple to click         pictures of all of the types of arts, finally meeting at art gallery x . 
+  - Their paths may intersect, they may backtrack through art gallery x, and one may arrive at a different time than the other. The minimum time to determine is when both have     arrived at the destination.
+  - For example, there are x=5 art galleries displaying y=3 types of arts. The following is a graph that shows a possible layout of the art galleries connected by z=4 paths.       Each of the galleries is labeled gallery number/art types displayed/ who(madhav/akshara) visit(s).
+  - Here ‘B’ and ‘L’ represent madhav and akshara, respectively. In this example, both madhav and akshara take the same path, i.e. 1→3→5 and arrive at time 15+5=20 having           clicked pictures of all three types of arts they wanted to. Neither of them visit shopping centers 2 or 4.
+ <p align="center"><img src="https://s3.amazonaws.com/hr-assets/0/1544041107-a20059b5a2-SynchronousShoppingExample.png" /></p>
+  - Complete the art function in the editor. It should return an integer that represents the minimum time required for their photo session .
+    art has the following parameters:
+  - x: an integer, the number of art galleries
+  - y: an integer, the number of types of arts 
+  - centers: an array of strings of space-separated integers where the first integer of each element is the number of types of art displayed at a gallery and the remainder are     the types displayed
+  - roads: a 2-dimensional array of integers where the first two values are the art galleries connected by the bi-directional road, and the third is the travel time for that       road.
+  
+  #### Sample Input/Output
+    
+     Input:  x=5 z=5 y=5
+             t₁=1 A₁₁=1
+             t₂=1 A₂₂=2
+             t₃=1 A₃₃=3
+             t₄=1 A₄₄=4
+             t₅=1 A₅₅=5
+             k₁=1 c₁=2 d₁=10
+             k₂=1 c₂=3 d₂=10
+             k₃=2 c₃=4 d₃=10
+             k₄=3 c₄=5 d₄=10
+             k₅=4 c₅=5 d₅=10
+        
+     Output: 30
+     
+  #### Explanation
+   ```
+   <p align="center"><img src="https://s3.amazonaws.com/hr-assets/0/1544037692-e51dbc72a0-SynchronousShoppingSample0.png" /></p>
+   
+  - B represents a location Madhav visits, L represents a location where Akshara visits.
+  - Madhav can travel 1→2→4→5  and click pictures of art at all of the art galleries on his way.
+  - Akshara can then travel 1→3→5 , and click pictures of art from the artist at the 3rd art gallery only.
    ```
 ---
 
