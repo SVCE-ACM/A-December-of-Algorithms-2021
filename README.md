@@ -35,6 +35,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 21 - Transform to Checkerboard**](#december-21---transform-to-checkerboard)
   - [**December 22 - Richie Rich**](#december-22---richie-rich)
   - [**December 23 - Ant Got Track**](#december-23---ant-got-track)
+  - [**December 24 - Mayday Mayday!!**](#december-24---mayday-mayday)
+  - [**December 25 - Ranthambore Diaries**](#december-25---ranthambore-diaries)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -918,8 +920,74 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
     Recall that each route is a set of intersections forming a cycle, so each unique route is the same regardless of which city on the route the ants start out at. Thus, we print 3 (the number of routes) as our answer.
    ```         
 ---
+ ### December 24 - Mayday Mayday!!
+
+  #### Problem Statement 
  
- ## Maintainers
+  - Lawrence is a delivery partner with grofers and due to the festive season his orders have increased and he is in a very dire situation. Please help Lawrence. 
+  - Lawrence gets `X` orders. The orders are numbered from 1 to `X`. He gets order `i` at `Ri` time, and this order contains `Yi` number of groceries. Lawrence needs to deliver each of these `Yi` groceries before `Ti` time and for each unit of groceries he cannot deliver before this deadline he needs to forfeit `Ki` unit of his salary as penalty. 
+  - Given all of the orders, help Lawrence to minimize the amount of salary he will have to forfeit .
+  - **Important Note:** Lawrence can deliver at most one grocery at a unit time and for each grocery he needs exactly one unit of time to deliver. Also Lawrence can deliver a          grocery instantly, when the grocery is available right next to the delivery address. 
+  - If Lawrence wants to deliver a grocery at time `p`, then the latest he can deliver that grocery is at time time `p`. In another words, for order `i` Lawrence can deliver the groceries at time units `Ri, Ri+1, Ri+2, ..., Ti-1`. Please note that Lawrence cannot deliver groceries from order `i` exactly at time unit `Ti`.
+
+<p align="center"><img src="https://media0.giphy.com/media/9VgufqkSI0x9GamjVf/giphy.gif?cid=ecf05e47aapru8nky8rqlvci3muawh0wirfc3gb6g35uwedg&rid=giphy.gif&ct=g" /></p>      
+ 
+ #### Sample Input/Output 
+  ```
+    Input: X=1
+           R₁=1 Y₁=5 T₁=6 K₁=10
+        
+    Output: 0
+  ```
+  ```
+   Input: X=2
+          R₂=1 Y₂=5 T₂=6 K₂=10
+          R₂=1 Y₂=5 T₂=6 K₂=10
+        
+   Output: 50
+  ```
+   #### Explanation
+  ```
+   Example 1: There is only 1 order and all of the groceries from this order can be served. So zero salary has to be forfeited.
+   Example 2: There are two orders and you cannot serve 5 groceries. You can select these 5 groceries from any order.
+  ```
+---
+ ### December 25 - Ranthambore Diaries
+ 
+  #### Problem Statement 
+  
+  - Adhi and his friend Vishal decided to go camping in the forests of Ranthambore 5 years after their previous trip to the forests. However during the nights they can set up       their tents only in the “resting areas” designated by the government. 
+  - The forest has `X` resting areas that they can set up their tents in. The resting areas are numbered from 1 to `X` and are connected with `X-1` roads. 
+  - Each road has its own length. It is known that between two resting areas there is exactly **one*** path that goes through the roads and resting areas such that no resting area appears in the path more than once. Roads do not intersect each other and it takes **0** time to pass through a resting area. 
+  - During their last visit, Adhi and Vishal previously rested in resting areas `A1, A2, ..., AM` so they will rest in one of these areas again. To make the camping trip more     adventurous they do not agree on the resting area beforehand. Rather, Adhi will pick a random resting area `C` from this list of resting areas and Vishal will independently       pick a random resting area `J` from this list of resting areas. Both random choices will be taken uniformly over the list of resting areas. 
+  - The day before the camping trip, Vishal was a little scared and he spoke with his brother about their plan and asked him to calculate the expected distance between resting     areas that Adhi and Vishal randomly pick. Please remember that Adhi’s brother knows neither `C` nor `J`. Help him calculate this expected distance.
+  - Return two integers `numer` and `denom`. These indicate the fraction numer/denom giving expected distance between the resting areas randomly chosen by Adhi and Vishal. This fraction should be reduced so that gcd(numer, denom) = 1 and denom ≥ 1.
+  <p align="center"><img src="https://media3.giphy.com/media/LMnpMq01YnUrBjvTLM/giphy.gif?cid=ecf05e4727j6d5fqqok1l8q81h4ndbk6w89q993w8axbng72&rid=giphy.gif&ct=g" /></p>   
+
+#### Sample Input/Output
+  ```
+   Input: C=6 B=2
+          P=1 Q=3 R=1
+          P=2 Q=3 R=2
+          P=3 Q=4 R=3
+          P=4 Q=5 R=4
+          P=4 Q=6 R=5
+          A1=1 A2=5
+   Output: numer=4 denom=1
+   ```
+   ```
+   Input: C=6 B=6
+          P=1 Q=3 R=1
+          P=2 Q=3 R=2
+          P=3 Q=4 R=3
+          P=4 Q=5 R=4
+          P=4 Q=6 R=5
+          A1=1 A2=2 A3=3 A4=4 A5=5 A6=6
+   Output: numer=29 denom=6
+   ```
+---
+
+## Maintainers
 
 <table>
     <thead>
