@@ -958,27 +958,16 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
   #### Problem Statement 
   
   - Adhi and his friend Vishal decided to go camping in the forests of Ranthambore 5 years after their previous trip to the forests. However during the nights they can set up       their tents only in the “resting areas” designated by the government. 
-  - The forest has X resting areas that they can set up their tents in. The resting areas are numbered from 1 to X and are connected with X-1 roads. 
+  - The forest has `X` resting areas that they can set up their tents in. The resting areas are numbered from 1 to `X` and are connected with `X-1` roads. 
   - Each road has its own length. It is known that between two resting areas there is exactly one path that goes through the roads and resting areas such that no resting area       appears in the path more than once. Roads do not intersect each other and it takes 0 time to pass through a resting area. 
-  - During their last visit,Adhi and Vishal previously rested in resting areas A1, A2, ..., AM so they will rest in one of these areas again. To make the camping trip more         adventurous they do not agree on the resting area beforehand. Rather, Adhi will pick a random resting area C from this list of resting areas and Vishal will independently       pick a random resting area J from this list of resting areas. Both random choices will be taken uniformly over the list of resting areas. 
-  - The day before the camping trip, Vishal was a little scared and he spoke with his brother about their plan and asked him to calculate the expected distance between resting     areas that Adhi and Vishal randomly pick. Please remember that Adhi’s brother knows neither C nor J. Help him calculate this expected distance.
-  <p align="center"><img src="https://media3.giphy.com/media/LMnpMq01YnUrBjvTLM/giphy.gif?cid=ecf05e4727j6d5fqqok1l8q81h4ndbk6w89q993w8axbng72&rid=giphy.gif&ct=g" /></p>
-  
- #### Input Format 
- - The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
- - The first line of each test case contains two space-separated integers C and B.
- - The next C-1 lines contain three space-separated integers P, Q, and R describing a road with length R between resting areas P and Q.
- - The final line of each case contains B space-separated integers A1, A2, ..., AM.
-
-#### Output Format
-- For each test case, output a single line containing two integers numer and denom separated by a space. 
-- These indicate the fraction numer/denom giving expected distance between the resting areas randomly chosen by Adhi and Vishal. 
-- This fraction should be reduced so that gcd(numer, denom) = 1 and denom ≥ 1.
+  - During their last visit,Adhi and Vishal previously rested in resting areas `A1, A2, ... AM` so they will rest in one of these areas again. To make the camping trip more         adventurous they do not agree on the resting area beforehand. Rather, Adhi will pick a random resting area `C` from this list of resting areas and Vishal will independently       pick a random resting area `J` from this list of resting areas. Both random choices will be taken uniformly over the list of resting areas. 
+  - The day before the camping trip, Vishal was a little scared and he spoke with his brother about their plan and asked him to calculate the expected distance between resting     areas that Adhi and Vishal randomly pick. Please remember that Adhi’s brother knows neither `C` nor `J`. Help him calculate this expected distance.
+  - Return two integers numer and denom, which indicates the fraction `numer`/`denom` giving expected distance between the resting areas randomly chosen by Adhi and Vishal. 
+  <p align="center"><img src="https://media3.giphy.com/media/LMnpMq01YnUrBjvTLM/giphy.gif?cid=ecf05e4727j6d5fqqok1l8q81h4ndbk6w89q993w8axbng72&rid=giphy.gif&ct=g" /></p>   
 
 #### Sample Input/Output
   ```
-   Input: T=1
-          C=6 B=2
+   Input: C=6 B=2
           P=1 Q=3 R=1
           P=2 Q=3 R=2
           P=3 Q=4 R=3
@@ -986,11 +975,9 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
           P=4 Q=6 R=5
           A1=1 A2=5
     Output: numer=4 denom=1
-
    ```
    ```
-   Input: T=1
-          C=6 B=6
+   Input: C=6 B=6
           P=1 Q=3 R=1
           P=2 Q=3 R=2
           P=3 Q=4 R=3
@@ -998,7 +985,6 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
           P=4 Q=6 R=5
           A1=1 A2=2 A3=3 A4=4 A5=5 A6=6
    Output: numer=29 denom=6
-
    ```
 ---
  ### Bellisima Florencia
