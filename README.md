@@ -1035,14 +1035,13 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
         
   Output: 30
   ```
-#### Explanation
-
-  <p align="center"><img src="https://s3.amazonaws.com/hr-assets/0/1544037692-e51dbc72a0-SynchronousShoppingSample0.png" /></p>  
-  ```
-  B represents a location Madhav visits, L represents a location where Akshara visits.
-  Madhav can travel 1→2→4→5  and click pictures of art at all of the art galleries on his way.
-  Akshara can then travel 1→3→5 , and click pictures of art from the artist at the 3rd art gallery only.
-  ```
+  #### Explanation
+   <p align="center"><img src ="https://s3.amazonaws.com/hr-assets/0/1544037692-e51dbc72a0-SynchronousShoppingSample0.png"/></p>    
+   ```
+   B represents a location Madhav visits, L represents a location where Akshara visits.
+   Madhav can travel 1→2→4→5  and click pictures of art at all of the art galleries on his way.
+   Akshara can then travel 1→3→5 , and click pictures of art from the artist at the 3rd art gallery only.
+   ```      
 ---
 
 ## Maintainers
