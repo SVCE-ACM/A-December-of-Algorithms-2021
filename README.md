@@ -1013,14 +1013,14 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
   - Here `B` and `L` represent madhav and akshara, respectively. In this example, both madhav and akshara take the same path, i.e. `1→3→5` and arrive at time `15+5=20` having  clicked pictures of all three types of arts they wanted to. Neither of them visit shopping centers 2 or 4.
   - Complete the art function in the editor. It should return an integer that represents the minimum time required for their photo session .
     art has the following parameters:
-      (i)   x: an integer, the number of art galleries
-      (ii)  y: an integer, the number of types of arts 
-      (iii) centers: an array of strings of space-separated integers where the first integer of each element is the number of types of art displayed at a gallery and the                   remainder are the types displayed
-      (iv)  roads: a 2-dimensional array of integers where the first two values are the art galleries connected by the bi-directional road, and the third is the travel time for             that road.
+      - x: an integer, the number of art galleries
+      - y: an integer, the number of types of arts 
+      - centers: an array of strings of space-separated integers where the first integer of each element is the number of types of art displayed at a gallery and the                   remainder are the types displayed
+      - roads: a 2-dimensional array of integers where the first two values are the art galleries connected by the bi-directional road, and the third is the travel time for             that road.
    <p align="center"><img src="https://s3.amazonaws.com/hr-assets/0/1544041107-a20059b5a2-SynchronousShoppingExample.png" /></p>
    
-  #### Sample Input/Output
-    
+#### Sample Input/Output
+    ```
      Input:  x=5 z=5 y=5
              t₁=1 A₁₁=1
              t₂=1 A₂₂=2
@@ -1034,15 +1034,15 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
              k₅=4 c₅=5 d₅=10
         
      Output: 30
-     
-  #### Explanation
+    ```
+#### Explanation
   
    <p align="center"><img src="https://s3.amazonaws.com/hr-assets/0/1544037692-e51dbc72a0-SynchronousShoppingSample0.png" /></p>
-   ```
-   B represents a location Madhav visits, L represents a location where Akshara visits.
-   Madhav can travel 1→2→4→5  and click pictures of art at all of the art galleries on his way.
-   Akshara can then travel 1→3→5 , and click pictures of art from the artist at the 3rd art gallery only.
-   ```
+    ```
+     B represents a location Madhav visits, L represents a location where Akshara visits.
+     Madhav can travel 1→2→4→5  and click pictures of art at all of the art galleries on his way.
+     Akshara can then travel 1→3→5 , and click pictures of art from the artist at the 3rd art gallery only.
+    ```
 ---
 
 ## Maintainers
