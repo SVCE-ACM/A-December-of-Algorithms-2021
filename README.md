@@ -1020,29 +1020,29 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    <p align="center"><img src="https://s3.amazonaws.com/hr-assets/0/1544041107-a20059b5a2-SynchronousShoppingExample.png" /></p>
    
 #### Sample Input/Output
-    ```
-     Input:  x=5 z=5 y=5
-             t₁=1 A₁₁=1
-             t₂=1 A₂₂=2
-             t₃=1 A₃₃=3
-             t₄=1 A₄₄=4
-             t₅=1 A₅₅=5
-             k₁=1 c₁=2 d₁=10
-             k₂=1 c₂=3 d₂=10
-             k₃=2 c₃=4 d₃=10
-             k₄=3 c₄=5 d₄=10
-             k₅=4 c₅=5 d₅=10
+  ```
+  Input:  x=5 z=5 y=5
+          t₁=1 A₁₁=1
+          t₂=1 A₂₂=2
+          t₃=1 A₃₃=3
+          t₄=1 A₄₄=4
+          t₅=1 A₅₅=5
+          k₁=1 c₁=2 d₁=10
+          k₂=1 c₂=3 d₂=10
+          k₃=2 c₃=4 d₃=10
+          k₄=3 c₄=5 d₄=10
+          k₅=4 c₅=5 d₅=10
         
-     Output: 30
-    ```
+  Output: 30
+  ```
 #### Explanation
   
-   <p align="center"><img src="https://s3.amazonaws.com/hr-assets/0/1544037692-e51dbc72a0-SynchronousShoppingSample0.png" /></p>
-    ```
+  <p align="center"><img src="https://s3.amazonaws.com/hr-assets/0/1544037692-e51dbc72a0-SynchronousShoppingSample0.png" /></p>
+  ```
      B represents a location Madhav visits, L represents a location where Akshara visits.
      Madhav can travel 1→2→4→5  and click pictures of art at all of the art galleries on his way.
      Akshara can then travel 1→3→5 , and click pictures of art from the artist at the 3rd art gallery only.
-    ```
+  ```
 ---
 
 ## Maintainers
