@@ -963,7 +963,7 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
   - Each road has its own length. It is known that between two resting areas there is exactly one path that goes through the roads and resting areas such that no resting area       appears in the path more than once. Roads do not intersect each other and it takes 0 time to pass through a resting area. 
   - During their last visit,Adhi and Vishal previously rested in resting areas `A1, A2, ... AM` so they will rest in one of these areas again. To make the camping trip more         adventurous they do not agree on the resting area beforehand. Rather, Adhi will pick a random resting area `C` from this list of resting areas and Vishal will independently       pick a random resting area `J` from this list of resting areas. Both random choices will be taken uniformly over the list of resting areas. 
   - The day before the camping trip, Vishal was a little scared and he spoke with his brother about their plan and asked him to calculate the expected distance between resting     areas that Adhi and Vishal randomly pick. Please remember that Adhi’s brother knows neither `C` nor `J`. Help him calculate this expected distance.
-  - Return two integers numer and denom, which indicates the fraction numer/denom giving expected distance between the resting areas randomly chosen by Adhi and Vishal. 
+  - Return two integers numer and denom, which indicates the fraction `numer`/`denom` giving expected distance between the resting areas randomly chosen by Adhi and Vishal. 
   <p align="center"><img src="https://media3.giphy.com/media/LMnpMq01YnUrBjvTLM/giphy.gif?cid=ecf05e4727j6d5fqqok1l8q81h4ndbk6w89q993w8axbng72&rid=giphy.gif&ct=g" /></p>   
 
 #### Sample Input/Output
