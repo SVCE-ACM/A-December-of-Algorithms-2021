@@ -1006,10 +1006,11 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
   
   #### Problem Statement 
   
-  - Florence is a scenic city that has a number of art galleries connected by bidirectional roads, each of which has a travel time associated with it. Each of the art galleries     may have an artist who displays one or more kinds of arts.  A couple, Madhav and Akshara, are at art gallery 1 (each of the gallery is numbered consecutively from 1 to x ).   - They have a list of arts they want to click photos of, and to save time, they will divide the list between them. Determine the total travel time for the couple to click         pictures of all of the types of arts, finally meeting at art gallery x . 
-  - Their paths may intersect, they may backtrack through art gallery x, and one may arrive at a different time than the other. The minimum time to determine is when both have     arrived at the destination.
-  - For example, there are x=5 art galleries displaying y=3 types of arts. The following is a graph that shows a possible layout of the art galleries connected by z=4 paths.       Each of the galleries is labeled gallery number/art types displayed/ who(madhav/akshara) visit(s).
-  - Here ‘B’ and ‘L’ represent madhav and akshara, respectively. In this example, both madhav and akshara take the same path, i.e. 1→3→5 and arrive at time 15+5=20 having           clicked pictures of all three types of arts they wanted to. Neither of them visit shopping centers 2 or 4.
+  - Florence is a scenic city that has a number of art galleries connected by bidirectional roads, each of which has a travel time associated with it. Each of the art galleries     may have an artist who displays one or more kinds of arts. A couple, Madhav and Akshara, are at art gallery 1 (each of the gallery is numbered consecutively from 1 to `x` ).   
+  - They have a list of arts they want to click photos of, and to save time, they will divide the list between them. Determine the total travel time for the couple to click         pictures of all of the types of arts, finally meeting at art gallery `x`. 
+  - Their paths may intersect, they may backtrack through art gallery `x`, and one may arrive at a different time than the other. The minimum time to determine is when both have arrived at the destination.
+  - For example, there are `x = 5` art galleries displaying `y = 3` types of arts. The following is a graph that shows a possible layout of the art galleries connected by `z = 4` paths. Each of the galleries is labeled gallery number/art types displayed/ who(madhav/akshara) visit(s).
+  - Here `B` and `L` represent madhav and akshara, respectively. In this example, both madhav and akshara take the same path, i.e. `1→3→5` and arrive at time `15+5=20` having  clicked pictures of all three types of arts they wanted to. Neither of them visit shopping centers 2 or 4.
   - Complete the art function in the editor. It should return an integer that represents the minimum time required for their photo session .
     art has the following parameters:
       (i)   x: an integer, the number of art galleries
@@ -1037,10 +1038,11 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
   #### Explanation
   
    <p align="center"><img src="https://s3.amazonaws.com/hr-assets/0/1544037692-e51dbc72a0-SynchronousShoppingSample0.png" /></p>
-   
+   ```
   - B represents a location Madhav visits, L represents a location where Akshara visits.
   - Madhav can travel 1→2→4→5  and click pictures of art at all of the art galleries on his way.
   - Akshara can then travel 1→3→5 , and click pictures of art from the artist at the 3rd art gallery only.
+   ```
 ---
 
 ## Maintainers
