@@ -36,8 +36,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 22 - Richie Rich**](#december-22---richie-rich)
   - [**December 23 - Ant Got Track**](#december-23---ant-got-track)
   - [**December 24 - Mayday Mayday!!**](#december-24---mayday-mayday)
-  - [**December 25 - Ranthambore Diaries**](#december-25---ranthambore-diaries)
+  - [**December 25 - Ranthambore Diaries**](#december-25---ranthambore-diaries)  
   - [**December 26 - Bellisima Florencia**](#december-26---bellisima-florencia)
+  - [**December 27 - Community Park**](#december-27---community-park)
+  - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -953,7 +955,7 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Example 2: There are two orders and you cannot serve 5 groceries. You can select these 5 groceries from any order.
   ```
 ---
- ### Decemebr 25 - Ranthambore Diaries
+ ### Decemeber 25 - Ranthambore Diaries
  
   #### Problem Statement 
   
@@ -987,7 +989,7 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Output: numer=29 denom=6
    ```
 ---
- ### Bellisima Florencia
+ ### Decemeber 26 - Bellisima Florencia
   
   #### Problem Statement 
   
@@ -1027,6 +1029,100 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    - Madhav can travel 1→2→4→5  and click pictures of art at all of the art galleries on his way.
    - Akshara can then travel 1→3→5 , and click pictures of art from the artist at the 3rd art gallery only.  
   
+---
+ 
+### December 27 - Community Park
+
+  #### Problem Statement 
+ 
+  - For the past 1 month the community park has been facing a lot of electricity issues. This has affected the park lighting very badly. Adults and children face difficulty in utilizing the park during the nights. The association members have decided to solve this issue after finding a cost efficient lightning option. 
+  - Consider each light source can illuminate a circular area with a radius `r`. Consider there are `n` major spots in the park , each located at `(xi,yi)` point. Since they want to minimize the expenses, they want to buy a minimum number of light sources `k`, such that each major spot is illuminated by at least **1** light source.
+  - In other words, your task is to select a minimum number of points in the plane, such that for each given point, there exists a chosen point at a distance of at most r.
+  - Note: More than one light source can be placed at a specific spot
+  
+  <p align="center"><img src ="/src/assets/park.webp" height = "300"/></p>       
+ 
+ #### Sample Input/Output 
+  ```
+    Input: 
+    n=4 r=2
+    x y
+    0 2
+    0 4
+    2 0
+    2 4
+       
+    Output: 
+    No of light sources: 2
+    Coordinates: (1,3), (1,1)    
+  ```
+  ```
+    Input: 
+    n=3 r=2
+    x y
+    1 4
+    0 2 
+    4 2
+
+    Output: 
+    No of light sources: 1
+    Coordinates: (2,2)   
+  ```
+   #### Explanation
+ 
+  <p align="center"><img src ="/src/assets/lights.png" height="300" width="300" /></p>
+  
+  ```
+  
+In the first test  case  there are 4 major spots located at (0,2) (0,4) (2,0) (2,4) and the radius of illumination 
+is given as 2 units.
+We can see that if we place 2 light sources at (1,3) and(1,1) , it would cover all the given major areas. 
+Though there are other options, we aim at  minimizing the number of lights ,so 2 light sources are enough 
+to illuminate the given major spots in the park.
+Then number of light sources along with their coordinates are displayed.
+  
+ ``` 
+---
+
+### December 28 - Tom and Jerry
+
+   #### Problem Statement
+   - Tom and Jerry are playing a game in a grid of size `x*y` with each element representing a `wall(#)`, `food(F)`, `tom(T)`, `jerry(J)`, `floor(.)`. In the grid there is only one of each character `T`,`J`,`F`. The rules for Tom and Jerry's game are as follows:
+        - They take turns moving once Jerry has moved first in the game.
+        - Tom and Jerry can leap in one of four directions throughout each turn (left, right, up, down). They are unable to jump over the wall or beyond the grid.
+        - The maximum jump lengths for Tom and Jerry are `tomJump` and `jerryJump` respectively.
+        - It is permitted to remain in the same position.
+        - Jerry has the ability to leap above Tom.
+   - The game can end in four ways:-
+        - Tom wins if he is in the same position as Jerry.
+        - Tom wins if he gets to the food first.
+        - Mouse wins if he gets to the food first.
+        - Cat wins if Mouse does not reach the food in 1000 turns.
+   - Given a `x*y` matrix `grid` and two integers `tomJump` and `jerryJump`, return `true` if `Jerry` can win the game if both `Tom` and `Jerry` play optimally, otherwise return `false`.
+  
+   <p align="center"><img src ="https://media4.giphy.com/media/jyTk0vpfS0pyqkgpZu/giphy.gif" width="320" height ="300"/></p> 
+ 
+   ### Sample Input and output
+
+   ```
+   Input: grid = ["####F","#C...","M...."], tomJump= 1, jerryJump= 2
+   Output: true
+   ```   
+   ```
+   Input: grid = ["M.C...F"], tomJump= 1, jerryJump= 4
+   Output: true
+   ```   
+   ```
+   Input: grid = ["M.C...F"], tomJump= 1, jerryJump= 3
+   Output: false
+   ```
+  
+  ### Explanation
+   ```
+  Input: grid = ["####F","#C...","M...."], tomJump= 1, jerryJump= 2
+  Output: true
+  Explanation: Tom cannot catch Jerry on its turn nor can it get the food before Jerry.
+   ```         
 ---
 
 ## Maintainers
