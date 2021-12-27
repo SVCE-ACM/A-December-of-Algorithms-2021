@@ -1125,6 +1125,7 @@ Then number of light sources along with their coordinates are displayed.
   Explanation: Tom cannot catch Jerry on its turn nor can it get the food before Jerry.
    ```         
 ---
+### December 29 - Language structure
 
 ## Maintainers
 
