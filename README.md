@@ -1142,7 +1142,9 @@ Then number of light sources along with their coordinates are displayed.
     - <expression>+<term> portrays a number which is a connection of whole numbers depicted by <expression> and <term>.
 - For instance, 2(2-4+1)+2(2(17)) portrays the whole number 2341234117171717. You are given an articulation in the given language. Print the whole number portrayed by it modulo 109 + 7.
 
-
+<p align="center"><img src ="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="320" height ="300"/></p>
+    
+    
 ## Maintainers
 
 <table>
