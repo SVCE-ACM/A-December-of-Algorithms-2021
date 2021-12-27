@@ -39,6 +39,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 25 - Ranthambore Diaries**](#december-25---ranthambore-diaries)  
   - [**December 26 - Bellisima Florencia**](#december-26---bellisima-florencia)
   - [**December 27 - Community Park**](#december-27---community-park)
+  - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -1081,6 +1082,47 @@ to illuminate the given major spots in the park.
 Then number of light sources along with their coordinates are displayed.
   
  ``` 
+---
+
+### December 28 - Tom and Jerry
+
+   #### Problem Statement
+   - Tom and Jerry are playing a game in a grid of size `x*y` with each element representing a `wall(#)`, `food(F)`, `tom(T)`, `jerry(J)`, `floor(.)`. In the grid there is only one of each character `T`,`J`,`F`. The rules for Tom and Jerry's game are as follows:
+        - They take turns moving once Jerry has moved first in the game.
+        - Tom and Jerry can leap in one of four directions throughout each turn (left, right, up, down). They are unable to jump over the wall or beyond the grid.
+        - The maximum jump lengths for Tom and Jerry are `tomJump` and `jerryJump` respectively.
+        - It is permitted to remain in the same position.
+        - Jerry has the ability to leap above Tom.
+   - The game can end in four ways:-
+        - Tom wins if he is in the same position as Jerry.
+        - Tom wins if he gets to the food first.
+        - Mouse wins if he gets to the food first.
+        - Cat wins if Mouse does not reach the food in 1000 turns.
+   - Given a `x*y` matrix `grid` and two integers `tomJump` and `jerryJump`, return `true` if `Jerry` can win the game if both `Tom` and `Jerry` play optimally, otherwise return `false`.
+  
+   <p align="center"><img src ="https://media4.giphy.com/media/jyTk0vpfS0pyqkgpZu/giphy.gif" width="320" height ="300"/></p> 
+ 
+   ### Sample Input and output
+
+   ```
+   Input: grid = ["####F","#C...","M...."], tomJump= 1, jerryJump= 2
+   Output: true
+   ```   
+   ```
+   Input: grid = ["M.C...F"], tomJump= 1, jerryJump= 4
+   Output: true
+   ```   
+   ```
+   Input: grid = ["M.C...F"], tomJump= 1, jerryJump= 3
+   Output: false
+   ```
+  
+  ### Explanation
+   ```
+  Input: grid = ["####F","#C...","M...."], tomJump= 1, jerryJump= 2
+  Output: true
+  Explanation: Tom cannot catch Jerry on its turn nor can it get the food before Jerry.
+   ```         
 ---
 
 ## Maintainers
