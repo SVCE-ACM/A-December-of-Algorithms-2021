@@ -6,7 +6,8 @@ def sum_of_squares_digits(number):
     number = number // 10
   return digits_sum
 
-def main(num):
+def main():
+  num = int(input("n = "))
   # List of numbers for which sum of squares of digits
   # is calculated. Used to find occurrence of cycle.
   calculated = []
@@ -23,4 +24,4 @@ def main(num):
 
 
 if __name__ == "__main__":
-  main(19)
+  main()
