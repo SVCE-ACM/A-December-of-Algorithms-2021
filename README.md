@@ -1091,7 +1091,7 @@ Then number of light sources along with their coordinates are displayed.
    - Tom and Jerry are playing a game in a grid of size `x*y` with each element representing a `wall(#)`, `food(F)`, `tom(T)`, `jerry(J)`, `floor(.)`. In the grid there is only one of each character `T`,`J`,`F`. The rules for Tom and Jerry's game are as follows:
         - They take turns moving once Jerry has moved first in the game.
         - Tom and Jerry can leap in one of four directions throughout each turn (left, right, up, down). They are unable to jump over the wall or beyond the grid.
-        - The maximum jump lengths for Tom and Jerry are tomJump and jerryJump respectively.
+        - The maximum jump lengths for Tom and Jerry are `tomJump` and `jerryJump` respectively.
         - It is permitted to remain in the same position.
         - Jerry has the ability to leap above Tom.
    - The game can end in four ways:-
@@ -1107,13 +1107,11 @@ Then number of light sources along with their coordinates are displayed.
    ```
    Input: grid = ["####F","#C...","M...."], tomJump= 1, jerryJump= 2
    Output: true
-   ```
-   
+   ```   
    ```
    Input: grid = ["M.C...F"], tomJump= 1, jerryJump= 4
    Output: true
-   ```
-   
+   ```   
    ```
    Input: grid = ["M.C...F"], tomJump= 1, jerryJump= 3
    Output: false
@@ -1124,8 +1122,7 @@ Then number of light sources along with their coordinates are displayed.
   Input: grid = ["####F","#C...","M...."], tomJump= 1, jerryJump= 2
   Output: true
   Explanation: Tom cannot catch Jerry on its turn nor can it get the food before Jerry.
-   ```      
-   
+   ```         
 ---
 
 ## Maintainers
