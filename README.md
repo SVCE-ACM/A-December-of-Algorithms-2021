@@ -1127,6 +1127,22 @@ Then number of light sources along with their coordinates are displayed.
 ---
 ### December 29 - Language structure
 
+#### Problem Statement
+ 
+ - Think about the accompanying syntax:
+    - <expression> ::= <term> | <expression> '+' <term>
+    - <term> ::= <number> | <number> '- ' <number> | <number> '(' <expression> ')'
+    - <number> ::= <pos_digit> | <number> <digit>
+    - <digit> ::= '0' | <pos_digit>
+    - <pos_digit> ::= '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+- This language structure depicts a number in decimal framework utilizing the accompanying standards:
+    - <number> portrays itself,
+    - <number>-<number> (l-r, l ≤ r) portrays whole number which is link of all whole numbers from l to r, composed without driving zeros. For instance, 8-11 depicts 891011,
+    - <number>(<expression>) depicts whole number which is connection of <number> duplicates of number portrayed by <expression>,
+    - <expression>+<term> portrays a number which is a connection of whole numbers depicted by <expression> and <term>.
+- For instance, 2(2-4+1)+2(2(17)) portrays the whole number 2341234117171717. You are given an articulation in the given language. Print the whole number portrayed by it modulo 109 + 7.
+
+
 ## Maintainers
 
 <table>
