@@ -38,6 +38,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 24 - Mayday Mayday!!**](#december-24---mayday-mayday)
   - [**December 25 - Ranthambore Diaries**](#december-25---ranthambore-diaries)
   - [**December 26 - Bellisima Florencia**](#december-26---bellisima-florencia)
+  - [**December 27 - Community Park**](#december-27---community-park)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
