@@ -1153,6 +1153,14 @@ Then number of light sources along with their coordinates are displayed.
 ---
     
 ### December 30 - Savage Storage Saga
+    
+ #### Problem Statement
+    
+ - Characterize the excellence of a stage of numbers from 1 to n (p1,p2,… ,pn) as number of sets (L,R) to such an extent that 1≤L≤R≤n and numbers pL,pL+1,… ,pR are successive R−L+1 numbers in some request. 
+ - For instance, the magnificence of the change (1,2,5,3,4) rises to 9, and sections, comparing to sets, are [1], [2], [5], [4], [3], [1,2], [3,4], [5,3,4], [1,2,5,3,4].
+
+ - Answer q free inquiries. In each question, you will be given whole numbers n and k. Decide whether there exists a change of numbers from 1 to n with magnificence equivalent to k, and if there exists, yield one of them.
+
 ## Maintainers
 
 <table>
