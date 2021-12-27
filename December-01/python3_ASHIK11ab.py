@@ -9,8 +9,16 @@ def find_intersection(necklase_A, necklase_B):
       candidate_stones += stone
   return candidate_stones
 
+def get_input():
+  """ Parses the string input and returns list of necklases. """
+  arr = input("arr = ")
+  arr = arr[1:len(arr)-1]
+  arr = arr.replace(' ', '').split(',')
+  arr = [ele[1:len(ele)-1] for ele in arr]
+  return arr
 
-def main(necklases):
+def main():
+  necklases = get_input()
   facelifts = ""
   index = 0
   while index < len(necklases) - 1:
@@ -22,4 +30,4 @@ def main(necklases):
 
 
 if __name__ == "__main__":
-  main(['abcdde', 'baccd', 'eeabg'])
+  main()
