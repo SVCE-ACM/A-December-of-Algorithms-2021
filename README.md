@@ -1099,6 +1099,7 @@ Then number of light sources along with their coordinates are displayed.
         - Tom wins if he gets to the food first.
         - Mouse wins if he gets to the food first.
         - Cat wins if Mouse does not reach the food in 1000 turns.
+   - Given a `x*y` matrix `grid` and two integers `tomJump` and `jerryJump`, return `true` if `Jerry` can win the game if both `Tom` and `Jerry` play optimally, otherwise return `false`.
   
    <p align="center"><img src ="https://media4.giphy.com/media/jyTk0vpfS0pyqkgpZu/giphy.gif" width="320" height ="300"/></p> 
  
