@@ -39,7 +39,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 25 - Ranthambore Diaries**](#december-25---ranthambore-diaries)  
   - [**December 26 - Bellisima Florencia**](#december-26---bellisima-florencia)
   - [**December 27 - Community Park**](#december-27---community-park)
-  - [**December 29 - Tom and Jerry**](#december-29---tom-and-jerry)
+  - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -1085,7 +1085,7 @@ Then number of light sources along with their coordinates are displayed.
  ``` 
 ---
 
-### December 29 - Tom and Jerry
+### December 28 - Tom and Jerry
 
    #### Problem Statement
    - Tom and Jerry are playing a game in a grid of size `x*y` with each element representing a `wall(#)`, `food(F)`, `tom(T)`, `jerry(J)`, `floor(.)`. In the grid there is only one of each character `T`,`J`,`F`. The rules for Tom and Jerry's game are as follows:
