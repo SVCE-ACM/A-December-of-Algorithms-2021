@@ -1161,7 +1161,27 @@ Then number of light sources along with their coordinates are displayed.
 
  - Answer q free inquiries. In each question, you will be given whole numbers n and k. Decide whether there exists a change of numbers from 1 to n with magnificence equivalent to k, and if there exists, yield one of them.
     
-<p align="center"><img src ="https://media.giphy.com/media/YQGdYTImaB6VN4Hm88/giphy.gif" width="320" height ="300"/></p>
+ <p align="center"><img src ="https://media.giphy.com/media/YQGdYTImaB6VN4Hm88/giphy.gif" width="320" height ="300"/></p>
+    
+ ### Sample Input and output
+    
+  ```
+  Input:-
+  4
+  1 1
+  5 6
+  5 8
+  5 10
+    
+  Output:-
+  YES
+  1 
+  YES
+  2 4 1 5 3 
+  NO
+  YES
+  2 3 1 4 5 
+  ```
 
 ## Maintainers
 
