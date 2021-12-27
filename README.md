@@ -36,7 +36,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 22 - Richie Rich**](#december-22---richie-rich)
   - [**December 23 - Ant Got Track**](#december-23---ant-got-track)
   - [**December 24 - Mayday Mayday!!**](#december-24---mayday-mayday)
-  - [**December 25 - Ranthambore Diaries**](#december-25---ranthambore-diaries)
+  - [**December 25 - Ranthambore Diaries**](#december-25---ranthambore-diaries)  
   - [**December 26 - Bellisima Florencia**](#december-26---bellisima-florencia)
   - [**December 27 - Community Park**](#december-27---community-park)
   - [**Maintainers**](#maintainers)
