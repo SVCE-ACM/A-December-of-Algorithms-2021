@@ -955,7 +955,7 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Example 2: There are two orders and you cannot serve 5 groceries. You can select these 5 groceries from any order.
   ```
 ---
- ### Decemebr 25 - Ranthambore Diaries
+ ### Decemeber 25 - Ranthambore Diaries
  
   #### Problem Statement 
   
@@ -989,7 +989,7 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
    Output: numer=29 denom=6
    ```
 ---
- ### Bellisima Florencia
+ ### Decemeber 26 - Bellisima Florencia
   
   #### Problem Statement 
   
@@ -1031,13 +1031,13 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
   
 ---
  
-### December 27 - Commnuity Park
+### December 27 - Community Park
 
   #### Problem Statement 
  
-  - For the past 1 month the community park has been facing a lot of electricity issues.This has affected the park lighting very badly. Adults and children face       difficulty in utilizing the park during the nights. The association members have decided to solve this issue after finding a cost efficient lightning option. 
-  - Consider each light source can illuminate a circular area with a radius r. Consider there are n major spots in the park , each located at (xi,yi) point.         Since they want to minimize the expenses,they want to buy a minimum number of light sources (k), such that each major spot  is illuminated by at least 1         light source.
-  - In other words, your task is to select a minimum number of points in the plane, such that for each given point , there exists a chosen point at a distance of     at most r.
+  - For the past 1 month the community park has been facing a lot of electricity issues. This has affected the park lighting very badly. Adults and children face difficulty in utilizing the park during the nights. The association members have decided to solve this issue after finding a cost efficient lightning option. 
+  - Consider each light source can illuminate a circular area with a radius `r`. Consider there are `n` major spots in the park , each located at `(xi,yi)` point. Since they want to minimize the expenses, they want to buy a minimum number of light sources `k`, such that each major spot is illuminated by at least **1** light source.
+  - In other words, your task is to select a minimum number of points in the plane, such that for each given point, there exists a chosen point at a distance of at most r.
   - Note: More than one light source can be placed at a specific spot
   
   <p align="center"><img src ="/src/assets/park.webp" height = "300"/></p>       
@@ -1051,26 +1051,22 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
     0 4
     2 0
     2 4
-
-        
+       
     Output: 
-    2
-    1 3
-    1 1
-
+    No of light sources: 2
+    Coordinates: (1,3), (1,1)    
   ```
   ```
-   Input: 
-   n=3 r=2
-   x y
-   1 4
-   0 2 
-   4 2
+    Input: 
+    n=3 r=2
+    x y
+    1 4
+    0 2 
+    4 2
 
-   Output: 
-   1
-   2 2
-
+    Output: 
+    No of light sources: 1
+    Coordinates: (2,2)   
   ```
    #### Explanation
  
@@ -1085,10 +1081,7 @@ Though there are other options, we aim at  minimizing the number of lights ,so 2
 to illuminate the given major spots in the park.
 Then number of light sources along with their coordinates are displayed.
   
- ```
- 
-
- 
+ ``` 
 ---
 
 ## Maintainers
