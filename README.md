@@ -40,8 +40,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 26 - Bellisima Florencia**](#december-26---bellisima-florencia)
   - [**December 27 - Community Park**](#december-27---community-park)
   - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
-  - [**December 29 - Language Structure**](#december-28---language-structure)
-  - [**December 30 - Savage Storage Saga**](#december-28---savage-storage-saga)
+  - [**December 29 - Language Structure**](#december-29---language-structure)
+  - [**December 30 - Savage Storage Saga**](#december-30---savage-storage-saga)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -1158,32 +1158,37 @@ Then number of light sources along with their coordinates are displayed.
     
  #### Problem Statement
     
- - Characterize the excellence of a stage of numbers from 1 to n (p1,p2,… ,pn) as number of sets (L,R) to such an extent that 1≤L≤R≤n and numbers pL,pL+1,… ,pR are successive R−L+1 numbers in some request. 
+ - Characterize the excellence of a stage of numbers from 1 to `n` as number of sets `(L,R)` and numbers `pL,pL+1,… ,pR` are successive `R−L+1` numbers in some request. 
  - For instance, the magnificence of the change (1,2,5,3,4) rises to 9, and sections, comparing to sets, are [1], [2], [5], [4], [3], [1,2], [3,4], [5,3,4], [1,2,5,3,4].
-
- - Answer q free inquiries. In each question, you will be given whole numbers n and k. Decide whether there exists a change of numbers from 1 to n with magnificence equivalent to k, and if there exists, yield one of them.
+ - In each question, you will be given whole numbers `n` and `k`. Decide whether there exists a change of numbers from 1 to `n` with magnificence equivalent to `k`, and if there exists, yield one of them. 
     
  <p align="center"><img src ="https://media.giphy.com/media/YQGdYTImaB6VN4Hm88/giphy.gif" width="320" height ="300"/></p>
     
  ### Sample Input and output
     
-  ```
-  Input:-
-  4
-  1 1
-  5 6
-  5 8
-  5 10
+    ```    
+    n=1 k=1
     
-  Output:-
-  YES
-  1 
-  YES
-  2 4 1 5 3 
-  NO
-  YES
-  2 3 1 4 5 
-  ```
+    YES
+    1 
+    ```
+    ```    
+    n=5 k=6  
+  
+    YES
+    2 4 1 5 3 
+    ```
+    ```
+    n=5 k=8
+    NO
+    ```
+    ```
+    n=5 k=10
+    
+    YES
+    2 3 1 4 5 
+    
+    ```
  ---
 ## Maintainers
 
