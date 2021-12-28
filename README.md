@@ -40,6 +40,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 26 - Bellisima Florencia**](#december-26---bellisima-florencia)
   - [**December 27 - Community Park**](#december-27---community-park)
   - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
+  - [**December 29 - Savage Storage Saga**](#december-29---savage-storage-saga)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -1124,7 +1125,65 @@ Then number of light sources along with their coordinates are displayed.
   Explanation: Tom cannot catch Jerry on its turn nor can it get the food before Jerry.
    ```         
 ---
+<!-- ### December 29 - Language structure
 
+#### Problem Statement
+ 
+ - Think about the accompanying syntax:
+    - <expression> ::= <term> | <expression> '+' <term>
+    - <term> ::= <number> | <number> '- ' <number> | <number> '(' <expression> ')'
+    - <number> ::= <pos_digit> | <number> <digit>
+    - <digit> ::= '0' | <pos_digit>
+    - <pos_digit> ::= '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+- This language structure depicts a number in decimal framework utilizing the accompanying standards:
+    - <number> portrays itself,
+    - <number>-<number> (l-r, l ≤ r) portrays whole number which is link of all whole numbers from l to r, composed without driving zeros. For instance, 8-11 depicts 891011,
+    - <number>(<expression>) depicts whole number which is connection of <number> duplicates of number portrayed by <expression>,
+    - <expression>+<term> portrays a number which is a connection of whole numbers depicted by <expression> and <term>.
+- For instance, 2(2-4+1)+2(2(17)) portrays the whole number 2341234117171717. You are given an articulation in the given language. Print the whole number portrayed by it modulo 109 + 7.
+
+<p align="center"><img src ="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="320" height ="300"/></p>
+    
+    ### Sample Input and output
+    
+    ```
+    InputL: 8-11
+    Output: 891011
+    ``` 
+---
+-->
+    
+### December 29 - Savage Storage Saga
+    
+ #### Problem Statement
+    
+ - Characterize the excellence of a stage of numbers from 1 to `n` as number of sets `(L,R)` and numbers `pL,pL+1,… ,pR` are successive `R−L+1` numbers in some request. 
+ - For instance, the magnificence of the change (1,2,5,3,4) rises to 9, and sections, comparing to sets, are [1], [2], [5], [4], [3], [1,2], [3,4], [5,3,4], [1,2,5,3,4].
+ - In each question, you will be given whole numbers `n` and `k`. Decide whether there exists a change of numbers from 1 to `n` with magnificence equivalent to `k`, and if there exists, yield one of them. 
+    
+ <p align="center"><img src ="https://media.giphy.com/media/YQGdYTImaB6VN4Hm88/giphy.gif" width="320" height ="300"/></p>
+    
+ ### Sample Input and output
+  ```         
+  Input:  n=1 k=1
+  Output: YES
+          1 
+  ```
+  ```
+  Input: n=5 k=6  
+  Output: YES
+          2 4 1 5 3 
+  ```
+  ```
+  Input: n=5 k=8
+  Output: NO    
+  ```
+  ```
+  Input: n=5 k=10
+  Output: YES
+          2 3 1 4 5    
+  ```                    
+ ---
 ## Maintainers
 
 <table>
