@@ -40,8 +40,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 26 - Bellisima Florencia**](#december-26---bellisima-florencia)
   - [**December 27 - Community Park**](#december-27---community-park)
   - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
-  - [**December 29 - Language Structure**](#december-29---language-structure)
-  - [**December 30 - Savage Storage Saga**](#december-30---savage-storage-saga)
+<!--   - [**December 29 - Language Structure**](#december-29---language-structure) -->
+  - [**December 29 - Savage Storage Saga**](#december-29---savage-storage-saga)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -1127,7 +1127,7 @@ Then number of light sources along with their coordinates are displayed.
   Explanation: Tom cannot catch Jerry on its turn nor can it get the food before Jerry.
    ```         
 ---
-### December 29 - Language structure
+<!-- ### December 29 - Language structure
 
 #### Problem Statement
  
@@ -1151,10 +1151,10 @@ Then number of light sources along with their coordinates are displayed.
     ```
     InputL: 8-11
     Output: 891011
-    ```
+    ``` -->
 ---
     
-### December 30 - Savage Storage Saga
+### December 29 - Savage Storage Saga
     
  #### Problem Statement
     
