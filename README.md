@@ -40,7 +40,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 26 - Bellisima Florencia**](#december-26---bellisima-florencia)
   - [**December 27 - Community Park**](#december-27---community-park)
   - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
-<!--   - [**December 29 - Language Structure**](#december-29---language-structure) -->
   - [**December 29 - Savage Storage Saga**](#december-29---savage-storage-saga)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
