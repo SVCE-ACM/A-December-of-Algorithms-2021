@@ -1165,30 +1165,24 @@ Then number of light sources along with their coordinates are displayed.
  <p align="center"><img src ="https://media.giphy.com/media/YQGdYTImaB6VN4Hm88/giphy.gif" width="320" height ="300"/></p>
     
  ### Sample Input and output
-    
-    ```    
+           
     n=1 k=1
     
     YES
     1 
-    ```
-    ```    
+    
     n=5 k=6  
   
     YES
     2 4 1 5 3 
-    ```
-    ```
+    
     n=5 k=8
     NO
-    ```
-    ```
+    
     n=5 k=10
     
     YES
-    2 3 1 4 5 
-    
-    ```
+    2 3 1 4 5    
  ---
 ## Maintainers
 
