@@ -1216,13 +1216,13 @@ Then number of light sources along with their coordinates are displayed.
   ```
   ```         
   Input:  
-  4 2
-  300000
-  1 100000 100000
-  2 300000 400000
-  3 500000 600000
-  1 2
-  2 4
+  n=4 q=2
+  k=300000
+  p1=1 a1=100000 b1=100000
+  p2=2 a2=300000 b2=400000
+  p3=3 a3=500000 b3=600000
+  u1=1 v1=2
+  u2=2 v2=4
   Output: 
   710000005 849000006
   ```
