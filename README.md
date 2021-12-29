@@ -1225,7 +1225,7 @@ Then number of light sources along with their coordinates are displayed.
   Output: 
   710000005 849000006
   ```
- 
+ ---
  
 ## Maintainers
 
