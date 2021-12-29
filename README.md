@@ -1199,7 +1199,9 @@ Then number of light sources along with their coordinates are displayed.
  
  <p align="center"><img src ="https://media.giphy.com/media/3vcxLygfzu3AxX1jAh/giphy.gif" width="320" height ="300"/></p>
  
- ### Sample Input and output
+ ### Explaination:
+ 
+   Output one line containing R1 R2 R3 … RQ, where x is the test case number (starting from 1) and Rj is the sought probability computed for j-th query modulo 109+7, which is defined precisely as follows. Represent the answer of j-th query as an irreducible fraction pq. The number Rj then must satisfy the modular equation Rj×q≡p(mod(109+7)), and be between 0 and 109+6, inclusive. It can be shown that under the constraints of this problem such a number Rj always exists and is uniquely determined.
  
  ```         
   Input:  
@@ -1228,7 +1230,7 @@ Then number of light sources along with their coordinates are displayed.
   ```
   
   ### Explaination:-
-  
+  ruhhj
  ---
  
 ## Maintainers
