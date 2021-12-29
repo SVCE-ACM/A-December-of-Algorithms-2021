@@ -1227,7 +1227,7 @@ Then number of light sources along with their coordinates are displayed.
   
   ### Explanation:
  
-   Output one line containing R1 R2 R3 … RQ, where x is the test case number (starting from 1) and Rj is the sought probability computed for j-th query modulo 109+7, which is defined precisely as follows. Represent the answer of j-th query as an irreducible fraction pq. The number Rj then must satisfy the modular equation Rj×q≡p(mod(109+7)), and be between 0 and 109+6, inclusive. It can be shown that under the constraints of this problem such a number Rj always exists and is uniquely determined.
+   In thge first test case, the probability that both events 1 and 5 occurred is given by (the probability that event 1 occurred) × (probability that event 5 occurs given event 1 occurred). Event 1 would occur with probability 0.2. Given that event 1 occurred, the probability that event 4 occurs is 0.8. Therefore, the probability of occurrence of event 5 given that event 1 occurred is 0.2×0.8+0.4×0.2=0.24 (probability of event 5 occurring given than event 4 occurred + probability of event 5 occurring given that event 4 did not occur). The probability that both events 1 and 5 occurred is 0.2×0.24=0.048. The answer 0.048 can be converted into fraction of 6125, and one can confirm that the 136000001 satisfies the conditions mentioned in the output section as 136000001×125≡6(mod(109+7)) and is uniquely determined. For the second query, the probability that both events 5 and 3 occurred is 0.10352.
  
  ---
  
