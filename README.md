@@ -1187,7 +1187,7 @@ Then number of light sources along with their coordinates are displayed.
   ```                    
  ---
  
- ### December 30 - Mr.Dependable
+ ### December 30 - Mr Dependable
  
  #### Problem Statement
     
