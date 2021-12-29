@@ -1196,6 +1196,8 @@ Then number of light sources along with their coordinates are displayed.
  - For occasion 1, its likelihood of event K is given. There are Q questions that we need to reply. 
  - Each question comprises of 2 unmistakable occasions, uj and vj, and you really want to find the likelihood that the two occasions uj and vj have happened.
  
+ <p align="center"><img src ="https://media.giphy.com/media/3vcxLygfzu3AxX1jAh/giphy.gif" width="320" height ="300"/></p>
+ 
 ## Maintainers
 
 <table>
