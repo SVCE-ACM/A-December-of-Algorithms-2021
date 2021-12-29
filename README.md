@@ -41,7 +41,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 27 - Community Park**](#december-27---community-park)
   - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
   - [**December 29 - Savage Storage Saga**](#december-29---savage-storage-saga)
-  - [**December 30 - Mr.Dependable**](#december-30---mr.dependable)
+  - [**December 30 - Mr.Dependable**](#december-30---mr-dependable)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
