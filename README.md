@@ -1187,6 +1187,15 @@ Then number of light sources along with their coordinates are displayed.
  ---
  
  ### December 30 - Mr.Dependable
+ 
+ #### Problem Statement
+    
+ - There are N occasions, numbered 1 through N. 
+ - The likelihood of event of every occasion relies on the event of precisely another occasion called the parent occasion, with the exception of occasion 1, which is a free occasion. 
+ - As such, for every occasion from 2 to N, 3 qualities are given: Pi indicating the parent occasion of occasion I, Ai signifying the likelihood of event of occasion I assuming its parent occasion happens, and Bi meaning the likelihood of event of occasion I on the off chance that its parent occasion doesn't happen. 
+ - For occasion 1, its likelihood of event K is given. There are Q questions that we need to reply. 
+ - Each question comprises of 2 unmistakable occasions, uj and vj, and you really want to find the likelihood that the two occasions uj and vj have happened.
+ 
 ## Maintainers
 
 <table>
