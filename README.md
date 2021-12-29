@@ -1200,7 +1200,31 @@ Then number of light sources along with their coordinates are displayed.
  
  ### Sample Input and output
  
- 
+ ```         
+  Input:  
+  5 2
+  200000
+  1 400000 300000
+  2 500000 200000
+  1 800000 100000
+  4 200000 400000
+  1 5
+  3 5
+  Output: 
+  136000001 556640004
+  ```
+  ```         
+  Input:  
+  4 2
+  300000
+  1 100000 100000
+  2 300000 400000
+  3 500000 600000
+  1 2
+  2 4
+  Output: 
+  710000005 849000006
+  ```
  
  
 ## Maintainers
