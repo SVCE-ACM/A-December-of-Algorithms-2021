@@ -41,7 +41,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 27 - Community Park**](#december-27---community-park)
   - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
   - [**December 29 - Savage Storage Saga**](#december-29---savage-storage-saga)
-  - [**December 30 - Mr.Dependable**](#december-30---mr-dependable)
+  - [**December 30 - Mr. Dependable**](#december-30---mr-dependable)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -1187,15 +1187,17 @@ Then number of light sources along with their coordinates are displayed.
   ```                    
  ---
  
- ### December 30 - Mr Dependable
+ ### December 30 - Mr. Dependable
  
  #### Problem Statement
     
- - There are N occasions, numbered 1 through N. 
- - The likelihood of event of every occasion relies on the event of precisely another occasion called the parent occasion, with the exception of occasion 1, which is a free occasion. 
- - As such, for every occasion from 2 to N, 3 qualities are given: Pi indicating the parent occasion of occasion I, Ai signifying the likelihood of event of occasion I assuming its parent occasion happens, and Bi meaning the likelihood of event of occasion I on the off chance that its parent occasion doesn't happen. 
- - For occasion 1, its likelihood of event K is given. There are Q questions that we need to reply. 
- - Each question comprises of 2 unmistakable occasions, uj and vj, and you really want to find the likelihood that the two occasions uj and vj have happened.
+ - There are `N` occasions, numbered 1 through `N`. The likelihood of event of every occasion relies on the event of precisely another occasion called the parent occasion, with the exception of occasion 1, which is a free occasion. 
+ - As such, for every occasion from 2 to `N`, 3 qualities are given: 
+    - `Pi` indicating the parent occasion of occasion `i`
+    - `Ai` signifying the likelihood of event of occasion `i` assuming its parent occasion happens
+    - `Bi` meaning the likelihood of event of occasion `i` on the off chance that its parent occasion doesn't happen. 
+ - For occasion 1, its likelihood of event `K` is given. There are `Q` questions that we need to reply. 
+ - Each question comprises of 2 unmistakable occasions, `uj` and `vj`, and you really want to find the likelihood that the two occasions `uj` and `vj` have happened.
  
  <p align="center"><img src ="https://media.giphy.com/media/3vcxLygfzu3AxX1jAh/giphy.gif" width="320" height ="300"/></p>
  
@@ -1209,6 +1211,7 @@ Then number of light sources along with their coordinates are displayed.
   p4=4 a4=200000 b4=400000
   u1=1 v1=5
   u2=3 v2=5
+  
   Output: 
   136000001 556640004
   ```
@@ -1221,14 +1224,15 @@ Then number of light sources along with their coordinates are displayed.
   p3=3 a3=500000 b3=600000
   u1=1 v1=2
   u2=2 v2=4
+  
   Output: 
   710000005 849000006
   ```
   
   ### Explanation:
- 
+ ```
    In thge first test case, the probability that both events 1 and 5 occurred is given by (the probability that event 1 occurred) × (probability that event 5 occurs given event 1 occurred). Event 1 would occur with probability 0.2. Given that event 1 occurred, the probability that event 4 occurs is 0.8. Therefore, the probability of occurrence of event 5 given that event 1 occurred is 0.2×0.8+0.4×0.2=0.24 (probability of event 5 occurring given than event 4 occurred + probability of event 5 occurring given that event 4 did not occur). The probability that both events 1 and 5 occurred is 0.2×0.24=0.048. The answer 0.048 can be converted into fraction of 6125, and one can confirm that the 136000001 satisfies the conditions mentioned in the output section as 136000001×125≡6(mod(109+7)) and is uniquely determined. For the second query, the probability that both events 5 and 3 occurred is 0.10352.
- 
+ ```
  ---
  
 ## Maintainers
