@@ -1269,6 +1269,15 @@ a2=2
 Output:
 4.7
 ```
+
+```
+Input:
+n=5 m=2 k=1
+a1=5
+
+Output:
+9.0
+```
  
 ## Maintainers
 
