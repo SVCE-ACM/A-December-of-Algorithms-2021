@@ -1257,6 +1257,18 @@ Assuming the last dice results are ```[1, 6, 7, 7]```, the dice would be placed 
 - Beat wins assuming that she completes the game with precisely K gatherings, and the I-th bunch contains precisely Ai dice, for all I. What is the generally anticipated worth of the all out number of dice rolls it will take Pommel to dominate the match, accepting she plays ideally to limit this normal esteem? It is ensured that for any legitimate info, it is feasible for Pommel to dominate the match.
 
 <p align="center"><img src ="https://media.giphy.com/media/hTDQdQ4Ws6mRVvIZuR/giphy.gif" width="320" height ="300"/></p>
+
+### Sample Input and output
+
+```
+Input:
+n=3 m=6 k=2
+a1=1
+a2=2
+
+Output:
+4.7
+```
  
 ## Maintainers
 
