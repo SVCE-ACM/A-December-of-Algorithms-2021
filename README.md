@@ -1201,6 +1201,7 @@ Then number of light sources along with their coordinates are displayed.
  
  <p align="center"><img src ="https://media.giphy.com/media/3vcxLygfzu3AxX1jAh/giphy.gif" width="320" height ="300"/></p>
  
+ ### Sample Input and output
  ```         
   Input:  
   n=5 q=2
