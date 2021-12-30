@@ -1278,6 +1278,16 @@ a1=5
 Output:
 9.0
 ```
+
+###Explanation
+
+In Sample case #1, Pommel has N = 3 dice, each with a number from 1 to M = 6 written on them. To win, she must finish the game with K = 2 groups. One group must have one die (A1 = 1), while the other group must have two dice (A2 = 2). One optimal strategy for Pommel is as follows:
+
+- Pommel throws the first die once.
+- Pommel throws the second die once.
+- If the first and second dice are the same, Pommel keeps throwing the third die until it ends in a different value from the first two. It takes 1.2 dice rolls on average.
+- If the first and second dice are different, Pommel keeps throwing the third die until it matches the first or the second die. It takes 3 dice rolls on average.
+This strategy takes Pommel 4.7 (1 + 1 + 1/6 × 1.2 + 5/6 × 3) dice rolls on average.
  
 ## Maintainers
 
