@@ -1251,7 +1251,7 @@ Then number of light sources along with their coordinates are displayed.
 - Handle can re-roll a pass on however much she needs prior to continuing on to the following bite the dust. Whenever Pommel has gone through every one of the dice, the game is done. To decide whether she has won, she places the dice into gatherings. 
 - All dice with a similar worth are placed into a similar gathering. So assuming she completes the game with x unmistakable qualities, then, at that point, there will be x gatherings. These gatherings of dice are then arranged by number of dice in non-diminishing request.
 For instance:
-- Assuming the last dice results are [2, 2, 3, 2, 2, 3], the dice would be placed into two gatherings and requested as follows: [3, 3] and [2, 2, 2, 2].
+- Assuming the last dice results are ```[2, 2, 3, 2, 2, 3]```, the dice would be placed into two gatherings and requested as follows: [3, 3] and [2, 2, 2, 2].
 Assuming the last dice results are [1, 6, 7, 7], the dice would be placed into three gatherings and requested as follows: [6], [1], and [7, 7] (or identically, [1], [6] and [7, 7]).
 - Beat wins assuming that she completes the game with precisely K gatherings, and the I-th bunch contains precisely Ai dice, for all I. What is the generally anticipated worth of the all out number of dice rolls it will take Pommel to dominate the match, accepting she plays ideally to limit this normal esteem? It is ensured that for any legitimate info, it is feasible for Pommel to dominate the match.
  
