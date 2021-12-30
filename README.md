@@ -1243,7 +1243,7 @@ Then number of light sources along with their coordinates are displayed.
    and is uniquely determined. For the second query, the probability that both events 5 and 3 occurred is 0.10352.
  ```
  ---
- 
+<!--  
  ### December 31 - One last time
  
  #### Problem Statement
@@ -1290,7 +1290,44 @@ In Sample case #1, Pommel has N = 3 dice, each with a number from 1 to M = 6 wri
 - If the first and second dice are different, Pommel keeps throwing the third die until it matches the first or the second die. It takes 3 dice rolls on average.
 
 This strategy takes Pommel 4.7 (1 + 1 + 1/6 × 1.2 + 5/6 × 3) dice rolls on average.
- 
+  -->
+  
+ ### December 31 - Mah house mah rulez
+  
+   - Clay has bought a new house in the outskirts of the city. He wants to fully furnish his house and is keen on creating a puzzle with the tiles that he is going to lay on on the ground floor of the house. 
+   - `n` tiles are to be arranged in a row and each of them can be of colours - **pink** `P` and **white** `W`. Some of the tiles have already been laid and some others are left blank. You can decide which colour tiles to be laid on each blank space.
+   - Some pairs of adjacent squares may have the same color, which looks odd. We define odd as the number of pairs of adjacent squares that are of the same color.
+
+   - For example, odd-looking tiles in `‘PPWPWWP’` is 2, with PP occurring once and RR occurring once.
+
+   - Given a string `S`, your goal is to minimize the number of odd-looking tiles and lay out the tiles of the house.
+
+### Sample Input and output
+   ```
+   Input: n = 7
+          S = ?W???PW
+   Output: PWWPWPW
+   ```
+   ```
+   Input: n = 7
+          S = ???W???
+   Output: PWPWPWP
+   ```
+   ```
+   Input: n = 1
+          S = ?
+   Output: P          
+   ```
+   ```
+   Input: n = 1
+          S = P
+   Output: P          
+   ```
+   ```
+   Input: n = 10
+          S = ?W??WP??P?
+   Output: PWWPWPPWPW
+   ```
 ---
 
 ## Maintainers
