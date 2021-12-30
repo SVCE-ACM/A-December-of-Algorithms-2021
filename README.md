@@ -1289,6 +1289,8 @@ In Sample case #1, Pommel has N = 3 dice, each with a number from 1 to M = 6 wri
 - If the first and second dice are different, Pommel keeps throwing the third die until it matches the first or the second die. It takes 3 dice rolls on average.
 This strategy takes Pommel 4.7 (1 + 1 + 1/6 × 1.2 + 5/6 × 3) dice rolls on average.
  
+---
+
 ## Maintainers
 
 <table>
