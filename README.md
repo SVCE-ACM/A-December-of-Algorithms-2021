@@ -42,7 +42,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
   - [**December 29 - Savage Storage Saga**](#december-29---savage-storage-saga)
   - [**December 30 - Mr. Dependable**](#december-30---mr-dependable)
-  - [**December 31 - Mah house mah rulez!**](#december-31---mah-house-mah-rulez!)
+  - [**December 31 - Mah house mah rulez**](#december-31---mah-house-mah-rulez)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -1292,7 +1292,7 @@ In Sample case #1, Pommel has N = 3 dice, each with a number from 1 to M = 6 wri
 This strategy takes Pommel 4.7 (1 + 1 + 1/6 × 1.2 + 5/6 × 3) dice rolls on average.
   -->
   
- ### December 31 - Mah house mah rulez!
+ ### December 31 - Mah house mah rulez
   
    - Clay has bought a new house in the outskirts of the city. He wants to fully furnish his house and is keen on creating a puzzle with the tiles that he is going to lay on on the ground floor of the house. 
    - `n` tiles are to be arranged in a row and each of them can be of colours - **pink** `P` and **white** `W`. Some of the tiles have already been laid and some others are left blank. You can decide which colour tiles to be laid on each blank space.
