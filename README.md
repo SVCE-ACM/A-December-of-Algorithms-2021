@@ -42,6 +42,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
   - [**December 29 - Savage Storage Saga**](#december-29---savage-storage-saga)
   - [**December 30 - Mr. Dependable**](#december-30---mr-dependable)
+  - [**December 31 - One last time**](#december-31---one-last-time)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
