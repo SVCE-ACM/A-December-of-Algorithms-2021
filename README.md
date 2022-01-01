@@ -42,6 +42,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
   - [**December 29 - Savage Storage Saga**](#december-29---savage-storage-saga)
   - [**December 30 - Mr. Dependable**](#december-30---mr-dependable)
+  - [**December 31 - Mah house mah rulez**](#december-31---mah-house-mah-rulez)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -1200,6 +1201,7 @@ Then number of light sources along with their coordinates are displayed.
  
  <p align="center"><img src ="https://media.giphy.com/media/3vcxLygfzu3AxX1jAh/giphy.gif" width="320" height ="300"/></p>
  
+ ### Sample Input and output
  ```         
   Input:  
   n=5 q=2
@@ -1240,7 +1242,93 @@ Then number of light sources along with their coordinates are displayed.
    and is uniquely determined. For the second query, the probability that both events 5 and 3 occurred is 0.10352.
  ```
  ---
+<!--  
+ ### December 31 - One last time
  
+ #### Problem Statement
+ 
+- Wallop is extremely exhausted at home so she has imagined another game including N dice. Each kick the bucket has the numbers from 1 to M composed on it. At whatever point she tosses a kick the bucket, it has an equivalent likelihood of arriving on every one of the M potential qualities. 
+- Pulverize puts every one of the dice in succession. She goes through the dice each in turn from left to right. For each pass on she rolls, Pommel can either keep the worth she rolled and continue on to the following bite the dust or she can re-roll the pass on. 
+- Handle can re-roll a pass on however much she needs prior to continuing on to the following bite the dust. Whenever Pommel has gone through every one of the dice, the game is done. To decide whether she has won, she places the dice into gatherings. 
+- All dice with a similar worth are placed into a similar gathering. So assuming she completes the game with x unmistakable qualities, then, at that point, there will be x gatherings. These gatherings of dice are then arranged by number of dice in non-diminishing request.
+For instance:
+- Assuming the last dice results are ```[2, 2, 3, 2, 2, 3]```, the dice would be placed into two gatherings and requested as follows: ```[3, 3]``` and ```[2, 2, 2, 2]```.
+Assuming the last dice results are ```[1, 6, 7, 7]```, the dice would be placed into three gatherings and requested as follows: ```[6]```, ```[1]```, and ```[7, 7]``` (or identically, ```[1]```, ```[6]``` and ```[7, 7]```).
+- Beat wins assuming that she completes the game with precisely K gatherings, and the I-th bunch contains precisely Ai dice, for all I. What is the generally anticipated worth of the all out number of dice rolls it will take Pommel to dominate the match, accepting she plays ideally to limit this normal esteem? It is ensured that for any legitimate info, it is feasible for Pommel to dominate the match.
+
+<p align="center"><img src ="https://media.giphy.com/media/hTDQdQ4Ws6mRVvIZuR/giphy.gif" width="320" height ="300"/></p>
+
+### Sample Input and output
+
+```
+Input:
+n=3 m=6 k=2
+a1=1
+a2=2
+
+Output:
+4.7
+```
+
+```
+Input:
+n=5 m=2 k=1
+a1=5
+
+Output:
+9.0
+```
+
+### Explanation
+
+In Sample case #1, Pommel has N = 3 dice, each with a number from 1 to M = 6 written on them. To win, she must finish the game with K = 2 groups. One group must have one die (A1 = 1), while the other group must have two dice (A2 = 2). One optimal strategy for Pommel is as follows:
+
+- Pommel throws the first die once.
+- Pommel throws the second die once.
+- If the first and second dice are the same, Pommel keeps throwing the third die until it ends in a different value from the first two. It takes 1.2 dice rolls on average.
+- If the first and second dice are different, Pommel keeps throwing the third die until it matches the first or the second die. It takes 3 dice rolls on average.
+
+This strategy takes Pommel 4.7 (1 + 1 + 1/6 × 1.2 + 5/6 × 3) dice rolls on average.
+  -->
+  
+ ### December 31 - Mah house mah rulez
+  
+   - Clay has bought a new house in the outskirts of the city. He wants to fully furnish his house and is keen on creating a puzzle with the tiles that he is going to lay on on the ground floor of the house. 
+   - `n` tiles are to be arranged in a row and each of them can be of colours - **pink** `P` and **white** `W`. Some of the tiles have already been laid and some others are left blank. You can decide which colour tiles to be laid on each blank space.
+   - Some pairs of adjacent squares may have the same color, which looks odd. We define odd as the number of pairs of adjacent squares that are of the same color.
+   - For example, odd-looking tiles in `‘PPWPWWP’` is 2, with PP occurring once and RR occurring once.
+   - Given a string `S`, your goal is to minimize the number of odd-looking tiles and lay out the tiles of the house.
+
+### Sample Input and output
+   ```
+   Input: n = 7
+          S = ?W???PW
+   Output: PWWPWPW
+   ```
+   ```
+   Input: n = 7
+          S = ???W???
+   Output: PWPWPWP
+   ```
+   ```
+   Input: n = 1
+          S = ?
+   Output: P          
+   ```
+   ```
+   Input: n = 1
+          S = P
+   Output: P          
+   ```
+   ```
+   Input: n = 10
+          S = ?W??WP??P?
+   Output: PWWPWPPWPW
+   ```
+#### Resources
+  - [Greedy algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)  
+---
+
 ## Maintainers
 
 <table>
