@@ -1,3 +1,5 @@
+import ast
+
 class Solution:
   def __init__(self, board, req_name):
     self.board = board
@@ -62,16 +64,15 @@ class Solution:
           else:
             break
 
-    if self.solution_reached:
-      print("YES")
-    else:
-      print("NO")
+    print(self.solution_reached)
 
 
-def main(board, name):
+def main():
+  board = ast.literal_eval(input())
+  name = input("name = ")
   obj = Solution(board, name)
   obj.solve()
 
 
 if __name__ == "__main__":
-  main(board=[["D","J","O","G"],["W","B","H","S"],["T","Z","N","E"]], name="JOHN")
+  main()
