@@ -33,10 +33,21 @@ class Solution:
       self.solve()
 
 
-def main(customers, biscuits):
+def get_list_from_string(string):
+  string = string[1:len(string)-1]
+  string = string.replace(' ', '').split(',')
+  new_list = [int(ele) for ele in string]
+  return new_list
+
+
+def main():
+  customers = input("customers = ")
+  customers = get_list_from_string(customers)
+  biscuits = input("biscuits = ")
+  biscuits = get_list_from_string(biscuits)
   obj = Solution(customers=customers, biscuits=biscuits)
   obj.solve()
 
 
 if __name__ == "__main__":
-  main(customers = [1,1,0,0,1,0], biscuits = [0,1,0,1,1,1])
+  main()
