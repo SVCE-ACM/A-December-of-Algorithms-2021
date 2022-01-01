@@ -1,6 +1,6 @@
 # #07 Amy helps Pawnee!
 # @DSAghicha (Darshaan Aghicha)
-def no_building(building_co: list[list[int]],axis: str, axis_no: int) -> list[int]:
+def no_building(building_co: list[list[int]],axis: str, axis_no: int) -> int:
     axis_rep: int = 0 if (axis == 'x') else 1
     success: int = 0
 
