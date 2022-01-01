@@ -20,10 +20,10 @@ class Solution:
       else:
         counter_val -= 1
 
-    print(f"counter value: {counter_val}")
+    print(f"counter value = {counter_val}")
 
 def main():
-  time = int(input("time: "))
+  time = int(input("time = "))
   s = Solution(time=time)
   s.solve()
 
