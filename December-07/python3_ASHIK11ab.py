@@ -70,12 +70,11 @@ def main():
   planes_cnt = int(input("Number of jet-planes: "))
   planes = []
   for index in range(planes_cnt):
-    line = input()
+    choice = input("(x or y): ")
+    jet_direction = int(input(f"{choice} = "))
+    jet_info = [choice, jet_direction]
     # jet_info -> list having the jet direction ('x' or 'y') and 
     # the point on which the jet is moving.
-    jet_info = line.split(' ')
-    jet_info.remove('=')
-    jet_info[1] = int(jet_info[1])
     planes.append(jet_info)
   s = Solution(buildings, planes)
   print("\nBuildings that received food:")
