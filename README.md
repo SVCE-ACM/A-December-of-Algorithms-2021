@@ -35,6 +35,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 21 - Transform to Checkerboard**](#december-21---transform-to-checkerboard)
   - [**December 22 - Richie Rich**](#december-22---richie-rich)
   - [**December 23 - Ant Got Track**](#december-23---ant-got-track)
+  - [**December 24 - Mayday Mayday!!**](#december-24---mayday-mayday)
+  - [**December 25 - Ranthambore Diaries**](#december-25---ranthambore-diaries)  
+  - [**December 26 - Bellisima Florencia**](#december-26---bellisima-florencia)
+  - [**December 27 - Community Park**](#december-27---community-park)
+  - [**December 28 - Tom and Jerry**](#december-28---tom-and-jerry)
+  - [**December 29 - Savage Storage Saga**](#december-29---savage-storage-saga)
+  - [**December 30 - Mr. Dependable**](#december-30---mr-dependable)
+  - [**December 31 - Mah house mah rulez**](#december-31---mah-house-mah-rulez)
   - [**Maintainers**](#maintainers)
   - [**FAQ**](#faq)
 
@@ -918,8 +926,410 @@ Course 0 is not mandatory to take up course 1, but the opposite is true.
     Recall that each route is a set of intersections forming a cycle, so each unique route is the same regardless of which city on the route the ants start out at. Thus, we print 3 (the number of routes) as our answer.
    ```         
 ---
+ ### December 24 - Mayday Mayday!!
+
+  #### Problem Statement 
  
- ## Maintainers
+  - Lawrence is a delivery partner with grofers and due to the festive season his orders have increased and he is in a very dire situation. Please help Lawrence. 
+  - Lawrence gets `X` orders. The orders are numbered from 1 to `X`. He gets order `i` at `Ri` time, and this order contains `Yi` number of groceries. Lawrence needs to deliver each of these `Yi` groceries before `Ti` time and for each unit of groceries he cannot deliver before this deadline he needs to forfeit `Ki` unit of his salary as penalty. 
+  - Given all of the orders, help Lawrence to minimize the amount of salary he will have to forfeit .
+  - **Important Note:** Lawrence can deliver at most one grocery at a unit time and for each grocery he needs exactly one unit of time to deliver. Also Lawrence can deliver a          grocery instantly, when the grocery is available right next to the delivery address. 
+  - If Lawrence wants to deliver a grocery at time `p`, then the latest he can deliver that grocery is at time time `p`. In another words, for order `i` Lawrence can deliver the groceries at time units `Ri, Ri+1, Ri+2, ..., Ti-1`. Please note that Lawrence cannot deliver groceries from order `i` exactly at time unit `Ti`.
+
+<p align="center"><img src="https://media0.giphy.com/media/9VgufqkSI0x9GamjVf/giphy.gif?cid=ecf05e47aapru8nky8rqlvci3muawh0wirfc3gb6g35uwedg&rid=giphy.gif&ct=g" /></p>      
+ 
+ #### Sample Input/Output 
+  ```
+    Input: X=1
+           R₁=1 Y₁=5 T₁=6 K₁=10
+        
+    Output: 0
+  ```
+  ```
+   Input: X=2
+          R₂=1 Y₂=5 T₂=6 K₂=10
+          R₂=1 Y₂=5 T₂=6 K₂=10
+        
+   Output: 50
+  ```
+   #### Explanation
+  ```
+   Example 1: There is only 1 order and all of the groceries from this order can be served. So zero salary has to be forfeited.
+   Example 2: There are two orders and you cannot serve 5 groceries. You can select these 5 groceries from any order.
+  ```
+---
+ ### Decemeber 25 - Ranthambore Diaries
+ 
+  #### Problem Statement 
+  
+  - Adhi and his friend Vishal decided to go camping in the forests of Ranthambore 5 years after their previous trip to the forests. However during the nights they can set up       their tents only in the “resting areas” designated by the government. 
+  - The forest has `X` resting areas that they can set up their tents in. The resting areas are numbered from 1 to `X` and are connected with `X-1` roads. 
+  - Each road has its own length. It is known that between two resting areas there is exactly one path that goes through the roads and resting areas such that no resting area       appears in the path more than once. Roads do not intersect each other and it takes 0 time to pass through a resting area. 
+  - During their last visit,Adhi and Vishal previously rested in resting areas `A1, A2, ... AM` so they will rest in one of these areas again. To make the camping trip more         adventurous they do not agree on the resting area beforehand. Rather, Adhi will pick a random resting area `C` from this list of resting areas and Vishal will independently       pick a random resting area `J` from this list of resting areas. Both random choices will be taken uniformly over the list of resting areas. 
+  - The day before the camping trip, Vishal was a little scared and he spoke with his brother about their plan and asked him to calculate the expected distance between resting     areas that Adhi and Vishal randomly pick. Please remember that Adhi’s brother knows neither `C` nor `J`. Help him calculate this expected distance.
+  - Return two integers numer and denom, which indicates the fraction `numer`/`denom` giving expected distance between the resting areas randomly chosen by Adhi and Vishal. 
+  <p align="center"><img src="https://media3.giphy.com/media/LMnpMq01YnUrBjvTLM/giphy.gif?cid=ecf05e4727j6d5fqqok1l8q81h4ndbk6w89q993w8axbng72&rid=giphy.gif&ct=g" /></p>   
+
+#### Sample Input/Output
+  ```
+   Input: C=6 B=2
+          P=1 Q=3 R=1
+          P=2 Q=3 R=2
+          P=3 Q=4 R=3
+          P=4 Q=5 R=4
+          P=4 Q=6 R=5
+          A1=1 A2=5
+    Output: numer=4 denom=1
+   ```
+   ```
+   Input: C=6 B=6
+          P=1 Q=3 R=1
+          P=2 Q=3 R=2
+          P=3 Q=4 R=3
+          P=4 Q=5 R=4
+          P=4 Q=6 R=5
+          A1=1 A2=2 A3=3 A4=4 A5=5 A6=6
+   Output: numer=29 denom=6
+   ```
+---
+ ### Decemeber 26 - Bellisima Florencia
+  
+  #### Problem Statement 
+  
+  - Florence is a scenic city that has a number of art galleries connected by bidirectional roads, each of which has a travel time associated with it. Each of the art galleries     may have an artist who displays one or more kinds of arts. A couple, Madhav and Akshara, are at art gallery 1 (each of the gallery is numbered consecutively from 1 to `x` ).   
+  - They have a list of arts they want to click photos of, and to save time, they will divide the list between them. Determine the total travel time for the couple to click         pictures of all of the types of arts, finally meeting at art gallery `x`. 
+  - Their paths may intersect, they may backtrack through art gallery `x`, and one may arrive at a different time than the other. The minimum time to determine is when both have arrived at the destination.
+  - For example, there are `x = 5` art galleries displaying `y = 3` types of arts. The following is a graph that shows a possible layout of the art galleries connected by `z = 4` paths. Each of the galleries is labeled gallery number/art types displayed/ who(madhav/akshara) visit(s).
+  - Here `B` and `L` represent madhav and akshara, respectively. In this example, both madhav and akshara take the same path, i.e. `1→3→5` and arrive at time `15+5=20` having  clicked pictures of all three types of arts they wanted to. Neither of them visit shopping centers 2 or 4.
+  - Complete the art function in the editor. It should return an integer that represents the minimum time required for their photo session .
+    art has the following parameters:
+      - x: an integer, the number of art galleries
+      - y: an integer, the number of types of arts 
+      - centers: an array of strings of space-separated integers where the first integer of each element is the number of types of art displayed at a gallery and the                   remainder are the types displayed
+      - roads: a 2-dimensional array of integers where the first two values are the art galleries connected by the bi-directional road, and the third is the travel time for             that road.
+   <p align="center"><img src="https://s3.amazonaws.com/hr-assets/0/1544041107-a20059b5a2-SynchronousShoppingExample.png" /></p>
+   
+#### Sample Input/Output
+  ```
+  Input:  x=5 z=5 y=5
+          t₁=1 A₁₁=1
+          t₂=1 A₂₂=2
+          t₃=1 A₃₃=3
+          t₄=1 A₄₄=4
+          t₅=1 A₅₅=5
+          k₁=1 c₁=2 d₁=10
+          k₂=1 c₂=3 d₂=10
+          k₃=2 c₃=4 d₃=10
+          k₄=3 c₄=5 d₄=10
+          k₅=4 c₅=5 d₅=10
+        
+  Output: 30
+  ```
+#### Explanation
+  <p align="center"><img src ="https://s3.amazonaws.com/hr-assets/0/1544037692-e51dbc72a0-SynchronousShoppingSample0.png" /></p>    
+  
+   - B represents a location Madhav visits, L represents a location where Akshara visits.
+   - Madhav can travel 1→2→4→5  and click pictures of art at all of the art galleries on his way.
+   - Akshara can then travel 1→3→5 , and click pictures of art from the artist at the 3rd art gallery only.  
+  
+---
+ 
+### December 27 - Community Park
+
+  #### Problem Statement 
+ 
+  - For the past 1 month the community park has been facing a lot of electricity issues. This has affected the park lighting very badly. Adults and children face difficulty in utilizing the park during the nights. The association members have decided to solve this issue after finding a cost efficient lightning option. 
+  - Consider each light source can illuminate a circular area with a radius `r`. Consider there are `n` major spots in the park , each located at `(xi,yi)` point. Since they want to minimize the expenses, they want to buy a minimum number of light sources `k`, such that each major spot is illuminated by at least **1** light source.
+  - In other words, your task is to select a minimum number of points in the plane, such that for each given point, there exists a chosen point at a distance of at most r.
+  - Note: More than one light source can be placed at a specific spot
+  
+  <p align="center"><img src ="/src/assets/park.webp" height = "300"/></p>       
+ 
+ #### Sample Input/Output 
+  ```
+    Input: 
+    n=4 r=2
+    x y
+    0 2
+    0 4
+    2 0
+    2 4
+       
+    Output: 
+    No of light sources: 2
+    Coordinates: (1,3), (1,1)    
+  ```
+  ```
+    Input: 
+    n=3 r=2
+    x y
+    1 4
+    0 2 
+    4 2
+
+    Output: 
+    No of light sources: 1
+    Coordinates: (2,2)   
+  ```
+   #### Explanation
+ 
+  <p align="center"><img src ="/src/assets/lights.png" height="300" width="300" /></p>
+  
+  ```
+  
+In the first test  case  there are 4 major spots located at (0,2) (0,4) (2,0) (2,4) and the radius of illumination 
+is given as 2 units.
+We can see that if we place 2 light sources at (1,3) and(1,1) , it would cover all the given major areas. 
+Though there are other options, we aim at  minimizing the number of lights ,so 2 light sources are enough 
+to illuminate the given major spots in the park.
+Then number of light sources along with their coordinates are displayed.
+  
+ ``` 
+---
+
+### December 28 - Tom and Jerry
+
+   #### Problem Statement
+   - Tom and Jerry are playing a game in a grid of size `x*y` with each element representing a `wall(#)`, `food(F)`, `tom(T)`, `jerry(J)`, `floor(.)`. In the grid there is only one of each character `T`,`J`,`F`. The rules for Tom and Jerry's game are as follows:
+        - They take turns moving once Jerry has moved first in the game.
+        - Tom and Jerry can leap in one of four directions throughout each turn (left, right, up, down). They are unable to jump over the wall or beyond the grid.
+        - The maximum jump lengths for Tom and Jerry are `tomJump` and `jerryJump` respectively.
+        - It is permitted to remain in the same position.
+        - Jerry has the ability to leap above Tom.
+   - The game can end in four ways:-
+        - Tom wins if he is in the same position as Jerry.
+        - Tom wins if he gets to the food first.
+        - Mouse wins if he gets to the food first.
+        - Cat wins if Mouse does not reach the food in 1000 turns.
+   - Given a `x*y` matrix `grid` and two integers `tomJump` and `jerryJump`, return `true` if `Jerry` can win the game if both `Tom` and `Jerry` play optimally, otherwise return `false`.
+  
+   <p align="center"><img src ="https://media4.giphy.com/media/jyTk0vpfS0pyqkgpZu/giphy.gif" width="320" height ="300"/></p> 
+ 
+   ### Sample Input and output
+
+   ```
+   Input: grid = ["####F","#C...","M...."], tomJump= 1, jerryJump= 2
+   Output: true
+   ```   
+   ```
+   Input: grid = ["M.C...F"], tomJump= 1, jerryJump= 4
+   Output: true
+   ```   
+   ```
+   Input: grid = ["M.C...F"], tomJump= 1, jerryJump= 3
+   Output: false
+   ```
+  
+  ### Explanation
+   ```
+  Input: grid = ["####F","#C...","M...."], tomJump= 1, jerryJump= 2
+  Output: true
+  Explanation: Tom cannot catch Jerry on its turn nor can it get the food before Jerry.
+   ```         
+---
+<!-- ### December 29 - Language structure
+
+#### Problem Statement
+ 
+ - Think about the accompanying syntax:
+    - <expression> ::= <term> | <expression> '+' <term>
+    - <term> ::= <number> | <number> '- ' <number> | <number> '(' <expression> ')'
+    - <number> ::= <pos_digit> | <number> <digit>
+    - <digit> ::= '0' | <pos_digit>
+    - <pos_digit> ::= '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+- This language structure depicts a number in decimal framework utilizing the accompanying standards:
+    - <number> portrays itself,
+    - <number>-<number> (l-r, l ≤ r) portrays whole number which is link of all whole numbers from l to r, composed without driving zeros. For instance, 8-11 depicts 891011,
+    - <number>(<expression>) depicts whole number which is connection of <number> duplicates of number portrayed by <expression>,
+    - <expression>+<term> portrays a number which is a connection of whole numbers depicted by <expression> and <term>.
+- For instance, 2(2-4+1)+2(2(17)) portrays the whole number 2341234117171717. You are given an articulation in the given language. Print the whole number portrayed by it modulo 109 + 7.
+
+<p align="center"><img src ="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="320" height ="300"/></p>
+    
+    ### Sample Input and output
+    
+    ```
+    InputL: 8-11
+    Output: 891011
+    ``` 
+---
+-->
+    
+### December 29 - Savage Storage Saga
+    
+ #### Problem Statement
+    
+ - Characterize the excellence of a stage of numbers from 1 to `n` as number of sets `(L,R)` and numbers `pL,pL+1,… ,pR` are successive `R−L+1` numbers in some request. 
+ - For instance, the magnificence of the change (1,2,5,3,4) rises to 9, and sections, comparing to sets, are [1], [2], [5], [4], [3], [1,2], [3,4], [5,3,4], [1,2,5,3,4].
+ - In each question, you will be given whole numbers `n` and `k`. Decide whether there exists a change of numbers from 1 to `n` with magnificence equivalent to `k`, and if there exists, yield one of them. 
+    
+ <p align="center"><img src ="https://media.giphy.com/media/YQGdYTImaB6VN4Hm88/giphy.gif" width="320" height ="300"/></p>
+    
+ ### Sample Input and output
+  ```         
+  Input:  n=1 k=1
+  Output: YES
+          1 
+  ```
+  ```
+  Input: n=5 k=6  
+  Output: YES
+          2 4 1 5 3 
+  ```
+  ```
+  Input: n=5 k=8
+  Output: NO    
+  ```
+  ```
+  Input: n=5 k=10
+  Output: YES
+          2 3 1 4 5    
+  ```                    
+ ---
+ 
+ ### December 30 - Mr. Dependable
+ 
+ #### Problem Statement
+    
+ - There are `N` occasions, numbered 1 through `N`. The likelihood of event of every occasion relies on the event of precisely another occasion called the parent occasion, with the exception of occasion 1, which is a free occasion. 
+ - As such, for every occasion from 2 to `N`, 3 qualities are given: 
+    - `Pi` indicating the parent occasion of occasion `i`
+    - `Ai` signifying the likelihood of event of occasion `i` assuming its parent occasion happens
+    - `Bi` meaning the likelihood of event of occasion `i` on the off chance that its parent occasion doesn't happen. 
+ - For occasion 1, its likelihood of event `K` is given. There are `Q` questions that we need to reply. 
+ - Each question comprises of 2 unmistakable occasions, `uj` and `vj`, and you really want to find the likelihood that the two occasions `uj` and `vj` have happened.
+ 
+ <p align="center"><img src ="https://media.giphy.com/media/3vcxLygfzu3AxX1jAh/giphy.gif" width="320" height ="300"/></p>
+ 
+ ### Sample Input and output
+ ```         
+  Input:  
+  n=5 q=2
+  k=200000
+  p1=1 a1=400000 b1=300000
+  p2=2 a2=500000 b2=200000
+  p3=1 a3=800000 b3=100000
+  p4=4 a4=200000 b4=400000
+  u1=1 v1=5
+  u2=3 v2=5
+  
+  Output: 
+  136000001 556640004
+  ```
+  ```         
+  Input:  
+  n=4 q=2
+  k=300000
+  p1=1 a1=100000 b1=100000
+  p2=2 a2=300000 b2=400000
+  p3=3 a3=500000 b3=600000
+  u1=1 v1=2
+  u2=2 v2=4
+  
+  Output: 
+  710000005 849000006
+  ```
+  
+  ### Explanation:
+ ```
+   In thge first test case, the probability that both events 1 and 5 occurred is given by
+   (the probability that event 1 occurred) × (probability that event 5 occurs given event 1 occurred). 
+   Event 1 would occur with probability 0.2. Given that event 1 occurred, the probability that event 4 occurs is 0.8. 
+   Therefore, the probability of occurrence of event 5 given that event 1 occurred is 0.2×0.8+0.4×0.2=0.24 
+   (probability of event 5 occurring given than event 4 occurred + probability of event 5 occurring given that event 4 did not occur). 
+   The probability that both events 1 and 5 occurred is 0.2×0.24=0.048. The answer 0.048 can be converted into fraction of 6125, 
+   and one can confirm that the 136000001 satisfies the conditions mentioned in the output section as 136000001×125≡6(mod(109+7)) 
+   and is uniquely determined. For the second query, the probability that both events 5 and 3 occurred is 0.10352.
+ ```
+ ---
+<!--  
+ ### December 31 - One last time
+ 
+ #### Problem Statement
+ 
+- Wallop is extremely exhausted at home so she has imagined another game including N dice. Each kick the bucket has the numbers from 1 to M composed on it. At whatever point she tosses a kick the bucket, it has an equivalent likelihood of arriving on every one of the M potential qualities. 
+- Pulverize puts every one of the dice in succession. She goes through the dice each in turn from left to right. For each pass on she rolls, Pommel can either keep the worth she rolled and continue on to the following bite the dust or she can re-roll the pass on. 
+- Handle can re-roll a pass on however much she needs prior to continuing on to the following bite the dust. Whenever Pommel has gone through every one of the dice, the game is done. To decide whether she has won, she places the dice into gatherings. 
+- All dice with a similar worth are placed into a similar gathering. So assuming she completes the game with x unmistakable qualities, then, at that point, there will be x gatherings. These gatherings of dice are then arranged by number of dice in non-diminishing request.
+For instance:
+- Assuming the last dice results are ```[2, 2, 3, 2, 2, 3]```, the dice would be placed into two gatherings and requested as follows: ```[3, 3]``` and ```[2, 2, 2, 2]```.
+Assuming the last dice results are ```[1, 6, 7, 7]```, the dice would be placed into three gatherings and requested as follows: ```[6]```, ```[1]```, and ```[7, 7]``` (or identically, ```[1]```, ```[6]``` and ```[7, 7]```).
+- Beat wins assuming that she completes the game with precisely K gatherings, and the I-th bunch contains precisely Ai dice, for all I. What is the generally anticipated worth of the all out number of dice rolls it will take Pommel to dominate the match, accepting she plays ideally to limit this normal esteem? It is ensured that for any legitimate info, it is feasible for Pommel to dominate the match.
+
+<p align="center"><img src ="https://media.giphy.com/media/hTDQdQ4Ws6mRVvIZuR/giphy.gif" width="320" height ="300"/></p>
+
+### Sample Input and output
+
+```
+Input:
+n=3 m=6 k=2
+a1=1
+a2=2
+
+Output:
+4.7
+```
+
+```
+Input:
+n=5 m=2 k=1
+a1=5
+
+Output:
+9.0
+```
+
+### Explanation
+
+In Sample case #1, Pommel has N = 3 dice, each with a number from 1 to M = 6 written on them. To win, she must finish the game with K = 2 groups. One group must have one die (A1 = 1), while the other group must have two dice (A2 = 2). One optimal strategy for Pommel is as follows:
+
+- Pommel throws the first die once.
+- Pommel throws the second die once.
+- If the first and second dice are the same, Pommel keeps throwing the third die until it ends in a different value from the first two. It takes 1.2 dice rolls on average.
+- If the first and second dice are different, Pommel keeps throwing the third die until it matches the first or the second die. It takes 3 dice rolls on average.
+
+This strategy takes Pommel 4.7 (1 + 1 + 1/6 × 1.2 + 5/6 × 3) dice rolls on average.
+  -->
+  
+ ### December 31 - Mah house mah rulez
+  
+   - Clay has bought a new house in the outskirts of the city. He wants to fully furnish his house and is keen on creating a puzzle with the tiles that he is going to lay on on the ground floor of the house. 
+   - `n` tiles are to be arranged in a row and each of them can be of colours - **pink** `P` and **white** `W`. Some of the tiles have already been laid and some others are left blank. You can decide which colour tiles to be laid on each blank space.
+   - Some pairs of adjacent squares may have the same color, which looks odd. We define odd as the number of pairs of adjacent squares that are of the same color.
+   - For example, odd-looking tiles in `‘PPWPWWP’` is 2, with PP occurring once and RR occurring once.
+   - Given a string `S`, your goal is to minimize the number of odd-looking tiles and lay out the tiles of the house.
+
+### Sample Input and output
+   ```
+   Input: n = 7
+          S = ?W???PW
+   Output: PWWPWPW
+   ```
+   ```
+   Input: n = 7
+          S = ???W???
+   Output: PWPWPWP
+   ```
+   ```
+   Input: n = 1
+          S = ?
+   Output: P          
+   ```
+   ```
+   Input: n = 1
+          S = P
+   Output: P          
+   ```
+   ```
+   Input: n = 10
+          S = ?W??WP??P?
+   Output: PWWPWPPWPW
+   ```
+#### Resources
+  - [Greedy algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)  
+---
+
+## Maintainers
 
 <table>
     <thead>
