@@ -1,3 +1,5 @@
+import ast
+
 class Solution:
   def __init__(self, no_understudies, req_understudies, abilities):
     self.no_understudies = no_understudies
@@ -32,18 +34,10 @@ def combinations(array, k, candidates=[], result=[]):
   return result
 
 
-def get_understudies_ability():
-  array = input("N = ")
-  array = array[1:len(array)-1]
-  array = array.replace(' ', '').split(',')
-  understudies_ability = [int(ele) for ele in array]
-  return understudies_ability
-
-
 def main():
   no_understudies = int(input("N = "))
   req_understudies = int(input("P = "))
-  understudies_ability = get_understudies_ability()
+  understudies_ability = ast.literal_eval(input("N = "))
   s = Solution(no_understudies, req_understudies, understudies_ability)
   s.solve()
 
