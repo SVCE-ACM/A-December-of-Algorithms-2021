@@ -1416,7 +1416,7 @@ If you're curious, the commands simply add a new remote called upstream that is 
 Note that if you've already added the upstream repository, you don't need to re-add it in the future while fetching the newer questions.
 
 #### I received a merge error. What do I do?
-This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
+This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :) hello
 
 #### I'm facing difficulties with/need help understanding a particular question.
 Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms-2021/issues) on this repository and we'll do our best to help you out.
